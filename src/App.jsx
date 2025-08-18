@@ -1,6 +1,9 @@
+import Nav from "./Nav"
+
 function App(){
 return(<>
-billu is the great  my friend </>)
+
+<Nav/> </>)
 
 
 }
