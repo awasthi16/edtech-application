@@ -7,6 +7,7 @@ import Traning from "./Traning"
 import Login from "./Login"
 import AllCourses from "./AllCourses"
 import Timetable from "./Timetable"
+import Contact from "./Contact"
 
 function App(){
 return(<>
@@ -20,6 +21,7 @@ return(<>
 <Route path="/AllCourses" element={<AllCourses/>}/>
 <Route path="/Service" element={<Service/>}/>
 <Route path="/About" element={<About/>}/>
+<Route path="/Contact" element={<Contact/>}/>
 
 
 </Routes>
