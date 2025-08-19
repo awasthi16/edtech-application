@@ -19,6 +19,9 @@
     border-radius: 10px;
     height: 418px;
 }
+.banner img{
+    width: 100%;
+}
 .can{
     display: flex;
     justify-content: right;
