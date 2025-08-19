@@ -6,6 +6,7 @@ import Service from "./Service"
 import Traning from "./Traning"
 import Login from "./Login"
 import AllCourses from "./AllCourses"
+import Timetable from "./Timetable"
 
 function App(){
 return(<>
@@ -13,7 +14,7 @@ return(<>
 <BrowserRouter>
 <Nav/>
 <Routes>
-<Route path="/Home" element={<Home/>}/>
+<Route path="/" element={<Home/>}/>
 <Route path="/Traning" element={<Traning/>}/>
 <Route path="/Login" element={<Login/>}/>
 <Route path="/AllCourses" element={<AllCourses/>}/>
@@ -23,7 +24,6 @@ return(<>
 
 </Routes>
 </BrowserRouter> 
-
 
 
 

@@ -1,0 +1,95 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.pop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+}
+.popb{
+    background-color: white;
+    gap: 10px;
+    border-radius: 10px;
+    height: 418px;
+}
+.can{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 1px;
+}
+.img img{
+    border-radius: 10px;
+}
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: -50px;
+}
+.c1{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    border-radius: 10px;
+    width: 260px;
+    border: 1px solid grey;
+}
+.c1a{
+    margin-left: 10px;
+}
+.c1 img{
+    border-radius: 10px 10px 0 0;
+}
+.cc{
+    margin-top: 8px;
+}
+.cd p{
+    display: flex;
+    align-items: center;
+    color: grey;
+    gap: 5px;
+}
+.ce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l{
+    width: 50%;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 0 0 0 10px;
+    cursor: pointer;
+}
+.l:hover {
+      background-color: #000000;
+      size: 100px;
+    }
+.p:hover {
+      background-color: #000000;
+      size: 100px;
+      color: white;
+    }
+.p{
+    width: 50%;
+    height: 35px;
+    border-radius: 0 0 10px 0;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.c1:hover{
+    box-shadow: 0 0 25px 0 grey;
+    transform: translateY(-10px)
+}
