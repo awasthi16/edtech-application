@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import "./Home.css"
 import Timetable from './Timetable'
+import Pass from './Pass'
+import AllCourses from "./AllCourses"
 
 const Home = () => {
 
@@ -67,13 +69,13 @@ const Home = () => {
               </svg> Dur: 45 Days</p>
             </div><br /><br />
           </div>
-            <div className="ce">
-              <button className='l'>ENROLL</button>
-              <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
-                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-              </svg> SHARE</button>
-            </div>
-          
+          <div className="ce">
+            <button className='l'>ENROLL</button>
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
+            </svg> SHARE</button>
+          </div>
+
         </div>
         <div className="c1">
           <div className="ca">
@@ -110,13 +112,13 @@ const Home = () => {
               </svg> Dur: 60 Days</p>
             </div><br /><br />
           </div>
-            <div className="ce">
-              <button className='l'>ENROLL</button>
-              <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
-                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-              </svg> SHARE</button>
-            </div>
-          
+          <div className="ce">
+            <button className='l'>ENROLL</button>
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
+            </svg> SHARE</button>
+          </div>
+
         </div>
         <div className="c1">
           <div className="ca">
@@ -124,7 +126,7 @@ const Home = () => {
           </div><br />
           <div className="c1a">
             <div className="cb">
-              <blockquote><h3>Raect JS</h3></blockquote>
+              <blockquote><h3>React JS</h3></blockquote>
             </div>
             <div className="cc">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gold" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -153,13 +155,13 @@ const Home = () => {
               </svg> Dur: 45 Days</p>
             </div><br /><br />
           </div>
-            <div className="ce">
-              <button className='l'>ENROLL</button>
-              <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
-                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-              </svg> SHARE</button>
-            </div>
-          
+          <div className="ce">
+            <button className='l'>ENROLL</button>
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
+            </svg> SHARE</button>
+          </div>
+
         </div>
         <div className="c1">
           <div className="ca">
@@ -196,15 +198,34 @@ const Home = () => {
               </svg> Dur: 60 Days</p>
             </div><br /><br />
           </div>
-            <div className="ce">
-              <button className='l'>ENROLL</button>
-              <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
-                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-              </svg> SHARE</button>
-            </div>
-          
+          <div className="ce">
+            <button className='l'>ENROLL</button>
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
+            </svg> SHARE</button>
+          </div>
+
         </div>
-        
+
+      </div><br /><br /><br /><br />
+      <div className="back">
+        <div className="an">
+          <h1><p className='o'>Our</p> Courses</h1>
+          <p className='k'>Explore new and trending free online courses.</p>
+        </div>
+        <br /><br />
+        <Pass/>
+        <br /><br /><br />
+        <div className="explore">
+          <a href={<AllCourses/>}><div className="but" >
+            EXPLORE MORE COURSES
+          </div></a>
+        </div><br /><br />
+      </div><br /><br /><br /><br /> 
+      <div className="tra">
+        <h1>Our <span className='tr'>Training</span> Services</h1><br />
+        <p>From Basic to Advanced...</p>
+        <p>We Offer Classroom, Online, Weekend, and Corporate Training on a Wide Range of Software Courses.</p>
       </div>
     </>
   )

@@ -96,3 +96,51 @@
     box-shadow: 0 0 25px 0 grey;
     transform: translateY(-10px)
 }
+.o{
+    color: rgb(255, 135, 155);
+}
+.an{
+    margin-left: 40px;
+}
+.an h1{
+    display: flex;
+    gap: 5px;
+    
+}
+.k{
+    color: rgb(37, 37, 37);
+}
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,rgb(102, 0, 102),rgb(96, 96, 255));
+    color: white;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+.but:hover{
+    background: linear-gradient(90deg,rgb(96, 96, 255),rgb(102, 0, 102));
+}
+.back{
+    box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+}
+.tra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tr{
+    background: linear-gradient(90deg,blue,rgb(0, 225, 255));
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
