@@ -3,37 +3,86 @@ import { Link } from "react-router-dom"
 
 const Nav = () => {
     return (
-        <div>
-
-            <div className="nav">
-                <img src="/src/assets/Screenshot 2025-08-25 102849.png" alt="" />
-                <div className="search">
-                    <input type="text" placeholder='Search Course' />
-                    <div className="s">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                        </svg>
-                    </div>
-                </div>
-                <div className="link">
-                    <Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
-                    </svg></Link>
-
-                    <Link to="/AllCourses">ALL COURSES</Link>
-                    <Link to="/Service">SERVICE</Link>
-                    <Link to="/Traning">TRANING</Link>
-                    <Link to="/About">ABOUT</Link>
-                    <Link to="/Contact">CONTACT</Link>
-                    <div className="logi">
-                        <Link to="/Login">LOGIN</Link>
-                    </div>
-                </div>
-
-
-
-            </div>
+        <>
+        
+        
+         <div className="main">
+        <div className="nav">
+          <ul>
+            <li>Blogs</li>
+            <li>New Batches</li>
+            <li>Hire From Us</li>
+            <div className="img">
+            <img  src="https://nareshit.com/images/phone-call.svg" alt=""width="16px" height="16" /><li>+91 8179191999</li> </div>
+            <div className="img">
+            <img src="https://nareshit.com/images/envelope.svg" alt="" width="16px" height="16" />
+             <li>support@nareshit.com</li>
+             </div>
+          </ul>
         </div>
+        <div className="nav1">
+          <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" width="225px" />
+         
+          <div className="center">
+              <input type="text" placeholder='Search course' />
+
+              <div className="search">
+
+              <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg></div>
+</div>
+<div className="right">
+<ul>
+  <li>  <img src="https://nareshit.com/images/home-icon.svg" alt="" width="16px" />
+</li>
+
+  <div className="icon">
+      <li>ALL COURSES </li>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+</svg>
+  </div>
+  <div className="icon">
+      <li>SERVICES</li>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+</svg>
+  </div>
+  
+  <div className="icon">
+      <li>TRAINING</li>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+</svg>
+  </div>
+  <div className="icon">
+      <li>ABOUT</li>
+   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+</svg>
+  </div>
+  <li>CONTACT </li>
+</ul>
+</div>
+
+<div className="log">
+  <button>Login</button>
+</div>
+
+{/* -----------------------nav1 , main--------------------- */}
+
+
+      </div>
+      </div> 
+     
+        
+        
+        </>
+        
     )
 }
 
