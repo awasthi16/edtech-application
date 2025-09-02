@@ -50,15 +50,16 @@ const Login = () => {
                 <li  onClick={()=>{setop(false), setop1(true)}}  >Login</li>
                 </ul>
             </div>
+            <hr />
 
             {/* ------------------- */}
             {op&&<div className="sp">
               <h2>Signup</h2>
             <h2>  Naresh IT account</h2>
-            <div className="input">
+            <div className="input-div">
                 <input type="text" placeholder='Full Name' onChange={(e)=>setFullName(e.target.value)} />
                 
-                <input type="number" placeholder='Mobile Number' onChange={(e)=>setMobileNumber(e.target.value)} />
+                <input type="tel" placeholder='Mobile Number' onChange={(e)=>setMobileNumber(e.target.value)} />
                 <input type="email" placeholder='Email address' onChange={(e)=>setEmailaddress(e.target.value)}/>
             </div>
             <div className="checkbox">
@@ -70,8 +71,8 @@ const Login = () => {
 
             </div>
 
-            <div className="button">
-                                    <button onClick={Add}>  Submit</button>
+            <div className="btn">
+                                    <button  onClick={Add}>  Submit</button>
                                     </div>
             </div>
 }
@@ -80,26 +81,30 @@ const Login = () => {
   op1&&<div className="lp">
               <h2>Login</h2>
             <h2>  Naresh IT account</h2>
-            <div className="input">
 
-              
-                <input type="mobile number" placeholder='Mobile Number' onChange={(e)=>setMobileNumber(e.target.value)} />
-                
-            </div>
-            
-            <div className="para">
-                            <p>{msg}</p>
 
-            </div>
+        <div className="input-box">
 
-            <div className="button">
-                                    <button onClick={Add}>  Submit</button>
-                                    </div>
+              <div className="box1">
+                +91
+              </div>
+              <div className="box2">
+              <input type="tel" placeholder=' Mobile Number' onChange={(e)=>setMobileNumber(e.target.value)} />
+              </div>
+
+        </div>
+
+
+    <div className="para"><p>{msg}</p></div>
+
+    <div className="btn">
+         <button onClick={Add}>  Submit</button>
+    </div>
             </div>
 }
 
 
-{/* -------------- */}
+{/* ----------------------------- */}
 
 
 

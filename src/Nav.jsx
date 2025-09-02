@@ -7,17 +7,17 @@ const Nav = () => {
         <>
         
         
-         <div className="main">
+        <div className="main">
         <div className="nav">
           <ul>
             <li>Blogs</li>
             <li>New Batches</li>
             <li>Hire From Us</li>
             <div className="img">
-            <img  src="https://nareshit.com/images/phone-call.svg" alt=""width="16px" height="16" /><li>+91 8179191999</li> </div>
+            <img  src="https://nareshit.com/images/phone-call.svg" alt=""width="16px" height="16" /><li>+91 9111118941</li> </div>
             <div className="img">
             <img src="https://nareshit.com/images/envelope.svg" alt="" width="16px" height="16" />
-             <li>support@nareshit.com</li>
+             <li>support@zint.com</li>
              </div>
           </ul>
         </div>
@@ -36,10 +36,13 @@ const Nav = () => {
 
 <div className="right">
 <ul>
-  <li> <Link to="/"><img src="https://nareshit.com/images/home-icon.svg" alt="" width="16px" /></Link> </li>
+  <div className="hm">
+  <li> <Link to="/"><img src="https://nareshit.com/images/home-icon.svg" alt="" width="18px" /></Link> </li>
+  </div>
 
   <div className="icon">
-      <li><Link to="/AllCourses">AllCourses</Link></li>
+
+      <li><Link to="/AllCourses">All Courses</Link></li>
 
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
@@ -66,12 +69,13 @@ const Nav = () => {
   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
 </svg>
   </div>
+
   <li><Link to="Contact">Contact</Link></li>
 </ul>
 </div>
 
-<div className="log">
-  <button><Link to="Login">Login</Link></button>
+<div className="logg">
+  <Link to="Login" className='login-btn'>Login</Link>
 </div>
 
 {/* -----------------------nav1 , main--------------------- */}

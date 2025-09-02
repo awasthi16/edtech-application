@@ -1,0 +1,142 @@
+<<<<<<< HEAD
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(65, 36, 1);
+
+}
+.nav{
+  width: 100%;
+  height: 25px;
+  background-color:#212529;
+  border: 1px solid black;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1.3rem;
+  color:#FFFFFF;
+}
+.img{ 
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.nav1{
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 255, 0.106);
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.left{
+  margin-left: 2.55rem;
+}
+/* ............center........... */
+.center{
+  width: 340px;
+  height: 45.3px;
+  border: 1px solid rgb(213, 210, 210);
+  border-radius: 7px;
+  margin-left: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 280px;
+  height: 35px;
+  font-size: 1.22rem;
+  border: none;
+  outline: none;
+  /* remove input border */
+  background-color: whitesmoke;
+  box-shadow: none;
+  margin-left: 2rem;
+
+}
+.search{
+  width: 55.38px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+background: linear-gradient(to right,rgb(127, 5, 123),rgb(186, 125, 125)) ;
+}
+/* ............right............ */
+.right{
+  width: 650px;
+  height: 50px;
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
+}
+.right ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style:none ;
+  gap: 0.45rem;
+
+}
+.right ul li{
+  font-size: 1.3rem;
+}
+.icon{
+  width: 130px;
+  height: 50px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logg{
+  width: 120px;
+  height: 50px;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.login-btn{
+width: 80px;
+height: 40px;
+font-size: large;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF ;
+text-decoration: none;
+background-color:#0D6EFD;
+border-radius: 7px;
+}
+
+.hm{
+  width: 40px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+=======
+>>>>>>> 265f95ed9772a494526a42de8674f1d827d9fc73
