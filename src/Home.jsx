@@ -3,7 +3,6 @@ import "./Home.css"
 import Timetable from './Timetable'
 import Pass from './Pass'
 import AllCourses from "./AllCourses"
-import Service from "./Service"
 
 const Home = () => {
 
@@ -215,173 +214,19 @@ const Home = () => {
           <p className='k'>Explore new and trending free online courses.</p>
         </div>
         <br /><br />
-        <Pass />
+        <Pass/>
         <br /><br /><br />
         <div className="explore">
-          <a href={<AllCourses />}><div className="but" >
+          <a href={<AllCourses/>}><div className="but" >
             EXPLORE MORE COURSES
           </div></a>
         </div><br /><br />
-      </div><br /><br /><br /><br />
+      </div><br /><br /><br /><br /> 
       <div className="tra">
         <h1>Our <span className='tr'>Training</span> Services</h1><br />
         <p>From Basic to Advanced...</p>
         <p>We Offer Classroom, Online, Weekend, and Corporate Training on a Wide Range of Software Courses.</p>
       </div>
-
-      <div className="layout-grid">
-
-        <div className="program-box">
-          <img className="program-image" src="/src/assets/image_1706336260793.jpg" alt="Real-Time Projects" />
-          <div className="program-details">
-            <h2>Real-Time Projects</h2>
-            <p>Learn by Doing: Real-World Projects for Practical Mastery</p>
-            <a href="#">View more →</a>
-          </div>
-        </div>
-
-        <div className="program-box">
-          <img className="program-image" src="/src/assets/image_1706335329390.jpg" alt="Internships" />
-          <div className="program-details">
-            <h2>Internships</h2>
-            <p>Training & Project Based Internships</p>
-            <a href="#">View more →</a>
-          </div>
-        </div>
-
-        <div className="program-box">
-          <img className="program-image" src="/src/assets/image_1706335756779.jpg" alt="Workshops" />
-          <div className="program-details">
-            <h2>Workshops</h2>
-            <p>Unlocking IT Excellence: Join Our Transformative Workshops</p>
-            <a href="#">View more →</a>
-          </div>
-        </div>
-
-        <div className="program-box">
-          <img className="program-image" src="/src/assets/image_1706336807195.jpeg" alt="Weekend Training" />
-          <div className="program-details">
-            <h2>Weekend Training</h2>
-            <p>Supercharge Your Weekends with NareshIT’s IT Training Programs</p>
-            <a href="#">View more →</a>
-          </div>
-        </div>
-
-      </div>
-      <div className="explore">
-        <a href={<Service />}><div className="but" >
-          EXPLORE SERVICES
-        </div></a>
-      </div><br /><br />
-
-
-      <section className="values-section">
-        <div className="values-subtitle">Our values</div>
-        <h1 className="values-title">
-          Empowering Futures: NareshIT's 22-Year Legacy of Hands-On Excellence
-        </h1>
-        <p className="values-description">
-          NareshIT, with over 22 years of training experience, offers hands-on training.
-          With expert trainers and a mission to empower, we ensure successful placements
-          and career advancement for our students.
-        </p>
-      </section>
-
-      <section className="beliefs-section">
-
-        <div className="belief-row">
-          <div className="belief-card exp">
-            <h2>22+</h2>
-            <small>Years<br />Experience</small>
-          </div>
-          <div className="belief-text">
-            <h3>We Believe in Empowering Tech Talent</h3>
-            <p>Our core belief lies in empowering aspiring technologists with the skills and
-              knowledge necessary to succeed in the ever-evolving software industry.</p>
-          </div>
-        </div>
-
-        <div className="belief-row">
-          <div className="belief-card students">
-            <h2>10+<br /><span >LAKHS</span></h2>
-            <small>Students<br />Trained</small>
-          </div>
-          <div className="belief-text">
-            <h3>We Believe in Practical Learning</h3>
-            <p>We believe in providing practical, real-world training that equips our students
-              with the confidence and capability to tackle industry challenges head-on.</p>
-          </div>
-        </div>
-
-        <div className="belief-row">
-          <div className="belief-card career">
-            <h2>95%</h2>
-            <small>Career<br />Launch Success</small>
-          </div>
-          <div className="belief-text">
-            <h3>We Believe in Building Careers</h3>
-            <p>We believe in providing comprehensive support, from skill acquisition to placement
-              assistance, to help our students build successful careers.</p>
-          </div>
-        </div>
-
-      </section>
-
-      <section className="domains-section">
-        <h2 className="domains-title">Browse by <span>Domains</span></h2>
-        <p className="domains-subtitle">Explore new and trending free online courses.</p>
-      </section>
-
-
-      <section className="courses-grid">
-        <div className="course-card">
-          <img src="/src/assets/1.jpg" alt="Full Stack" />
-          <p>Full Stack...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/2.jpg" alt="Operating System" />
-          <p>Operating System...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/3.jpg" alt="Mulesoft" />
-          <p>Mulesoft...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/5.jpg" alt="NASSCOM" />
-          <p>NASSCOM...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/6.jpg" alt="Digital Marketing" />
-          <p>Digital Marketing...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/7.jpg" alt="Cloud Computing" />
-          <p>Cloud Computing...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/8.jpg" alt="Software Testing" />
-          <p>Software Testing...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/9.jpg" alt="Soft Skills" />
-          <p>Soft Skills...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/9.jpg" alt="Data Science" />
-          <p>Data Science...</p>
-        </div>
-        <div className="course-card">
-          <img src="/src/assets/10.jpg" alt="Analytics" />
-          <p>Analytics...</p>
-        </div>
-      </section>
-<br /><br /><br />b r
-
-      <div className="explore">
-        <a href={<Service />}><div className="but" >
-          EXPLORE CATEGORIES
-        </div></a>
-      </div><br /><br />
     </>
   )
 }
