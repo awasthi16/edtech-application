@@ -55,7 +55,7 @@ const Login = () => {
             {/* ------------------- */}
             {op&&<div className="sp">
               <h2>Signup</h2>
-            <h2>  Naresh IT account</h2>
+            <h2>  Zint account</h2>
             <div className="input-div">
                 <input type="text" placeholder='Full Name' onChange={(e)=>setFullName(e.target.value)} />
                 
@@ -63,7 +63,7 @@ const Login = () => {
                 <input type="email" placeholder='Email address' onChange={(e)=>setEmailaddress(e.target.value)}/>
             </div>
             <div className="checkbox">
-            <input type="checkbox" placeholder='' onChange={(e)=> setcheck(e.target.value)}/>I accept Naresh IT Terms of Use and Privacy Notice.
+            <input type="checkbox" placeholder='' onChange={(e)=> setcheck(e.target.value)}/>I accept Zint Institute Terms of Use and Privacy Notice.
             
             </div>
             <div className="para">
@@ -80,7 +80,7 @@ const Login = () => {
 {
   op1&&<div className="lp">
               <h2>Login</h2>
-            <h2>  Naresh IT account</h2>
+            <h2>  Zint account</h2>
 
 
         <div className="input-box">
