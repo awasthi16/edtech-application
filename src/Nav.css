@@ -1,7 +1,67 @@
+<<<<<<< HEAD
 * {
     padding: 0px;
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+=======
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(65, 36, 1);
+
+}
+.nav{
+  width: 100%;
+  height: 25px;
+  background-color:#212529;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1.3rem;
+  color:#FFFFFF;
+}
+.img{ 
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.nav1{
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 255, 0.106);
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+}
+.left{
+  margin-left: 2.55rem;
+}
+/* ............center........... */
+.center{
+  width: 340px;
+  height: 45.3px;
+  border: 1px solid rgb(213, 210, 21 0);
+  border-radius: 7px;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+>>>>>>> b17d44d63c8d43f337acd9b57d2a160ad69d13c9
 }
 
 .nav {
