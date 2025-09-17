@@ -223,7 +223,7 @@ const Home = () => {
         </div><br /><br />
       </div><br /><br /><br /><br /> 
       <div className="tra">
-        <h1>Our <span className='tr'>Training</span> Services</h1><br />
+        <p className='oo'>Our <span className='tr'>Training</span> Services</p><br />
         <p>From Basic to Advanced...</p>
         <p>We Offer Classroom, Online, Weekend, and Corporate Training on a Wide Range of Software Courses.</p>
       </div>

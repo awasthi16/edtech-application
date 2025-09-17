@@ -75,15 +75,16 @@
     border: 1px solid grey;
     border-radius: 0 0 0 10px;
     cursor: pointer;
+    font-size: 15px;
 }
 .l:hover {
       background-color: #000000;
       size: 100px;
     }
 .p:hover {
-      background-color: #000000;
+      /* background-color: #000000; */
       size: 100px;
-      color: white;
+      /* color: white; */
     }
 .p{
     width: 50%;
@@ -91,6 +92,13 @@
     border-radius: 0 0 10px 0;
     border: 1px solid grey;
     cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    gap: 5px;
 }
 .c1:hover{
     box-shadow: 0 0 25px 0 grey;
@@ -143,4 +151,8 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+  font-size: 27px;
+}
+.oo{
+    font-size: 30px;
 }
