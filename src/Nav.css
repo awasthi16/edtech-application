@@ -99,6 +99,9 @@ background: linear-gradient(to right,rgb(127, 5, 123),rgb(186, 125, 125)) ;
 .right ul li{
   font-size: 1.3rem;
 }
+.right li a{
+  text-decoration: none;
+}
 .icon{
   width: 130px;
   height: 50px;
