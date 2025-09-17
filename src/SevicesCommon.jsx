@@ -8,6 +8,7 @@ const SevicesCommon = () => {
 
 <div className="div3">
 
+<div className='johribox'>
     <div className="div3a">
             <h4>Placed Students</h4>
     </div>
@@ -17,9 +18,11 @@ const SevicesCommon = () => {
     </div>
           <br />
           <br />
-
+ 
     <div className="div3c">
+
             <div className="div3c1">
+
               <div className="div3c1a">
                 <img src="/src/assets/image1(PS).jpg" alt="" />
               </div>
@@ -49,6 +52,7 @@ const SevicesCommon = () => {
                 <p>Corporation</p>
               </div>
             </div>
+
 
 
             <div className="div3c2">
@@ -107,6 +111,7 @@ const SevicesCommon = () => {
               </div>
 
             </div>
+
 
 
             <div className="div3c4">
@@ -326,6 +331,11 @@ const SevicesCommon = () => {
                 <p>Ltd</p>
               </div>
           </div>
+
+
+
+    </div>
+
 
 
 

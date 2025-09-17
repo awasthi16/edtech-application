@@ -3,7 +3,7 @@ import "./Services3.css"
 const Services3 = () => {
   return (
     <>
-     <header>
+      <header>
         <div className="Services3div">
           <div className="Services3box">
             <div className="Services3box1">
@@ -22,7 +22,7 @@ const Services3 = () => {
                     <div className="Services3div1b2a">
                       <div className="Services3div1b2a1">
                         <h4>
-Supercharge Your Weekends with NareshIT's IT Training Programs</h4>
+                          Supercharge Your Weekends with NareshIT's IT Training Programs</h4>
                       </div>
                       <div className="Services3div1b2a2">
                         <p>Unleash your potential with NareshIT's exclusive weekend IT training programs. <br /> Dive into the world of technology and enhance your skills at your own pace,<br /> making the most of your weekends.</p>
@@ -43,7 +43,7 @@ Supercharge Your Weekends with NareshIT's IT Training Programs</h4>
                         <li> <h4>Latest IT Technologies:</h4></li>
                       </ul>
                       <br />
-                      <ul  className="Services3johri3" type="circle">
+                      <ul className="Services3johri3" type="circle">
                         <li> Stay ahead of the curve by exploring the latest IT technologies during our weekend training programs, ensuring you acquire skills that are in demand </li>
                       </ul>
                     </div>
@@ -68,7 +68,7 @@ Supercharge Your Weekends with NareshIT's IT Training Programs</h4>
                 <ul className="Services3johri1" id="Services3dark-circle"><li>
                   <h4>Expert-Led Sessions:</h4>
                 </li></ul>
-                <br  id="br" />
+                <br id="br" />
                 <ul className="Services3johri2" id="Services3hollow-circle" type="circle">
                   <li>Benefit from expert-led sessions during our weekend IT training programs, gaining valuable insights from industry professionals to enhance your <br /> understanding of key concepts.</li>
                 </ul>
@@ -89,7 +89,7 @@ Supercharge Your Weekends with NareshIT's IT Training Programs</h4>
                 </ul>
                 <br />
 
-                 <ul className="Services3johri1" id="Services3dark-circle">
+                <ul className="Services3johri1" id="Services3dark-circle">
                   <li><h4>Certification and Recognition:</h4></li>
                 </ul>
                 <br />
