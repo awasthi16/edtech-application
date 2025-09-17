@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-=======
 *{
   padding: 0;
   margin: 0;
@@ -61,80 +55,72 @@
   display: flex;
   justify-content: center;
   align-items: center;
->>>>>>> b17d44d63c8d43f337acd9b57d2a160ad69d13c9
 }
 
-.nav {
-    width: 100%;
-    height: 50px;
-    /* background-color: lightblue; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    /* border: 1px solid black; */
-    font-size: 14px;
+input{
+  width: 280px;
+  height: 35px;
+  font-size: 1rem;
+  border: none;
+  background-color: whitesmoke;
+  box-shadow: none;
+  
+  margin-left: 2rem;
 
 }
-.logi a{
-    color: white;
+.search{
+  width: 55.38px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+background: linear-gradient(to right,rgb(127, 5, 123),red) ;
 }
-
-a{
-    text-decoration: none;
-    color: black;
+/* ............right............ */
+.right{
+  width: 650px;
+  height: 50px;
+  margin-left: 4rem;
+  display: flex;
+  align-items: center;
 }
-a:hover{
-    color: blue;
-}
-.link {
-    gap: 30px;
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.logi {
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: blue;
-    border: 1px solid blue;
+.right ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style:none ;
+  gap: 0.33rem;
+  font-size: 0.88rem;
 
 }
-
-.search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid grey;
-    width: 230px;
-    height: 35px;
-    border-radius: 10px;
-    /* gap: 5px; */
+.icon{
+  width: 120px;
+  height: 50px;
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.log{
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.search input {
-    text-align: center;
-    width: 200px;
-    height: 30px;
-    border-radius: 10px 0 0 10px;
-    border: 1px solid rgb(255, 255, 255);
 }
-
-.s {
-    background-color: orange;
-    height: 34px;
-    width: 40px;
-    border-radius: 0 10px 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+button{
+width: 70px;
+height: 40px;
+color:#FFFFFF;
+font-size: large;
+border: none;
+background-color:#0D6EFD;
+border-radius: 7px;
+}
+.center input:focus{border: none;
+  outline: none;
 
 }

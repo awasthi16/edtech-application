@@ -54,13 +54,8 @@ const Login = () => {
             {/* ------------------- */}
             {op&&<div className="sp">
               <h2>Signup</h2>
-<<<<<<< HEAD
-            <h2>  Naresh IT account</h2>
-            <div className="input">
-=======
             <h2>  Zint account</h2>
             <div className="input-div">
->>>>>>> b17d44d63c8d43f337acd9b57d2a160ad69d13c9
                 <input type="text" placeholder='Full Name' onChange={(e)=>setFullName(e.target.value)} />
                 
                 <input type="number" placeholder='Mobile Number' onChange={(e)=>setMobileNumber(e.target.value)} />
@@ -84,12 +79,9 @@ const Login = () => {
 {
   op1&&<div className="lp">
               <h2>Login</h2>
-<<<<<<< HEAD
             <h2>  Naresh IT account</h2>
             <div className="input">
-=======
             <h2>  Zint account</h2>
->>>>>>> b17d44d63c8d43f337acd9b57d2a160ad69d13c9
 
               
                 <input type="mobile number" placeholder='Mobile Number' onChange={(e)=>setMobileNumber(e.target.value)} />
