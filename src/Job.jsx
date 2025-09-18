@@ -9,7 +9,7 @@ const Job = () => {
             <div className="jobmaindiv">  <br />
                 {/* <h1 className='jj'>Job Assistance</h1> */}
                 <div className="div1">
-                    <img src="/src/assets/job.png" alt="" width={675} />
+                    <img src="/job.png" alt="" width={675} />
                 </div>
                 <div className="div2"><br /><br />
                     <p> Here at NareshIT, our commitment to the success of your career begins beyond your training. Our active Placement Assistance Cell is committed to your job search and connects you with the potential employer.</p>

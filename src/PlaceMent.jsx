@@ -17,7 +17,7 @@ const PlaceMent = () => {
                                 </div>
                                 <div className="Services3div1b">
                                     <div className="Services3div1b1">
-                                        <img src="/src/assets/image1(nareshit2).jpeg" alt="" />
+                                        <img src="/image1(nareshit2).jpeg" alt="" />
 
                                     </div>
                                     <div className="Services3div1b2">
