@@ -7,10 +7,11 @@ const Contact = () => {
     <>
     <div className="page1">
       <div className="left">
-        <img src="https://nareshit.com/images/contact-image-01.png" alt="" />
+        <img src="https://nareshit.com/images/contact-image-01.png" alt="" width="470px" height="470px" />
 
       </div>
-      <div className="right-div">
+      <div className="right-divv">
+
       <div className="contact">
         <form>
                   <h1>Contact Us</h1>
@@ -26,12 +27,15 @@ const Contact = () => {
                    <div className="input-box1">
                     <input type="text" placeholder='Company Name / College Name' />
                   </div>
+                 
 
-                  <div className="message">
-                    <input type="text" placeholder='Company Name / College Name' />
+                   
+                   <div className="message">
+                    <input type="text" placeholder="Describe message here" />
                     
                   </div>
-                  <div className="btn">
+                  
+                  <div className="subbmit">
                                       <button type='submit'>Submit</button>
 
                   </div>

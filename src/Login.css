@@ -87,6 +87,11 @@ h2{
         color: #ffffff;
     }
 }
+button:hover {
+      border-color: rgb(51, 51, 240);
+      background-color: #034fab;
+    }
+
 
 .para{
     width: 500px;

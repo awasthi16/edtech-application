@@ -16,7 +16,7 @@ const Nav = () => {
             <div className="img">
             <img  src="https://nareshit.com/images/phone-call.svg" alt=""width="16px" height="16" /><li>+91 9111118941</li> </div>
             <div className="img">
-            <img src="https://nareshit.com/images/envelope.svg" alt="" width="16px" height="16" />
+            <img src="https://nareshit.com/images/envelope.svg" alt="" width="18px" height="18" />
              <li>support@zint.com</li>
              </div>
           </ul>
@@ -25,7 +25,7 @@ const Nav = () => {
           <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" width="225px" />
          
           <div className="center">
-              <input type="text" placeholder='Search course' />
+              <input style={{border:"none",outline:"none"}} type="text" placeholder='Search course' />
 
               <div className="search">
 
