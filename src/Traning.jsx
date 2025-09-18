@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import "./Traning.css"
 import PlaceMent from './PlaceMent'
 import Job from './Job'
+import Blog from './Blog'
+import InterviewQuestion from './InterviewQuestion'
 
 const Traning = () => {
   const [online, setonline] = useState(true)
@@ -231,8 +233,8 @@ const Traning = () => {
 
 
       </div>
-
-
+          <InterviewQuestion/>
+         <Blog/>
       <PlaceMent />
       <Job />
     </>
