@@ -71,11 +71,18 @@
     align-items: center;
     list-style: none;
     color: #212529;
-    gap: 12rem;
+    gap: 10rem;
     margin-left: 1rem;
 
-
-
+}
+.time{
+    margin-left: 3.5rem;
+}
+.date{
+margin-left: 2.5rem;
+}
+.lim{
+ margin-left: 2.8rem;
 }
 
 .online {

@@ -33,7 +33,7 @@ const Traning = () => {
             <li onClick={() => { setonline(false), setclassroom(false), setkphb(false), setworkshop(false), setintership(false), setweakend(false), setjntuh(true) }}>JNTU-H</li>
           </ul>
 
-       
+
         </div>
 
         <div className="midnav">
@@ -44,7 +44,7 @@ const Traning = () => {
             <option value="">50</option>
           </select>
           <div className="searchdiv">
-          <input type="text" placeholder='Search.......'/></div>
+            <input type="text" placeholder='Search.......' /></div>
         </div>
         <br />
         <div className="mainOnline">
@@ -53,32 +53,32 @@ const Traning = () => {
               <li>S.No</li>
               <li>Course Name</li>
               <li>Faculty</li>
-              <li>Date</li>
-              <li>Time</li>
-              <li>Meeting Link</li>
+              <li className='date'>Date</li>
+              <li className='time'>Time</li>
+              <li className='lim'>Meeting Link</li>
             </ul>
           </div>   </div>
 
 
-          {/* .................................................swap work...................................................................... */}
+        {/* .................................................swap work...................................................................... */}
         {online && <div className='online'>
-          <li>1</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-           <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>}
         <div className="ll1">
-          <li>2</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-           <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>3</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
@@ -86,135 +86,135 @@ const Traning = () => {
           <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>4</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-              <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>5</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-                <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>6</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-             <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>7</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-            <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>8</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-        <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>9</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-             <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>10</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-             <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>11</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-        <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>12</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-            <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>13</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-           <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>14</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-           <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>15</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-               <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>16</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
-           <li>9:00(IST)</li>
-            <button className='bbb'>Click here</button>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>17</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-            <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>18</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-             <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll">
-          <li>19</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
-             <button className='bbb'>Click here</button>
+          <button className='bbb'>Click here</button>
         </div>
         <div className="ll1">
-          <li>20</li>
+          <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
@@ -233,8 +233,8 @@ const Traning = () => {
       </div>
 
 
-      <PlaceMent/>
-      <Job/>
+      <PlaceMent />
+      <Job />
     </>
 
   )
