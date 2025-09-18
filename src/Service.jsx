@@ -7,6 +7,7 @@ import Services4 from './Services4'
 import Services5 from './Services5'
 import Services6 from './Services6'
 import Services7 from './Services7'
+import Footer from './Footer'
 
 const Service = () => {
   return (
@@ -25,6 +26,7 @@ const Service = () => {
            <SevicesCommon/>
            <Services7/>
             <SevicesCommon/>
+         <Footer/>
     </>
   )
 }
