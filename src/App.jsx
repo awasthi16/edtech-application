@@ -8,6 +8,7 @@ import Login from "./Login"
 import AllCourses from "./AllCourses"
 import Timetable from "./Timetable"
 import Contact from "./Contact"
+import Footer from "./Footer"
 
 function App(){
 return(<>
@@ -26,6 +27,7 @@ return(<>
 
 </Routes>
 </BrowserRouter> 
+<Footer/>
 
 
 

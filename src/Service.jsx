@@ -26,7 +26,7 @@ const Service = () => {
            <SevicesCommon/>
            <Services7/>
             <SevicesCommon/>
-         <Footer/>
+      
     </>
   )
 }
