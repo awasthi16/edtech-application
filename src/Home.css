@@ -156,3 +156,225 @@
 .oo{
     font-size: 30px;
 }
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-content h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-content p {
+  font-size: 14px;
+  margin: 0 0 12px;
+  color: #444;
+}
+
+.card-content a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}
+.values-section {
+  background: linear-gradient(135deg, #0a0f2d, #001f3f);
+  color: #fff;
+  padding: 50px 10%;
+  font-family: Arial, sans-serif;
+}
+
+.values-header h4 {
+  color: #a68efc;
+  font-size: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #4c8ef7;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.values-header h1 {
+  font-size: 32px;
+  margin: 15px 0;
+  line-height: 1.4;
+}
+
+.values-header h1  {
+  background: linear-gradient(90deg,blue,rgb(0, 225, 255), yellow,pink,purple);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.values-header p {
+  font-size: 16px;
+  margin-top: 15px;
+  max-width: 800px;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+.values-content {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.experience-box {
+  background: #fff;
+  color: #0a0f2d;
+  border-radius: 10px;
+  padding: 25px 10px;
+  text-align: center;
+  flex: 0 0 200px;
+}
+
+.experience-box h2 {
+  font-size: 40px;
+  color: #22a6f2;
+  margin: 0;
+}
+
+.experience-box span {
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+.belief-box {
+  max-width: 600px;
+  /* border: 1px solid red; */
+}
+
+.belief-box h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #e1e1e1;
+  margin-left: 0px;
+}
+
+.belief-box p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #cfcfcf;
+}
+
+
+
+.beliefs-section {
+  background: linear-gradient(135deg, #0a0f2d, #001f3f);
+  color: #fff;
+  padding: 50px 10%;
+  font-family: Arial, sans-serif;
+  margin-top: -45px;
+}
+
+.belief-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background: #fff;
+  color: #0a0f2d;
+  border-radius: 10px;
+  padding: 25px 10px;
+  text-align: center;
+  flex: 0 0 200px;
+}
+
+.stat-box h2 {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.stat-box h2.blue {
+  color: #22a6f2;
+}
+
+.stat-box h2.pink {
+  color: #ff4fa2;
+}
+
+.stat-box span.label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.stat-box p {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.belief-text {
+  max-width: 650px;
+}
+
+.belief-text h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #e1e1e1;
+}
+
+.belief-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #cfcfcf;
+}
+
+.domain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.domain p{
+    display: flex;
+    gap: 5px;
+}
+.do h1{
+    color: cyan;
+}

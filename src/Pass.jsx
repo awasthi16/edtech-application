@@ -28,7 +28,7 @@ const Pass = () => {
           <div className="t1">
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/Java.png" alt="" width={260} />
+                <img src="/Java.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -68,7 +68,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/Manual Test.png" alt="" width={260} />
+                <img src="/Manual Test.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -109,7 +109,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/crt-online-training-nareshit.png" alt="" width={260} />
+                <img src="/crt-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -150,7 +150,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/seo-training-online-training-nareshit.png" alt="" width={260} />
+                <img src="/seo-training-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -191,7 +191,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/unix-linux-online-training-nareshit.png" alt="" width={260} />
+                <img src="/unix-linux-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -232,7 +232,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/mulesoft-online-training-nareshit.png" alt="" width={260} />
+                <img src="/mulesoft-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -273,7 +273,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/data-science-ai-online-training-nareshit.png" alt="" width={260} />
+                <img src="/data-science-ai-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -314,7 +314,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/R Prog.png" alt="" width={260} />
+                <img src="/R Prog.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -358,7 +358,7 @@ const Pass = () => {
           <div className="t2">
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/Java.png" alt="" width={260} />
+                <img src="/Java.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -398,7 +398,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/dot net.png" alt="" width={260} />
+                <img src="/dot net.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -438,7 +438,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/data sci.png" alt="" width={260} />
+                <img src="/data sci.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -478,7 +478,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/python.png" alt="" width={260} />
+                <img src="/python.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -518,7 +518,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/web.png" alt="" width={260} />
+                <img src="/web.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -558,7 +558,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/full_stack_software_testing_by_naresh_it.png" alt="" width={260} />
+                <img src="/full_stack_software_testing_by_naresh_it.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -601,7 +601,7 @@ const Pass = () => {
           <div className="t3">
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/full-stack-java-placement-assistance-program-nareshit.png" alt="" width={260} />
+                <img src="/full-stack-java-placement-assistance-program-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -641,7 +641,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/full-stack-dot-net-placement-assistance-program-nareshit.png" alt="" width={260} />
+                <img src="/full-stack-dot-net-placement-assistance-program-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -684,7 +684,7 @@ const Pass = () => {
           <div className="t4">
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/python-developer-certification-online-training-nareshit.png" alt="" width={260} />
+                <img src="/python-developer-certification-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -724,7 +724,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/full-stack-testing-certification-online-training-nareshit.png" alt="" width={260} />
+                <img src="/full-stack-testing-certification-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -765,7 +765,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/aws-certification-online-training-nareshit.png" alt="" width={260} />
+                <img src="/aws-certification-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -805,7 +805,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/devops-certification-online-training-nareshit.png" alt="" width={260} />
+                <img src="/devops-certification-online-training-nareshit.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -845,7 +845,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/4.png" alt="" width={260} />
+                <img src="/4.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -888,7 +888,7 @@ const Pass = () => {
           <div className="t5">
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/internship-on-data-scince-online-training.png" alt="" width={260} />
+                <img src="/internship-on-data-scince-online-training.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -928,7 +928,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/internship-on-devops-with-multicloud-online-training.png" alt="" width={260} />
+                <img src="/internship-on-devops-with-multicloud-online-training.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -968,7 +968,7 @@ const Pass = () => {
             </div>
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/internship-on-python-online-training.png" alt="" width={260} />
+                <img src="/internship-on-python-online-training.png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">
@@ -1011,7 +1011,7 @@ const Pass = () => {
           <div className="t6">
             <div className="c1">
               <div className="ca">
-                <img src="/src/assets/Terraform_Associate_Certification_Training_(003).png" alt="" width={260} />
+                <img src="/Terraform_Associate_Certification_Training_(003).png" alt="" width={260} />
               </div><br />
               <div className="c1a">
                 <div className="cb">

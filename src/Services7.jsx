@@ -15,7 +15,7 @@ const Services7 = () => {
                 </div>
                 <div className="Services7div1b">
                   <div className="Services7div1b1">
-                    <img src="/src/assets/image1(nareshit6).jpg" alt="" />
+                    <img src="/image1(nareshit6).jpg" alt="" />
 
                   </div>
                   <div className="Services7div1b2">

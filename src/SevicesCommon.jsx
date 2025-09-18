@@ -24,7 +24,7 @@ const SevicesCommon = () => {
             <div className="div3c1">
 
               <div className="div3c1a">
-                <img src="/src/assets/image1(PS).jpg" alt="" />
+                <img src="/image1(PS).jpg" alt="" />
               </div>
               <div className="div3c1b">
                 <a href="https://www.linkedin.com/in/debashis-behera-18251b23a/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -42,7 +42,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3c1f">
                 <div className="div3c1f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3c1f2">
                   <p>Emagia</p>
@@ -58,7 +58,7 @@ const SevicesCommon = () => {
             <div className="div3c2">
 
               <div className="div3c2a">
-                <img src="/src/assets/image2(PS).jpg" alt="" />
+                <img src="/image2(PS).jpg" alt="" />
               </div>
               <div className="div3c2b">
                 <a href="https://www.linkedin.com/in/rupal-borkar-b794722a9/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -73,7 +73,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3c2f">
                 <div className="div3c2f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3c2f2">
                   <p>Mphasis Ltd</p>
@@ -84,7 +84,7 @@ const SevicesCommon = () => {
             <div className="div3c3">
 
               <div className="div3c3a">
-                <img src="/src/assets/image3(PS).jpg" alt="" />
+                <img src="/image3(PS).jpg" alt="" />
               </div>
               <div className="div3c3b">
                 <a href="https://www.linkedin.com/in/nareshit/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -100,7 +100,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3c3f">
                 <div className="div3c3f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3c3f2">
                   <p>Conseqta</p>
@@ -116,7 +116,7 @@ const SevicesCommon = () => {
 
             <div className="div3c4">
               <div className="div3c4a">
-                <img src="/src/assets/image4(PS).jpg" alt="" />
+                <img src="/image4(PS).jpg" alt="" />
               </div>
               <div className="div3c4b">
                 <a href="https://www.linkedin.com/in/malladi-indrani-84215623b/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -132,7 +132,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3c4f">
                 <div className="div3c4f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3c4f2">
                   <p>Celium Pvt Ltd</p>
@@ -146,7 +146,7 @@ const SevicesCommon = () => {
             <div className="div3c5">
 
               <div className="div3c5a">
-                <img src="/src/assets/image5(PS).jpg" alt="" />
+                <img src="/image5(PS).jpg" alt="" />
               </div>
               <div className="div3c5b">
                 <a href="https://www.linkedin.com/in/malladi-indrani-84215623b/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -162,7 +162,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3c5f">
                 <div className="div3c5f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3c5f2">
                   <p>eGlobal InfoTech</p>
@@ -178,7 +178,7 @@ const SevicesCommon = () => {
 
        <div className="div3d1">
               <div className="div3d1a">
-                <img src="/src/assets/image6(PS).jpg" alt="" />
+                <img src="/image6(PS).jpg" alt="" />
               </div>
               <div className="div3d1b">
                 <a href="https://www.linkedin.com/in/anshuman-swain-0ab454214/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -196,7 +196,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3d1f">
                 <div className="div3d1f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3d1f2">
                   <p>Conseqta</p>
@@ -210,7 +210,7 @@ const SevicesCommon = () => {
 
           <div className="div3d2">
               <div className="div3d2a">
-                <img src="/src/assets/image7(PS).jpg" alt="" />
+                <img src="/image7(PS).jpg" alt="" />
               </div>
               <div className="div3d2b">
                 <a href="https://www.linkedin.com/in/nareshit/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -229,7 +229,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3d2f">
                 <div className="div3d2f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3d2f2">
                   <p>Sisnx Techno</p>
@@ -242,7 +242,7 @@ const SevicesCommon = () => {
 
          <div className="div3d3">
                 <div className="div3d3a">
-                  <img src="/src/assets/image8(PS).jpg" alt="" />
+                  <img src="/image8(PS).jpg" alt="" />
                 </div>
                 <div className="div3c2b">
                   <a href="https://www.linkedin.com/in/nareshit/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -258,7 +258,7 @@ const SevicesCommon = () => {
                 </div>
                 <div className="div3d3f">
                   <div className="div3d3f1">
-                    <img src="/src/assets/office.svg" alt="" />
+                    <img src="/office.svg" alt="" />
                   </div>
                   <div className="div3d3f2">
                     <p>Gisfy Pvt Ltd</p>
@@ -273,7 +273,7 @@ const SevicesCommon = () => {
 
           <div className="div3d4">
                 <div className="div3d4a">
-                  <img src="/src/assets/image9(PS).jpg" alt="" />
+                  <img src="/image9(PS).jpg" alt="" />
                 </div>
                 <div className="div3c4b">
                   <a href="https://www.linkedin.com/in/nareshit/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -289,7 +289,7 @@ const SevicesCommon = () => {
                 </div>
                 <div className="div3d4f">
                   <div className="div3d4f1">
-                    <img src="/src/assets/office.svg" alt="" />
+                    <img src="/office.svg" alt="" />
                   </div>
                   <div className="div3d4f2">
                     <p>Virinchi</p>
@@ -303,7 +303,7 @@ const SevicesCommon = () => {
 
           <div className="div3d5">
               <div className="div3d5a">
-                <img src="/src/assets/image10(PS).jpg" alt="" />
+                <img src="/image10(PS).jpg" alt="" />
               </div>
               <div className="div3d5b">
                 <a href="https://www.linkedin.com/in/nareshit/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -321,7 +321,7 @@ const SevicesCommon = () => {
               </div>
               <div className="div3d5f">
                 <div className="div3d5f1">
-                  <img src="/src/assets/office.svg" alt="" />
+                  <img src="/office.svg" alt="" />
                 </div>
                 <div className="div3d5f2">
                   <p>SS Solution Pvt</p>

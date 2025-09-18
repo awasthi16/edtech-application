@@ -20,7 +20,7 @@ const Home = () => {
                 </svg>
               </div>
               <div className="img">
-                <img src="/src/assets/Screenshot 2025-08-18 120026.png" alt="" />
+                <img src="/Screenshot 2025-08-18 120026.png" alt="" />
               </div>
             </div>
           </div>
@@ -30,13 +30,13 @@ const Home = () => {
       }
 
       <div className="banner">
-        <a href={<Timetable />}><img src="/src/assets/Screenshot 2025-08-18 131342.png" alt="" /></a>
+        <a href={<Timetable />}><img src="/Screenshot 2025-08-18 131342.png" alt="" /></a>
       </div>
 
       <div className="c">
         <div className="c1">
           <div className="ca">
-            <img src="/src/assets/dockers-kubernetes-online-training-nareshit.png" alt="" width={260} />
+            <img src="/dockers-kubernetes-online-training-nareshit.png" alt="" width={260} />
           </div><br />
           <div className="c1a">
             <div className="cb">
@@ -79,7 +79,7 @@ const Home = () => {
         </div>
         <div className="c1">
           <div className="ca">
-            <img src="/src/assets/azure-devops-online-training-nareshit.png" alt="" width={260} />
+            <img src="/azure-devops-online-training-nareshit.png" alt="" width={260} />
           </div><br />
           <div className="c1a">
             <div className="cb">
@@ -122,7 +122,7 @@ const Home = () => {
         </div>
         <div className="c1">
           <div className="ca">
-            <img src="/src/assets/react-js-online-training-nareshit.png" alt="" width={260} />
+            <img src="/react-js-online-training-nareshit.png" alt="" width={260} />
           </div><br />
           <div className="c1a">
             <div className="cb">
@@ -165,7 +165,7 @@ const Home = () => {
         </div>
         <div className="c1">
           <div className="ca">
-            <img src="/src/assets/django-with-rest-api-online-training.png" alt="" width={260} />
+            <img src="/django-with-rest-api-online-training.png" alt="" width={260} />
           </div><br />
           <div className="c1a">
             <div className="cb">
@@ -214,19 +214,138 @@ const Home = () => {
           <p className='k'>Explore new and trending free online courses.</p>
         </div>
         <br /><br />
-        <Pass/>
+        <Pass />
         <br /><br /><br />
         <div className="explore">
-          <a href={<AllCourses/>}><div className="but" >
+          <a href={<AllCourses />}><div className="but" >
             EXPLORE MORE COURSES
           </div></a>
         </div><br /><br />
-      </div><br /><br /><br /><br /> 
+      </div><br /><br /><br /><br />
       <div className="tra">
         <p className='oo'>Our <span className='tr'>Training</span> Services</p><br />
         <p>From Basic to Advanced...</p>
         <p>We Offer Classroom, Online, Weekend, and Corporate Training on a Wide Range of Software Courses.</p>
+      </div><br />
+
+      <div className="cards-section">
+        <div className="card">
+          <img src="/image.png" alt="Real-Time Projects" />
+          <div className="card-content">
+            <h3>Real-Time Projects</h3>
+            <p>Learn by Doing: Real-World Projects for Practical Mastery</p>
+            <a href="#">View more →</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src="image_1706335329390.jpg" alt="Internships" />
+          <div className="card-content">
+            <h3>Internships</h3>
+            <p>Training & Project Based Internship</p>
+            <a href="#">View more →</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src="/image_1706335756779.jpg" alt="Workshops" />
+          <div className="card-content">
+            <h3>Workshops</h3>
+            <p>Unlocking IT Excellence: Join Our Transformative Workshops</p>
+            <a href="#">View more →</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src="/image_1706336807195.jpeg" alt="Weekend Training" />
+          <div className="card-content">
+            <h3>Weekend Training</h3>
+            <p>Supercharge Your Weekends with NareshIT's IT Training Programs</p>
+            <a href="#">View more →</a>
+          </div>
+        </div>
       </div>
+      <br /><br />
+      <div className="explore">
+        <a href={<AllCourses />}><div className="but" >
+          EXPLORE MORE COURSES
+        </div></a>
+      </div><br /><br />
+
+
+      <section className="values-section">
+        <div className="values-header">
+          <h4>Our values</h4>
+          <h1>
+            Empowering Futures: NareshIT's 22-Year
+            Legacy of Hands-On Excellence
+          </h1>
+          <p>
+            NareshIT, with over 22 years of training experience, offers hands-on
+            training. With expert trainers and a mission to empower, we ensure
+            successful placements and career advancement for our students.
+          </p>
+        </div>
+
+        <div className="values-content">
+          <div className="experience-box">
+            <h2>22+</h2>
+            <span>Years Experience</span>
+          </div>
+          <div className="belief-box">
+            <h2>We Believe in Empowering Tech Talent</h2>
+            <p>
+              Our core belief lies in empowering aspiring technologists with the
+              skills and knowledge necessary to succeed in the ever-evolving software
+              industry.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section className="beliefs-section">
+        <div className="belief-row">
+          <div className="stat-box">
+            <h2 className="blue">10+</h2>
+            <span className="label">LAKHS</span>
+            <p>Students Trained</p>
+          </div>
+          <div className="belief-text">
+            <h3>We Believe in Practical Learning</h3>
+            <p>
+              We believe in providing practical, real-world training that equips our
+              students with the confidence and capability to tackle industry
+              challenges head-on.
+            </p>
+          </div>
+        </div>
+
+        <div className="belief-row">
+          <div className="stat-box">
+            <h2 className="pink">95<span>%</span></h2>
+            <p>Career Launch Success</p>
+          </div>
+          <div className="belief-text">
+            <h3>We Believe in Building Careers</h3>
+            <p>
+              We believe in providing comprehensive support, from skill acquisition to
+              placement assistance, to help our students build successful careers.
+            </p>
+          </div>
+        </div>
+      </section>
+      <br /><br /><br />
+
+
+      <div className="domain">
+        <p><h1>Browse by </h1><span className='do'><h1>Domains</h1></span></p>
+        <p className='ex'>Explore new and trending free online courses.</p>
+      </div>
+
+
+
     </>
   )
 }
