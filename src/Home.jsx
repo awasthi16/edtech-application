@@ -3,10 +3,23 @@ import "./Home.css"
 import Timetable from './Timetable'
 import Pass from './Pass'
 import AllCourses from "./AllCourses"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import Services1 from './Services1'
 
 const Home = () => {
 
   const [pop, setpop] = useState(true)
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+     autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+     autoplaySpeed: 1000,
+  };
 
   return (
     <>
@@ -30,9 +43,19 @@ const Home = () => {
       }
 
       <div className="banner">
-        <a href={<Timetable />}><img src="/Screenshot 2025-08-18 131342.png" alt="" /></a>
+        <a href={<Timetable />}>
+          <Slider {...settings}>
+            <div>
+              <img src="/Screenshot 2025-08-18 131342.png" alt="" />
+            </div>
+            <div>
+              <img src="/Screenshot 2025-09-18 083518.png" alt="" />
+            </div>
+            
+          </Slider>
+        </a>
       </div>
-
+      {/* <img src="/Screenshot 2025-08-18 131342.png" alt="" /> */}
       <div className="c">
         <div className="c1">
           <div className="ca">
@@ -267,8 +290,8 @@ const Home = () => {
       </div>
       <br /><br />
       <div className="explore">
-        <a href={<AllCourses />}><div className="but" >
-          EXPLORE MORE COURSES
+        <a href={<Services1 />}><div className="but" >
+          EXPLORE Services
         </div></a>
       </div><br /><br />
 
@@ -343,6 +366,67 @@ const Home = () => {
         <p><h1>Browse by </h1><span className='do'><h1>Domains</h1></span></p>
         <p className='ex'>Explore new and trending free online courses.</p>
       </div>
+
+
+      <section class="courses-section">
+  <div class="course-card">
+    <img src="/Domain/image.png" alt="Full Stack" />
+    <h4>Full Stack</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706093906274.jpg" alt="Operating System" />
+    <h4>Operating System</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706094359583.jpg" alt="Mulesoft" />
+    <h4>Mulesoft</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1711014922224.jpg" alt="NASSCOM" />
+    <h4>NASSCOM</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706532388312.jpg" alt="Digital Marketing" />
+    <h4>Digital Marketing</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706090706296.jpg" alt="Cloud Computing" />
+    <h4>Cloud Computing</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706094154234.jpg" alt="Software Testing" />
+    <h4>Software Testing</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706164993158.jpg" alt="Soft Skills" />
+    <h4>Soft Skills</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706164993158.jpg" alt="Data Science" />
+    <h4>Data Science</h4>
+  </div>
+
+  <div class="course-card">
+    <img src="/Domain/image_1706532336352.jpg" alt="Analytics" />
+    <h4>Analytics</h4>
+  </div>
+</section>
+
+<br /><br />
+      <div className="explore">
+        <a href="#"><div className="but" >
+          EXPLORE CateGories
+        </div></a>
+      </div><br /><br />
+
 
 
 
