@@ -4,8 +4,8 @@ const Services3 = () => {
   return (
     <>
       <header>
-        <div className="Services3div">
-          <div className="Services3box">
+        <div className="Servicesjohri3div">
+          <div className="Servicesjohri3box">
             <div className="Services3box1">
               <div className="Services3div1">
 
