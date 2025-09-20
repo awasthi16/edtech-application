@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
-.Services3div {
+.Services3div1 {
   width: 100%;
   height: 300px;
   background-color: rgb(216, 216, 216);
@@ -13,7 +13,7 @@
   
 }
 
-.Services3box {
+.Services3box1 {
   width: 100%;
   height: 300px;
   background-color: rgb(255, 253, 253);
@@ -24,19 +24,19 @@
 
 }
 
-.Services3box1 {
+.Services3box11 {
   width: 1160px;
   height: 300px;
   border-radius: 5px;
 }
 
-.Services3div1 {
+.Services3div11 {
   width: 100%;
   height: 450px;
 
 }
 
-.Services3div1a {
+.Services3div1a1 {
  
   width: 100%;
   height: 50px;
@@ -47,14 +47,14 @@
   font-size: 35px;
 }
 
-.Services3div1b {
+.Services3div1b1{
   display: flex;
   width: 100%;
   height: 400px;
  
 }
 
-.Services3div1b1 {
+.Services3div1b11{
   width: 550px;
   height: 400px;
   
@@ -65,13 +65,13 @@
   border-radius:5px;
 }
 
-.Services3div1b2 {
+.Services3div1b21 {
   width: 600px;
   height: 400px;
 
 }
 
-.Services3div1b2a {
+.Services3div1b2a1 {
 
   width: 100%;
   height: 185px;
@@ -79,13 +79,13 @@
   
 }
 
-.Services3div1b2a1 {
+.Services3div1b2a11{
   width: 100%;
   height: 40px;
 
 }
 
-.Services3div1b2a2 {
+.Services3div1b2a21 {
   width: 100%;
   height: 100px;
   
@@ -171,7 +171,7 @@
   height: 40px;
 } */
 
-.Services3div2a button {
+.Services3div2a1 button {
   text-align: center;
   color: whitesmoke;
   font-size: 15px;
@@ -183,7 +183,7 @@
   border: none;
 }
 
-.Services3div2a button:hover {
+.Services3div2a1 button:hover {
   background-color: rgb(69, 69, 205);
 }
 
