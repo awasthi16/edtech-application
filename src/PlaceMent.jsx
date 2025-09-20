@@ -1,4 +1,5 @@
 import React from 'react'
+import "./PlaceMent.css"
 
 const PlaceMent = () => {
     return (
@@ -12,7 +13,7 @@ const PlaceMent = () => {
 
                     <div className='placementmain'>
                         <div className='placement'>
-                            <img src='/public/placement.jpeg' m width="100%"></img>
+                            <img src='/placement.jpeg' width="100%"></img>
                         </div>
                         <div className='placement1'>
                             <p className='navigation'>Navigating Placement-Oriented IT Courses     </p>
