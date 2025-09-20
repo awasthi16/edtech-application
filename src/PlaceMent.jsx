@@ -1,5 +1,6 @@
 import React from 'react'
 import "./PlaceMent.css"
+import SevicesCommon from './SevicesCommon'
 
 const PlaceMent = () => {
     return (
@@ -33,6 +34,8 @@ const PlaceMent = () => {
 
 
             </div>
+            <br/>     <br/>     <br/>     <br/>     <br/>     <br/>     <br/>     <br/>
+           <SevicesCommon></SevicesCommon>
         </>
     )
 }
