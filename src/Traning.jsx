@@ -233,8 +233,8 @@ const Traning = () => {
 
 
       </div>
-          <InterviewQuestion/>
-         <Blog/>
+      <InterviewQuestion />
+      <Blog />
       <PlaceMent />
       <Job />
     </>
