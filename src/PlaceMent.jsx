@@ -34,7 +34,7 @@ const PlaceMent = () => {
 
 
             </div>
-            <br/>     <br/>     <br/>     <br/>     <br/>     <br/>     <br/>     <br/>
+            <br/>    
            <SevicesCommon></SevicesCommon>
         </>
     )
