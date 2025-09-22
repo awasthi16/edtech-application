@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import "./Fullstack.css"
 
 const Fullstack = () => {
@@ -6,7 +6,6 @@ const Fullstack = () => {
   const b = useRef()
   const c = useRef()
   const d = useRef()
-
 
   function aa() {
     a.current.scrollIntoView()
@@ -26,7 +25,7 @@ const Fullstack = () => {
      <header>
         <div className="fullstackdiv1">
           <div className="fullstackdiv1a">
-            <img src="/src/assets/Full_Stack_Courses.jpg" alt="" />
+            <img src="/Full_Stack_Courses.jpg" alt="" />
           </div>
         </div>
       </header>
@@ -65,7 +64,7 @@ const Fullstack = () => {
 
                       <div className="fullstackdiv4a1">
                         <div className="fullstackdiv4a1a">
-                          <img src="/src/assets/fullstack-1.jpg" alt="" />
+                          <img src="/fullstack-1.jpg" alt="" />
                         </div>
                         <div className="fullstackdiv4a1b">
                           <div className="fullstackdiv4a1b1">
@@ -108,7 +107,7 @@ const Fullstack = () => {
 
 
                         <div className="fullstackdiv4a2a">
-                          <img src="/src/assets/fullstack-2.jpg" alt="" />
+                          <img src="/fullstack-2.jpg" alt="" />
                         </div>
                         <div className="fullstackdiv4a2b">
                           <div className="fullstackdiv4a2b1">
@@ -154,7 +153,7 @@ const Fullstack = () => {
 
 
                         <div className="fullstackdiv4a3a">
-                          <img src="/src/assets/fullstack-3.jpg" alt="" />
+                          <img src="/fullstack-3.jpg" alt="" />
                         </div>
                         <div className="fullstackdiv4a3b">
                           <div className="fullstackdiv4a3b1">
@@ -196,7 +195,7 @@ const Fullstack = () => {
                       <div className="fullstackdiv4a4">
 
                         <div className="fullstackdiv4a4a">
-                          <img src="/src/assets/fullstack-4.jpg" alt="" />
+                          <img src="/fullstack-4.jpg" alt="" />
                         </div>
                         <div className="fullstackdiv4a4b">
                           <div className="fullstackdiv4a3b1">
@@ -261,7 +260,7 @@ const Fullstack = () => {
                         <div className="fullstackdiv5b1">
 
                           <div className="fullstackdiv5b1a">
-                            <img src="/src/assets/fullstack-5.png" alt="" />
+                            <img src="/fullstack-5.png" alt="" />
                           </div>
 
                           <div className="fullstackdiv5b1b">
@@ -327,7 +326,7 @@ const Fullstack = () => {
                         <div className="fullstackdiv5b4">
 
                           <div className="fullstackdiv5b4a">
-                            <img src="/src/assets/fullstack-8.png" alt="" />
+                            <img src="/fullstack-8.png" alt="" />
                           </div>
 
                           <div className="fullstackdiv5b4b">
@@ -349,7 +348,7 @@ const Fullstack = () => {
                         <div className="fullstackdiv5b5">
 
                           <div className="fullstackdiv5b5a">
-                            <img src="/src/assets/fullstack-9.png" alt="" />
+                            <img src="/fullstack-9.png" alt="" />
                           </div>
 
                           <div className="fullstackdiv5b5b">
@@ -371,7 +370,7 @@ const Fullstack = () => {
                         <div className="fullstackdiv5b6">
 
                           <div className="fullstackdiv5b6a">
-                            <img src="/src/assets/fullstack-10.png" alt="" />
+                            <img src="/fullstack-10.png" alt="" />
                           </div>
 
                           <div className="fullstackdiv5b6b">
@@ -914,7 +913,7 @@ const Fullstack = () => {
               <div className="fullstackdiv2a2b">
                 <p id="fullstacksmall">Top 5 Technologies to learn</p>
                 <p id="fullstacklarge"> Register for the Course !</p>
-                <img src="/src/assets/women-with-laptop.png" alt="" />
+                <img src="/women-with-laptop.png" alt="" />
 
               </div>
               <div className="fullstackdiv2a2c">

@@ -36,7 +36,7 @@ return(<>
 <Route path="/About" element={<About/>}/>
 <Route path="/Contact" element={<Contact/>}/> 
 
-{/* ***************   Traning ***************** */}
+{/* *************** Traning ***************** */}
 <Route path="/Traning" element={<Traning/>}></Route>
 <Route path="/InterviewQuestion" element={<InterviewQuestion/>}></Route>
 <Route path="/Blog" element={<Blog/>}></Route>
