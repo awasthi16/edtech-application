@@ -1,10 +1,7 @@
 import React from 'react'
-import "./About.css"
-import TrainersProfile from "./TrainersProfile"
+ import "./About.css"
 
-import OurTheme from './OurTheme'
 
-TrainersProfile
 const About = () => {
   return (
     <div>
@@ -56,7 +53,6 @@ const About = () => {
         <h4 className="year">2018</h4>
         <div className="y1">
           <h3>15+ Years of Training the Corporates...</h3>
-         
             <p>Preferred Corporate Training</p>
             <p>Partner for 100+ IT Majors in Hyderabad.</p>
             <p>Provided Corporate Training in 400+ Corporates.</p>
@@ -100,8 +96,8 @@ const About = () => {
     </div>
   </div>
 
-<TrainersProfile></TrainersProfile>
- <OurTheme></OurTheme>
+
+
 
      </div>
   )
