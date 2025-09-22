@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Services1.css"
+import SevicesCommon from './SevicesCommon'
 
 const Services1 = () => {
   return (
@@ -98,6 +99,7 @@ const Services1 = () => {
           </div>
 
         </div>
+        <SevicesCommon/>
       </header>
       
    

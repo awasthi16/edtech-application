@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Services2.css"
-
+import SevicesCommon from './SevicesCommon'
 const Services2 = () => {
   return (
     <>
@@ -96,6 +96,7 @@ Develop valuable tech skills through our online training programmes, staying rel
           </div>
 
         </div>
+        <SevicesCommon/>
       </header>
     
     </>

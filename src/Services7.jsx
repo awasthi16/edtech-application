@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Services7.css"
+import SevicesCommon from './SevicesCommon'
 
 const Services7 = () => {
   return (
@@ -107,8 +108,8 @@ Elevate Your Team with NareshiT's Corporate Training Programs</h4>
             </div>
 
           </div>
-
         </div>
+        <SevicesCommon/>
       </header>
    </>
   )
