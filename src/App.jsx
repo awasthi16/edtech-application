@@ -21,10 +21,19 @@ import Services5 from "./Services5"
 import Services6 from "./Services6"
 import Services7 from "./Services7"
 import Fullstack from "./Fullstack"
+import TrainersProfile from "./TrainersProfile"
+import OurTheme from "./OurTheme"
+import Careers from "./Careers"
+import Testimonials from "./Testimonials"
+import Newseventss from "./Newseventss"
+
+
+
 
 function App(){
 return(<>
 <div className="component">
+
 <BrowserRouter>
 <Nav/>
 <Routes>
@@ -36,12 +45,10 @@ return(<>
 <Route path="/About" element={<About/>}/>
 <Route path="/Contact" element={<Contact/>}/> 
 
-{/* *************** Traning ***************** */}
-<Route path="/Traning" element={<Traning/>}></Route>
-<Route path="/InterviewQuestion" element={<InterviewQuestion/>}></Route>
-<Route path="/Blog" element={<Blog/>}></Route>
-<Route path="/Placement" element={<PlaceMent/>}></Route>
-<Route path="/Job" element={<Job/>}></Route>
+
+{/*#################### ALL Couses##################*/}
+<Route path="/Fullstack" element={<Fullstack/>}></Route>
+
 
 {/* #################  Service  ################# */}
 <Route path="/Services1" element={<Services1/>}></Route>
@@ -52,7 +59,32 @@ return(<>
 <Route path="/Services6" element={<Services6/>}></Route>
 <Route path="/Services7" element={<Services7/>}></Route>
 
-{/*#################### ALL Couses##################*/}
+
+
+
+{/* *************** Traning ***************** */}
+<Route path="/Traning" element={<Traning/>}></Route>
+<Route path="/InterviewQuestion" element={<InterviewQuestion/>}></Route>
+<Route path="/Blog" element={<Blog/>}></Route>
+<Route path="/Placement" element={<PlaceMent/>}></Route>
+<Route path="/Job" element={<Job/>}></Route>
+
+
+
+
+
+{/*#################### About##################*/}
+
+<Route path="/About" element={<About/>}></Route>
+<Route path="/TrainersP" element={<TrainersProfile/>}></Route>
+<Route path="/OurT" element={<OurTheme/>}></Route>
+<Route path="/Careers" element={<Careers/>}></Route>
+<Route path="/Real" element={<Testimonials/>}></Route>
+<Route path="/News" element={<Newseventss/>}></Route>
+
+
+
+
 </Routes>
 <Footer/>
 </BrowserRouter> 

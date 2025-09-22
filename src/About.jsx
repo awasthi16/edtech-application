@@ -4,6 +4,7 @@ import React from 'react'
 
 const About = () => {
   return (
+    <>
     <div>
       <div className="Zint0">
 <div className="image">
@@ -100,6 +101,8 @@ const About = () => {
 
 
      </div>
+    
+     </>
   )
 }
 
