@@ -143,11 +143,13 @@ const Nav = () => {
             <ul>
 
               <li><Link to="About">About Zint Institute</Link></li>
+
               <li><Link to="TrainersP">Trainers Profile</Link></li>
               <li><Link to="OurT">Our Theme</Link></li>
               <li> <Link to="Careers">Careers</Link></li>
               <li><Link to="Real">Real Testimonials</Link></li>
               <li><Link to="News">News & Eventss</Link></li>
+              
 
             </ul>
           </div>
@@ -171,7 +173,7 @@ const Nav = () => {
 
 
     </>
-
+ 
   )
 }
 
