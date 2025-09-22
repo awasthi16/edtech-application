@@ -22,6 +22,7 @@ import Services6 from "./Services6"
 import Services7 from "./Services7"
 import Fullstack from "./Fullstack"
 
+
 function App(){
 return(<>
 <div className="component">

@@ -15,7 +15,6 @@
       background: #007bff;
       color: white;
       border: none;
-      padding: 10px 20px;
       font-size: 16px;
       font-weight: 600;
       border-radius: 5px;
@@ -26,7 +25,6 @@
       transform: translateY(-1px);
     } 
     .test-1 {
-      margin-top: 30px;
       display: flex;
       gap: 20px;
       width:100% ;
@@ -52,8 +50,7 @@
 
     .testprh p {
       font-size: 15px;
-      line-height: 1.6;
-      margin-bottom: 20px;
+      
       color: #333;
     }
 
@@ -71,7 +68,6 @@
 
     .imgg h4 {
       font-size: 16px;
-      font-weight: bold;
       color: #111;
     }
 
@@ -81,7 +77,6 @@
     }
 
     .test-i {
-      margin-top: 15px;
       font-size: 14px;
     }
 

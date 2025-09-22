@@ -98,7 +98,6 @@ const About = () => {
 
 
 
-
      </div>
   )
 }

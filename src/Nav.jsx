@@ -146,12 +146,12 @@ const Nav = () => {
           {s == "About" && <div className='about' onMouseLeave={() => { sets(!s) }} >
             <ul>
 
-              <li><Link to="full">About Zint Institute</Link></li>
+              <li><Link to="About">About Zint Institute</Link></li>
               <li><Link to="full">Trainers Profile</Link></li>
               <li><Link to="full">Our Theme</Link></li>
               <li> <Link to="full">Careers</Link></li>
               <li><Link to="full">Real Testimonials</Link></li>
-              <li><Link to="full">News & Eventss</Link></li>
+              <li><Link to="Newseventss">News & Eventss</Link></li>
 
             </ul>
           </div>
