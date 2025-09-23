@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Newseventss"
 
-const  Newseventss = () => {
+const Newseventss = () => {
   return (
      <div>
       <div className="main-news">
