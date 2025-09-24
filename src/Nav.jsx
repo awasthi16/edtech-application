@@ -101,6 +101,8 @@ const Nav = () => {
               <ul>
 
                 <li><Link to="Fullstack">Full Stack Courses</Link></li>
+                <li><Link to="Intern">Internships</Link></li>
+
                
 
               </ul>

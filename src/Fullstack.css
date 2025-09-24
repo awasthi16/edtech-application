@@ -174,6 +174,8 @@
 .fullstackdivbox2d button:hover{
    color: blue;
 }
+
+--------
 .fullstackdivbox3
 {
   width: 100%;
@@ -343,6 +345,7 @@
  
   
 }
+-----
 .fullstackdiv4a2
 {
   
@@ -652,7 +655,7 @@
  
   
 }
-
+------------------
 .fullstackdiv4b
 {
   display: flex;
@@ -1038,6 +1041,7 @@ left: 20px;
   position: relative;
   left: 20px;
 }
+
 .fullstackdiv5b6d
 {
   width: 100%;

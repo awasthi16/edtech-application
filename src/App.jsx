@@ -26,6 +26,7 @@ import OurTheme from "./OurTheme"
 import Careers from "./Careers"
 import Testimonials from "./Testimonials"
 import Newseventss from "./Newseventss"
+import Internships from "./Internships"
 
 
 
@@ -49,6 +50,7 @@ return(<>
 
 {/*#################### ALL Couses##################*/}
 <Route path="/Fullstack" element={<Fullstack/>}></Route>
+<Route path="/Intern" element={<Internships/>}></Route>
 
 
 {/* #################  Service  ################# */}

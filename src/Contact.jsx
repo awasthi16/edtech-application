@@ -1,8 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./contact.css"
 
 
-const Contact = () => {
+  const Contact = () => {
+  const [task,settask] = useState ([])
+  const [name,setname] = useState("tiger")
+  const [email,setemail] = useState("")
+  const [number,setnumber] = useState("")
+  const [college,setcollege] = useState("")
+  const [msg,setmsg] = useState("")
+
+
+
+
+  function ad(){
+
+    if(number>10){
+      setmsg("no. is not val")
+    }
+    const as = [...task,{name,email,number,college,msg}]
+    settask(as)
+    console.log(name)
+    confirm(as)
+  }
+
   return (
     <>
     <div className="page1">
@@ -13,41 +34,38 @@ const Contact = () => {
       <div className="right-divv">
 
       <div className="contact">
+       
         <form>
                   <h1>Contact Us</h1>
 
                   <div className="input-box">
-                    <input type="text"placeholder='Full Name' required />
-                    <input type="email" placeholder='Email address' />
+                    <input type="text"placeholder='Full Name' required onChange={(e)=>setname(e.target.value)} />
+                    <input type="email" placeholder='Email address' onChange={(e)=>setemail(e.target.value)} />
                   </div>
                   <div className="input-box1">
-                    <input type="tel" placeholder='Mobile Number' />
+                    <input type="tel" placeholder='Mobile Number' onChange={(e)=>setnumber(e.target.value)} />
                   </div>
 
                    <div className="input-box1">
-                    <input type="text" placeholder='Company Name / College Name' />
+                    <input type="text" placeholder='Company Name / College Name' onChange={(e)=>setcollege(e.target.value)} />
                   </div>
                  
 
                    
                    <div className="message">
-                    <input type="text" placeholder="Describe message here" />
+                    <input type="text" placeholder="Describe message here" onChange={(e)=>setmsg(e.target.value)} />
                     
                   </div>
                   
                   <div className="subbmit">
-                                      <button type='submit'>Submit</button>
-
+                                 <button onClick={ad} type='submit'>Submit</button>
+                      
                   </div>
+                
                   
 
-
-
-
-
-
-
-        </form>
+         </form>
+         
 
 
         
