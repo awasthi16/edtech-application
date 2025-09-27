@@ -7,7 +7,7 @@
     height: 900px;
     display: flex;
     background-color: #a7b2bc29;
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
 }
 .left{
     width: 40%;

@@ -1,0 +1,905 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Internships1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 460px;
+}
+.Internshipsdiv1a
+{
+  width: 95%;
+  height: 450px;
+}
+.Internshipsdiv1a img{
+  z-index: 2;
+  width: 100%;
+  height: 450px;
+}
+/* ************************** */
+.Internshipsdiv2
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 660px;
+}
+.Internshipsdiv2a
+{
+  display: flex;
+
+  position: relative;
+  bottom: 20px;
+  width: 97%;
+  height: 680px;
+ 
+  background-color: white;
+}
+.Internshipsdiv2a1
+{
+  width: 80%;
+  height: 680px;
+
+}
+.Internshipsdivbox1
+{
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:35px;
+  width:100%;
+  height: 120px;
+  color: black;
+}
+.Internshipsdivbox1 p{
+   padding-left: 40px;
+}
+.Internshipsdivbox2
+{
+  font-weight: 600;
+  display: flex;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  left: 40px;
+  width: 95%;
+  height: 40px;
+}
+.Internshipsdivbox2a
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+}
+.Internshipsdivbox2a button
+{
+  width: 100px;
+  height:38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color:white;
+  border: none;
+}
+.Internshipsdivbox2a:hover{
+  border-bottom: 3px solid blue;
+}
+.Internshipsdivbox2a button:hover{
+   color: blue;
+}
+.Internshipsdivbox2b
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+}
+.Internshipsdivbox2b button
+{
+  width: 200px;
+  height:35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+   background-color:white;
+  border: none;
+}
+.Internshipsdivbox2b:hover{
+  border-bottom: 3px solid blue;
+ 
+}
+.Internshipsdivbox2b button:hover{
+   color: blue;
+}
+
+/* &&&&&&&&&&&&&&&& --------------       --------------------- -----------    */
+.Internshipsdivbox3
+{
+  width: 100%;
+  height: 500px;
+ 
+  
+}
+.Internshipsdivbox3a
+{
+  width: 100%;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+.Internshipsdivbox3a p{
+  position: relative;
+  left: 40px;
+}
+.Internshipsdivbox3b
+{
+  width: 100%;
+  height: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  overflow-y: scroll;
+}
+.Internshipsdivbox3b::-webkit-scrollbar
+{
+  display: none;
+}
+.Internshipsdiv4 
+{
+  width: 100%;
+  height: 700px;
+  
+  background-color: white;
+}
+.Internshipsdiv4a
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+ 
+ 
+}
+.Internshipsdiv4a1
+{
+  width: 270px;
+  height:400px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  transition: all .5s ease-in 0s;
+}
+.Internshipsdiv4a1:hover{
+ 
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.Internshipsdiv4a2:hover{
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.Internshipsdiv4a3:hover{
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.Internshipsdiv4a4:hover{
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.Internshipsdiv4a1a
+{
+  width: 100%;
+  height: 150px;
+  border: 1px solid gray;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  
+}
+.Internshipsdiv4a1a img{
+  width: 100%;
+  height: 150px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+.Internshipsdiv4a1b
+{
+  width: 100%;
+  height:200px;
+  background-color: white;
+}
+.Internshipsdiv4a1b1
+{
+ display: flex;
+ align-items: end;
+ width: 100%;
+ height: 50px;
+
+}
+.Internshipsdiv4a1b1 p{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a1b2
+{
+ width: 100%;
+ height: 40px;
+
+}
+.Internshipsdiv4a1b2 p{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a1b3
+{
+  width: 100%;
+  height: 40px;
+ 
+
+}
+.Internshipsdiv4a1b3 span{
+  font-size: 20px;
+}
+.Internshipsdiv4a1b3 pre{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a1b3 pre svg{
+  padding-right: 5px;
+}
+
+.Internshipsdiv4a1c
+{
+  display: flex;
+  width: 100%;
+  height: 60px;
+ border: 1px solid gray;
+  border-bottom-left-radius:10px;
+   border-bottom-right-radius:10px;
+ 
+}
+.Internshipsdiv4a1c1
+{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  width: 50%;
+  height: 60px;
+  border: 1px solid rgb(207, 206, 206);
+  background-color: blue;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+.Internshipsdiv4a1c2
+{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 50%;
+  height: 60px;
+  gap: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+ 
+  
+ }
+ /* /////////////// */
+ .Internshipsdiv4a2
+{
+  
+  width: 270px;
+  height:410px;
+  border-radius: 10px;
+   transition: all .5s ease-in 0s;
+}
+.Internshipsdiv4a2a
+{
+  width: 100%;
+  height: 150px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  
+}
+.Internshipsdiv4a2a img{
+  width: 100%;
+  height: 150px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+.Internshipsdiv4a2b
+{
+  width: 100%;
+  height:200px;
+ 
+  background-color: white;
+}
+.Internshipsdiv4a2b1
+{
+ display: flex;
+ align-items: end;
+ width: 100%;
+ height: 50px;
+}
+.Internshipsdiv4a2b1 p{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a2b2
+{
+ width: 100%;
+ height: 40px;
+
+
+}
+.Internshipsdiv4a2b2 p{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a2b3
+{
+  width: 100%;
+  height: 40px;
+   
+}
+.Internshipsdiv4a2b3 span{
+  font-size: 20px;
+}
+.Internshipsdiv4a2b3 pre{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a2b3 pre svg{
+  padding-right: 5px;
+}
+
+.Internshipsdiv4a2c
+{
+  
+  display: flex;
+  width: 100%;
+  height: 60px;
+   border: 1px solid gray;
+  border-bottom-left-radius:10px;
+   border-bottom-right-radius:10px;
+}
+.Internshipsdiv4a2c1
+{
+  
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  width: 50%;
+  height: 60px;
+  align-items: center;
+  background-color: blue;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+.Internshipsdiv4a2c2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 50%;
+  height: 60px;
+  gap: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+ 
+  
+}
+
+.Internshipsdiv4a3
+{
+   transition: all .5s ease-in 0s;
+  width: 270px;
+  height:410px;
+  border-radius: 10px;
+}
+.Internshipsdiv4a3a
+{
+  width: 100%;
+  height: 150px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  
+}
+.Internshipsdiv4a3a img{
+  width: 100%;
+  height: 150px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+.Internshipsdiv4a3b
+{
+  width: 100%;
+  height:200px;
+  background-color: white;
+}
+.Internshipsdiv4a3b1
+{
+ display: flex;
+ align-items: end;
+ width: 100%;
+ height: 50px;
+}
+.Internshipsdiv4a3b1 p{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a3b2
+{
+ width: 100%;
+ height: 40px;
+}
+.Internshipsdiv4a3b2 p{
+  position: relative;
+  left: 10px;
+}
+.Internshipsdiv4a3b3
+{
+  width: 100%;
+  height: 40px;
+   
+}
+.Internshipsdiv4a3b3 span{
+  font-size: 20px;
+}
+.Internshipsdiv4a3b3 pre{
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.Internshipsdiv4a3b3 pre svg{
+  padding-right: 5px;
+}
+
+.Internshipsdiv4a3c
+{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  border-bottom-left-radius:10px;
+   border-bottom-right-radius:10px;
+}
+.Internshipsdiv4a3c1
+{
+  
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: 600;
+  width: 50%;
+  height: 60px;
+  align-items: center;
+  background-color: blue;
+  border-bottom-left-radius: 10px;
+  color: white;
+}
+.Internshipsdiv4a3c2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 50%;
+  height: 57px;
+  border: 1px solid rgb(106, 104, 104);
+  gap: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+ 
+}
+
+/* ################## our courses ################## */
+.Internshipsdiv4b
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+
+}
+.Internshipsdiv4b1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(270deg,rgb(124, 124, 175),rgb(189, 70, 189));
+  
+}
+.Internshipsdiv4b1 a{
+  text-decoration: none;
+  font-size: 19px;
+  color: white;
+}
+.Internshipsdiv5
+{
+  box-shadow: 0px 5px 5px 5px rgb(182, 182, 182);
+  width: 100%;
+  height: 1300px;
+  background-color: white;
+ 
+}
+.Internshipsdiv5a
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 100px;
+}
+.Internshipsdiv5a p
+{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b
+{
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+
+}
+.Internshipsdiv5b1
+{
+  width: 25%;
+  height: 400px;
+  border: 1px solid  rgb(193, 193, 193);
+  border-radius: 10px;
+}
+.Internshipsdiv5b1a
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height:100px;
+}
+.Internshipsdiv5b1a img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+left: 20px;
+}
+.Internshipsdiv5b1b
+{
+  width: 100%;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.Internshipsdiv5b1b p
+{
+  position: relative;
+  left: 20px;
+  top: 15px;
+  color: black;
+  font-size: 22px;
+}
+.Internshipsdiv5b1c
+{
+  color: rgb(69, 69, 69);
+  font-size: 19px;
+  width: 100%;
+  height:120px;
+  line-height: 25px;
+}
+.Internshipsdiv5b1c p{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b1d
+{
+  width: 100%;
+  height:40px;
+
+}
+.Internshipsdiv5b1d svg{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b2
+{
+   width: 25%;
+  height: 400px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 10px;
+}
+.Internshipsdiv5b2a
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height:100px;
+}
+.Internshipsdiv5b2a img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+left: 20px;
+}
+.Internshipsdiv5b2b
+{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Internshipsdiv5b2b p
+{
+  position: relative;
+  left: 20px;
+  top: 15px;
+  color: black;
+  font-size: 22px;
+}
+.Internshipsdiv5b2c
+{
+  color: rgb(69, 69, 69);
+  font-size: 19px;
+  width: 100%;
+  height:120px;
+  line-height: 25px;
+}
+.Internshipsdiv5b2c p{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b2d
+{
+  width: 100%;
+  height:40px;
+
+}
+.Internshipsdiv5b2d svg{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b3
+{
+    width: 25%;
+  height: 400px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 10px;
+}
+.Internshipsdiv5b3a
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height:100px;
+}
+.Internshipsdiv5b3a img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+left: 20px;
+}
+.Internshipsdiv5b3b
+{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Internshipsdiv5b3b p
+{
+  position: relative;
+  left: 20px;
+  top: 15px;
+  color: black;
+  font-size: 22px;
+}
+.Internshipsdiv5b3c
+{
+  color: rgb(69, 69, 69);
+  font-size: 19px;
+  width: 100%;
+  height:120px;
+  line-height: 25px;
+}
+.Internshipsdiv5b3c p{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b3d
+{
+  width: 100%;
+  height:40px;
+
+}
+.Internshipsdiv5b3d svg{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b4
+{
+   width: 25%;
+  height: 400px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 10px;
+}
+.Internshipsdiv5b4a
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height:100px;
+}
+.Internshipsdiv5b4a img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+left: 20px;
+}
+.Internshipsdiv5b4b
+{
+  width: 100%;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.Internshipsdiv5b4b p
+{
+  position: relative;
+  left: 20px;
+  top: 15px;
+  color: black;
+  font-size: 22px;
+}
+.Internshipsdiv5b4c
+{
+  color: rgb(69, 69, 69);
+  font-size: 19px;
+  width: 100%;
+  height:120px;
+  line-height: 25px;
+}
+.Internshipsdiv5b4c p{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b4d
+{
+  width: 100%;
+  height:40px;
+
+}
+.Internshipsdiv5b4d svg{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b5
+{
+   width: 25%;
+  height: 400px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 10px;
+}
+.Internshipsdiv5b5a
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height:100px;
+}
+.Internshipsdiv5b5a img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+left: 20px;
+}
+.Internshipsdiv5b5b
+{
+  width: 100%;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+.Internshipsdiv5b5b p
+{
+  position: relative;
+  left: 20px;
+  top: 15px;
+  color: black;
+  font-size: 22px;
+}
+.Internshipsdiv5b5c
+{
+  color: rgb(69, 69, 69);
+  font-size: 19px;
+  width: 100%;
+  height:120px;
+  line-height: 25px;
+}
+.Internshipsdiv5b5c p{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b5d
+{
+  width: 100%;
+  height:40px;
+
+}
+.Internshipsdiv5b5d svg{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b6
+{
+    width: 25%;
+
+  height: 400px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 10px;
+}
+.Internshipsdiv5b6a
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height:100px;
+}
+.Internshipsdiv5b6a img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+left: 20px;
+}
+.Internshipsdiv5b6b
+{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Internshipsdiv5b6b p
+{
+  position: relative;
+  left: 20px;
+  top: 15px;
+  color: black;
+  font-size: 22px;
+}
+.Internshipsdiv5b6c
+{
+  color: rgb(69, 69, 69);
+  font-size: 19px;
+  width: 100%;
+  height:120px;
+  line-height: 25px;
+}
+.Internshipsdiv5b6c p{
+  position: relative;
+  left: 20px;
+}
+.Internshipsdiv5b6d
+{
+  width: 100%;
+  height:40px;
+
+}
+.Internshipsdiv5b6d svg{
+  position: relative;
+  left: 20px;
+}
+
+
+ 
+

@@ -100,12 +100,10 @@ const Nav = () => {
             s == "allCourse" && <div className='all' onMouseLeave={() => { sets(!s) }}>
               <ul>
 
-                <li><Link to="full">Full Stack Courses</Link></li>
-                <li><Link to="full">Nasscom Courses</Link></li>
-                <li><Link to="full">Job Assitance Courses</Link></li>
-                <li> <Link to="full">Certication courses</Link></li>
-                <li><Link to="full">Trending Courses</Link></li>
-                <li><Link to="full">Internships</Link></li>
+                <li><Link to="Fullstack">Full Stack Courses</Link></li>
+                <li><Link to="Intern">Internships</Link></li>
+
+               
 
               </ul>
             </div>
@@ -146,12 +144,14 @@ const Nav = () => {
           {s == "About" && <div className='about' onMouseLeave={() => { sets(!s) }} >
             <ul>
 
-              <li><Link to="full">About Zint Institute</Link></li>
-              <li><Link to="full">Trainers Profile</Link></li>
-              <li><Link to="full">Our Theme</Link></li>
-              <li> <Link to="full">Careers</Link></li>
-              <li><Link to="full">Real Testimonials</Link></li>
-              <li><Link to="full">News & Eventss</Link></li>
+              <li><Link to="About">About Zint Institute</Link></li>
+
+              <li><Link to="TrainersP">Trainers Profile</Link></li>
+              <li><Link to="OurT">Our Theme</Link></li>
+              <li> <Link to="Careers">Careers</Link></li>
+              <li><Link to="Real">Real Testimonials</Link></li>
+              <li><Link to="News">News & Eventss</Link></li>
+              
 
             </ul>
           </div>
@@ -175,7 +175,7 @@ const Nav = () => {
 
 
     </>
-
+ 
   )
 }
 

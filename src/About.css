@@ -14,7 +14,7 @@
 
 *{  margin: 0;
       padding: 0;
-    }
+}
 
 .Zint0 {
   width: 100%;
@@ -83,8 +83,6 @@
   background: linear-gradient(120deg, #3f4c6b, #606c88);
   text-align: center;
   color: white;
-  border: 1px solid black;
-
   margin-top: 30px;
 }
 
