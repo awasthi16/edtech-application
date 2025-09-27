@@ -20,15 +20,26 @@ import Services4 from "./Services4"
 import Services5 from "./Services5"
 import Services6 from "./Services6"
 import Services7 from "./Services7"
+import Admine from "./Admine"
+import { useState } from "react"
+import DashBoard from "./DashBoard"
+
 
 function App(){
+  console.log("app is printed");
+     const [todo, settodo] = useState([{course:"xyz",faculty:"xyz",date:"12/2/2024",time:"12:00"}])
+    function add(cousre,faculty,date,time){
+    const aa=[...todo,{cousre,faculty,date,time}]
+    settodo(aa)
+}
 return(<>
 <div className="component">
 <BrowserRouter>
 <Nav/>
 <Routes>
  <Route path="/" element={<Home/>}/>
-<Route path="/Traning" element={<Traning/>}/>
+  <Route path="/admin" element={<Admine add={add}/>}/>
+<Route path="/Traning" element={<Traning  todo={todo}/>}/>
 <Route path="/Login" element={<Login/>}/>
 <Route path="/AllCourses" element={<AllCourses/>}/>
 <Route path="/Service" element={<Service/>}/>
@@ -51,6 +62,10 @@ return(<>
 <Route path="/Services6" element={<Services6/>}></Route>
 <Route path="/Services7" element={<Services7/>}></Route>
 
+
+
+
+<Route path="Dashboard" element={<DashBoard/>}></Route>
 
 
 </Routes>

@@ -1,0 +1,21 @@
+.num{
+    width: 30px;
+    height: 25px;
+    
+}
+.alltodoitem{
+   
+}
+.coursess{
+    width: 240px;
+    height: 25px;
+}
+.dates{
+    width: 150px;
+    height: 25px;
+}
+.btnes{
+    width: 120px;
+    height: 30px;
+    margin-left: 1rem;
+}

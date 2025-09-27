@@ -4,8 +4,11 @@ import PlaceMent from './PlaceMent'
 import Job from './Job'
 import Blog from './Blog'
 import InterviewQuestion from './InterviewQuestion'
+import DashBoard from './DashBoard'
+// import Admine from './Admine'
+// import DashBoard from './DashBoard'
 
-const Traning = () => {
+const Traning = ({ todo }) => {
   const [online, setonline] = useState(true)
   const [classroom, setclassroom] = useState(false)
   const [kphb, setkphb] = useState(false)
@@ -13,6 +16,10 @@ const Traning = () => {
   const [intership, setintership] = useState(false)
   const [weakend, setweakend] = useState(false)
   const [jntuh, setjntuh] = useState(false)
+
+  // ..........................................todo list..................................................
+
+
 
 
   return (
@@ -63,15 +70,43 @@ const Traning = () => {
 
 
         {/* .................................................swap work...................................................................... */}
+
+
+        <div className="resultdivtt">
+
+    
         {online && <div className='online'>
-          <li>0</li>
-          <li>C#.NET</li>
-          <li>Mr.Vishwas</li>
-          <li>08 sep 2025</li>
-          <li>9:00(IST)</li>
-          <button className='bbb'>Click here</button>
+          {
+            todo.map((item, ind) => <>    <li>{ind + 1}</li>
+              <li>{item.cousre}</li>
+              <li>{item.faculty}</li>
+              <li>{item.date}</li>
+              <li>{item.time}</li>
+              <button className='bbb'>Click here</button></>)
+          }
+
+
+
+
+
         </div>}
-        <div className="ll1">
+        {/* <div className="ll1">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div> 
+         <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div> */}
+        {/* <div className="ll1">
           <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
@@ -174,15 +209,31 @@ const Traning = () => {
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
           <button className='bbb'>Click here</button>
-        </div>
-        <div className="ll">
+        </div> */}
+        {/* <div className="ll">
           <li>0</li>
           <li>C#.NET</li>
           <li>Mr.Vishwas</li>
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
           <button className='bbb'>Click here</button>
-        </div>
+        </div> 
+         <div className="ll1">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div> 
+         <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div> 
         <div className="ll1">
           <li>0</li>
           <li>C#.NET</li>
@@ -190,53 +241,80 @@ const Traning = () => {
           <li>08 sep 2025</li>
           <li>9:00(IST)</li>
           <button className='bbb'>Click here</button>
-        </div>
-        <div className="ll">
-          <li>0</li>
-          <li>C#.NET</li>
-          <li>Mr.Vishwas</li>
-          <li>08 sep 2025</li>
-          <li>9:00(IST)</li>
-          <button className='bbb'>Click here</button>
-        </div>
-        <div className="ll1">
-          <li>0</li>
-          <li>C#.NET</li>
-          <li>Mr.Vishwas</li>
-          <li>08 sep 2025</li>
-          <li>9:00(IST)</li>
-          <button className='bbb'>Click here</button>
-        </div>
-        <div className="ll">
-          <li>0</li>
-          <li>C#.NET</li>
-          <li>Mr.Vishwas</li>
-          <li>08 sep 2025</li>
-          <li>9:00(IST)</li>
-          <button className='bbb'>Click here</button>
-        </div>
-        <div className="ll1">
-          <li>0</li>
-          <li>C#.NET</li>
-          <li>Mr.Vishwas</li>
-          <li>08 sep 2025</li>
-          <li>9:00(IST)</li>
-          <button className='bbb'>Click here</button>
-        </div>
+        </div>  */}
 
-        {classroom && <div className='classroom'></div>}
-        {kphb && <div className='kphb'></div>}
-        {workshop && <div className='workshop'></div>}
-        {intership && <div className='intership'></div>}
-        {weakend && <div className='weakend'></div>}
-        {jntuh && <div className='jntuh'></div>}
+        {classroom && <div className='classroom'>
+          
+           <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div>
+          
+          </div>}
+        {kphb && <div className='kphb'>
+             <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div>
+          </div>}
+        {workshop && <div className='workshop'>
+             <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div></div>}
+        {intership && <div className='intership'>
+             <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div></div>}
+        {weakend && <div className='weakend'>
+             <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div></div>}
+        {jntuh && <div className='jntuh'>
+             <div className="ll">
+          <li>0</li>
+          <li>C#.NET</li>
+          <li>Mr.Vishwas</li>
+          <li>08 sep 2025</li>
+          <li>9:00(IST)</li>
+          <button className='bbb'>Click here</button>
+        </div></div>}
 
 
-      </div>
+      </div>    </div>
+      <br />
+
+ {/* <DashBoard/> */}
+      {/* <Admine/> */}
       <InterviewQuestion />
       <Blog />
       <PlaceMent />
       <Job />
+
+     
+    
     </>
 
   )

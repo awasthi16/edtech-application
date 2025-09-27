@@ -1,0 +1,1029 @@
+.navbardashboard {
+    width: 100%;
+    display: flex;
+    /* height: 1000px; */
+    justify-content: center;
+    background-color: #EEF4FF;
+
+}
+
+/* ............................................................................................................................................. */
+.student {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.faculty {
+    height: 300px;
+    width: 100%;
+    background-color: green;
+}
+
+/* ............................................................................................................................................. */
+.dashboardDiv {
+    background-color: rgb(244, 239, 239);
+    width: 95%;
+}
+
+.dashboardDiv ul {
+    /* border: 2px solid gray; */
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    /* background-color: #EEF4FF; */
+
+}
+
+.dashboardDiv li:hover {
+    border: 2px solid white;
+    background-color: whitesmoke;
+    border-radius: 3px;
+
+}
+
+.resultmaindiv {
+
+    background-color: #EEF4FF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resultdiv {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.welcome {
+
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.wel1 {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.level {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 700;
+    height: 40px;
+}
+
+.levelmaindiv {
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.overmaindiv {
+    height: auto;
+    /* background-color: red; */
+    /* height: 400px; */
+    height: auto;
+    width: 100%;
+}
+
+.overdiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.li3div {
+    background-color: #EEF4FF;
+}
+
+.inputdiv {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.inputdiv1 {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.inputdiv input {
+    width: 45%;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.div {
+    width: 45%;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #EEF4FF;
+}
+
+
+/* ........................................................................................................... */
+
+.repots {
+    height: auto;
+    width: 100%;
+    background-color: #EEF4FF;
+    display: flex;
+    justify-content: center;
+}
+
+.reportdiv {
+    width: 95%;
+    /* border: 1px solid black; */
+    height: auto;
+}
+
+.gen {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gen button {
+    margin-top: 15px;
+    border: none;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #ef09e0;
+    color: white;
+    font-size: 16px;
+}
+
+.rr {
+    list-style: none;
+    font-size: xx-large;
+    width: 300px;
+    height: 40px;
+    color: #ef09e0;
+    font-weight: 600;
+}
+
+.cc {
+    list-style: none;
+    font-size: 17px;
+    color: rgb(90, 86, 86);
+}
+
+.div4item {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+}
+
+.total {
+    list-style: none;
+    width: 340px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.num {
+    margin: 0px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.n {
+
+    font-size: x-large;
+}
+
+.t {
+    margin: 0px 10px;
+    margin-top: 10px;
+    color: rgb(96, 92, 92);
+    font-size: large;
+}
+
+.per {
+    margin: 0px 10px;
+    color: green;
+    font-size: 20px;
+}
+
+/* ................................................................ */
+.filterdiv {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.fill {
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+
+.filterdiv input {
+    width: 70%;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.sub {
+    border: 1px solid gray;
+    width: 180px;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+/* ....................................................... */
+.Availablediv {
+    width: 100%;
+    /* height: 600px; */
+    background-color: white;
+    border-radius: 5px;
+}
+
+.avlii {
+    font-size: 35px;
+    font-weight: 500;
+    list-style: none;
+    margin: 0px 15px;
+    margin-top: 10px;
+}
+
+.filediv {
+    background-color: rgb(252, 252, 252);
+}
+
+.dd {
+    margin: 0px 15px;
+    list-style: none;
+    color: rgb(90, 87, 87);
+    font-size: 17px;
+}
+
+.ff {
+    display: flex;
+}
+
+.size {
+    list-style: none;
+}
+
+.btn3 {
+    margin-left: 1rem;
+    width: 78%;
+    height: 30px;
+
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.btn3 button {
+    border-radius: 150px;
+    width: 90px;
+    height: 25px;
+}
+
+/* ..................................................... */
+
+.overviewdivdetails {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.ss {
+    margin-left: 15px;
+    list-style: none;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.grade {
+    color: rgb(81, 78, 78);
+    margin-left: 15px;
+    list-style: none;
+    font-size: 17px;
+}
+
+.list1div {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: large;
+}
+
+.hrr {
+    margin: 0px 1rem;
+    color: rgb(228, 227, 227);
+}
+
+/* ................................................................................................................................. */
+
+
+.analytics {
+    /* height: 300px; */
+    height: auto;
+    width: 100%;
+    /* background-color: greenyellow; */
+    background-color: #EEF4FF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.analyticsmaindiv {
+    width: 100%;
+    height: auto;
+}
+
+.analyticsmaindiv1 {
+    width: 100%;
+    height: auto;
+}
+
+.analyticsdiv {
+    margin-top: 1.5rem;
+    width: 95%;
+    height: auto;
+    position: relative;
+    right: 2rem;
+    background-color: #EEF4FF;
+    /* background-color: #ef09e0; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div4item1 {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    height: 100px;
+    position: relative;
+    left: 40px;
+}
+
+.total1 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+    /* background-color: white; */
+    color: white;
+    background-color: #2e70fe;
+    border-radius: 10px;
+}
+
+.total11 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+    /* background-color: white; */
+    position: relative;
+    left: 1.3rem;
+    color: white;
+    background-color: #2e70fe;
+    border-radius: 10px;
+}
+
+.num {
+
+    margin: 0px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n1 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.t1 {
+    margin: 0px 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+}
+
+.per1 {
+    margin: 0px 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.total2 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+    /* background-color: white; */
+    color: white;
+    background-color: #1cb454;
+    border-radius: 10px;
+}
+
+.total21 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+    /* background-color: white; */
+    position: relative;
+    left: 1.3rem;
+    color: white;
+    background-color: #1cb454;
+    border-radius: 10px;
+}
+
+.n2 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.t2 {
+    margin: 0px 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+}
+
+.per2 {
+    margin: 0px 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.total3 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+    /* background-color: white; */
+    color: white;
+    background-color: #9b41ef;
+    border-radius: 10px;
+}
+
+.total31 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+    /* background-color: white; */
+    position: relative;
+    left: 1.3rem;
+    color: white;
+    background-color: #9b41ef;
+    border-radius: 10px;
+}
+
+.n3 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.t3 {
+    margin: 0px 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+}
+
+.per3 {
+    margin: 0px 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.total4 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+
+
+    color: white;
+    background-color: #f16410;
+    border-radius: 10px;
+}
+
+.total41 {
+    list-style: none;
+    width: 24%;
+    height: 100px;
+    position: relative;
+    left: 1.3rem;
+    color: white;
+    background-color: #f16410;
+    border-radius: 10px;
+}
+
+.n4 {
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.t4 {
+    margin: 0px 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+}
+
+.per4 {
+    margin: 0px 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.div4main {
+    width: 100%;
+}
+
+/* ................................................................ */
+.chatmaindiv {
+    width: 100%;
+    display: flex;
+
+}
+
+.chatdiv {
+    margin-top: 1rem;
+    width: 95%;
+    /* height: 100px; */
+    height: auto;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.chatdiv1 {
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.chatdiv2 {
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.chatdiv3 {
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.chatdiv4 {
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* .................................................................................... */
+
+
+.management {
+    height: auto;
+    width: 100%;
+    background-color: #EEF4FF;
+}
+
+.insidenav {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.overnavdivr {
+    width: 100%;
+    height: auto;
+    /* height: 1000px; */
+    /* display: flex;
+    /* justify-content: center; */
+    /* background-color: red; */
+
+}
+
+.overnavmaindiv1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rajveer {
+    height: auto;
+    /* height: 500px; */
+    /* background-color: #EEF4FF; */
+    /* background-color: green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    /* border: 2px solid red; */
+    height: 120px;
+
+}
+
+.rajveer1 {
+    height: auto;
+    /* height: 500px; */
+    background-color: #EEF4FF;
+    /* background-color: yellow; */
+    width: 95%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rajveerdiv2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #EEF4FF;
+}
+
+.recent {
+    padding-top: 1.5rem;
+    width: 45%;
+    height: 400px;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color: white;
+}
+
+.upcoming {
+    padding-top: 1.5rem;
+    width: 45%;
+    height: 400px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.rec {
+    font-size: 28px;
+    margin-left: 1rem;
+    list-style: none;
+    font-weight: 700;
+}
+
+.lat {
+    margin-left: 1rem;
+    list-style: none;
+    font-size: 17px;
+    color: rgb(80, 76, 76);
+}
+
+.newstudent {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 1rem;
+    list-style: none;
+}
+
+.newen {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.en {
+    width: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    background-color: #EEF4FF;
+}
+
+.john {
+    list-style: none;
+    margin-left: 1.2rem;
+    color: rgb(69, 66, 66);
+}
+
+.ass {
+    list-style: none;
+    margin-left: 1.2rem;
+    color: rgb(69, 66, 66);
+}
+
+.en1 {
+    width: 70px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    background-color: #EEF4FF;
+    background-color: #3fa062;
+}
+
+/* .......................................................................................................................... */
+
+.userdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    /* height: 500px; */
+    background-color: #EEF4FF;
+}
+
+.userRolediv {
+    margin-top: 2rem;
+    width: 95%;
+    /* height: 400px; */
+    height: auto;
+    background-color: white;
+    border: 7px;
+}
+
+.userRole {
+    width: 100%;
+    /* height:300px; */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.user1 {
+    margin-top: 1rem;
+    width: 48%;
+    height: 100px;
+}
+
+.user2 {
+    margin-top: 1rem;
+    width: 48%;
+    height: 100px;
+}
+
+.user3 {
+    margin-top: 1rem;
+    width: 48%;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.user4 {
+    margin-top: 1rem;
+    width: 48%;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.roless {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: 28px;
+    font-weight: 500;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.911);
+}
+
+.manaa {
+    margin-left: 1.5rem;
+    font-size: 16px;
+    color: rgb(80, 77, 77);
+    list-style: none;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin {
+    margin-left: 2rem;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.886);
+    list-style: none;
+}
+
+.u3 {
+    margin-right: 2.4rem;
+    list-style: none;
+    width: 60px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #1cb454;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.manaaa {
+    margin-left: 2rem;
+    font-size: 17px;
+    color: rgb(80, 77, 77);
+    list-style: none;
+}
+
+.viewbtn {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.editper {
+    margin-left: 1rem;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/* ..................................................................................... */
+
+.systemdiv {
+    width: 100%;
+    height: 500px;
+    background-color: #EEF4FF;
+    display: flex;
+    justify-content: center;
+}
+
+.systemmaindiv {
+    margin-top: 2rem;
+    width: 95%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.database {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.dddd {
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+.heal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 22px;
+    border-radius: 50px;
+    background-color: #1cb454;
+    margin-right: 4rem;
+}
+
+/* ......................................................................................... */
+.taskdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #EEF4FF;
+}
+
+.tasktillediv {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.Tasktitle {
+    width: 72%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.assignee {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Addt {
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ........................................................................................ */
+
+.settingdiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #EEF4FF
+}
+
+.settingmaindiv {
+    margin-top: 2rem;
+    width: 95%;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.con {
+    padding-top: 2rem;
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 30px;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.949);
+}
+
+.con1 {
+    list-style: none;
+    margin-left: 2rem;
+    font-size: 17px;
+    color: rgb(70, 67, 67);
+}
+
+.onoff {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+}
+
+.emn {
+    font-size: 25px;
+    font-weight: 700px;
+    color: rgba(0, 0, 0, 0.949);
+}
+
+.hrrr {
+    margin: 0px 2rem;
+}
+
+.emailsettingss {
+    margin-left: 2rem;
+    width: 430px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#laalu {
+    position: relative;
+    left: 30px;
+}
