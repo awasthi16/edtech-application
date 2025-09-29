@@ -15,7 +15,8 @@ const Services4 = () => {
                 </div>
                 <div className="Services4div1b">
                   <div className="Services4div1b1">
-                    <img src="/image1(nareshit3).jpg" alt="" />
+                    <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
+
 
                   </div>
                   <div className="Services4div1b2">
@@ -25,10 +26,10 @@ const Services4 = () => {
                         <h4>Unlocking IT Excellence: Join Our Transformative Workshops</h4>
                       </div>
                       <div className="Services4div1b2a2">
-                        <p>Welcome to our dynamic <span>IT workshops</span> at NareshIT, where innovation  <br />meets  <span>hands-on learning</span> for aspiring tech enthusiasts. At NareshIT, we <br /> curate workshops designed to empower participants with practical skills and <br /> <span>real-world insights</span>, ensuring they stay at the forefront of the ever-evolving <br /> IT landscape.</p>
+                        <p>Welcome to our dynamic <span>IT workshops</span> at Zitn Institute, where innovation  <br />meets  <span>hands-on learning</span> for aspiring tech enthusiasts. At Zint Institute, we <br /> curate workshops designed to empower participants with practical skills and <br /> <span>real-world insights</span>, ensuring they stay at the forefront of the ever-evolving <br /> IT landscape.</p>
                       </div>
                       <div className="Services4div1b2a3">
-                        <h4>Why to Attend NareshiT's Workshops:</h4>
+                        <h4>Why to Attend Zint Institute Workshops:</h4>
                       </div>
 
                     </div>

@@ -7,17 +7,18 @@ const Careers = () => {
   <div className="career-main">
     <h1>Careers</h1>
     <div className="firsttt">
-      <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712580881781.jpg" alt="" width={450}/>
+      <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
+
       <div className="msg1">
         <p>
-          Unlock your potential withNareshIT, a leading name in education and technology. 
+          Unlock your potential with Zint Institute, a leading name in education and technology. 
           Join our team and be part of an innovative, collaborative, and growth-oriented workplace. 
           Explore the most sought-after positions in the industry:
         </p>
         <ul>
           <li><h4>1.Faculty Registration:</h4> Join as a faculty member and share your expertise with the next generation.</li>
           <li><h4>2.Lab Coordinators:</h4> Coordinate state-of-the-art labs for optimal hands-on learning experiences.</li>
-          <li><h4>3.Mentors:</h4> Guide aspiring minds and shape careers as a mentor at NareshIT.</li>
+          <li><h4>3.Mentors:</h4> Guide aspiring minds and shape careers as a mentor at Zint Institute.</li>
           <li><h4>4.Course Counsellors:</h4> Help individuals make informed decisions about their educational journey.</li>
         </ul>
       </div>
@@ -25,7 +26,7 @@ const Careers = () => {
     <div className="msg2">
  <h3>5. Telecallers:</h3>
     <ul>
-      <li>Be a Telecaller, the first point of contact for potential students interested in NareshIT courses.</li>
+      <li>Be a Telecaller, the first point of contact for potential students interested in Zint Institute courses.</li>
     </ul>
 
     <h3>6. Digital Marketing Executives:</h3>
@@ -36,7 +37,7 @@ const Careers = () => {
 
     
     <div className="msg3">
-      <h2>Why NareshIT:</h2>
+      <h2>Why Zint Institute:</h2>
       <ul>
         <li><h4>Innovative Learning Environment;</h4> Immerse yourself in a dynamic and innovative learning environment.</li>
         <li><h4>Collaborative Team Culture:</h4> Be part of a collaborative team where your ideas are valued.</li>
@@ -48,7 +49,7 @@ const Careers = () => {
     <div className="msg4">
     <h2>How to Apply:</h2>
     <p className="footer-note">
-      Visit our careers page, explore current openings, and submit your application to embark on a fulfilling career journey at NareshIT. 
+      Visit our careers page, explore current openings, and submit your application to embark on a fulfilling career journey at Zint. 
       Join us as we empower individuals to succeed in their careers. 
       We look forward to welcoming passionate and dedicated professionals to our team!
     </p>

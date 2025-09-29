@@ -15,7 +15,8 @@ const Services3 = () => {
                 </div>
                 <div className="Services3div1b">
                   <div className="Services3div1b1">
-                    <img src="/image1(nareshit2).jpeg" alt="" />
+                    <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
+
 
                   </div>
                   <div className="Services3div1b2">
@@ -23,13 +24,13 @@ const Services3 = () => {
                     <div className="Services3div1b2a">
                       <div className="Services3div1b2a1">
                         <h4>
-                          Supercharge Your Weekends with NareshIT's IT Training Programs</h4>
+                          Supercharge Your Weekends with Zint Institute Training Programs</h4>
                       </div>
                       <div className="Services3div1b2a2">
-                        <p>Unleash your potential with NareshIT's exclusive weekend IT training programs. <br /> Dive into the world of technology and enhance your skills at your own pace,<br /> making the most of your weekends.</p>
+                        <p>Unleash your potential with Zint Institute exclusive weekend IT training programs. <br /> Dive into the world of technology and enhance your skills at your own pace,<br /> making the most of your weekends.</p>
                       </div>
                       <div className="Services3div1b2a3">
-                        <h4>Why Opt for NareshIT's Weekend IT Training Programs:</h4>
+                        <h4>Why Opt for Zint Institute Weekend IT Training Programs:</h4>
                       </div>
                     </div>
                     <div className="Services3div1b2b">
@@ -95,7 +96,7 @@ const Services3 = () => {
                 </ul>
                 <br />
                 <ul className="Services3johri2" id="Services3hollow-circle" type="circle">
-                  <li>Receive a certification upon successfully completing NareshIT's weekend IT training programs, validating your expertise and boosting your credentials  <br />in the competitive IT job market.</li>
+                  <li>Receive a certification upon successfully completing Zint Institute weekend IT training programs, validating your expertise and boosting your credentials  <br />in the competitive IT job market.</li>
                 </ul>
                 <br />
 

@@ -129,9 +129,10 @@ li a{
   align-items: center;
 
 }
-.login-btn{
+.loginbtn{
 width: 80px;
 height: 40px;
+margin-left: 2rem;
 font-size: large;
 border: none;
 display: flex;

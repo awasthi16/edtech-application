@@ -11,7 +11,7 @@ const TrainersProfile = () => {
     <div className="first-div">
       <div className="trainer-card">
         <div className="trainer-img">
-          <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712142972236.png" alt="" width={270}  height={200}/>
+          <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20240923174157.jpg" alt="" width="260px" />
         </div>
         <div className="trainer-info">
           <h3>Mr. Nataraj</h3>
@@ -21,7 +21,8 @@ const TrainersProfile = () => {
 
       <div className="trainer-card">
         <div className="trainer-img">
-          <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712142972236.png" alt="" width={270}  height={200}/>
+          <img src="https://ranchiexpress.com/download/popular/ef8e6c7d097fef67a47860c3102b53f3_468804009.jpeg" alt="" width="280px"height="195px" />
+
         </div>
         <div className="trainer-info">
           <h3>Mr. K V Rao</h3>
@@ -30,8 +31,9 @@ const TrainersProfile = () => {
       </div>
 
       <div className="trainer-card">
-        <div className="trainer-img">     
-         <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712142972236.png" alt="" width={270}  height={200}/>
+        <div className="trainer-img">   
+                    <img src="https://ranchiexpress.com/download/popular/ef8e6c7d097fef67a47860c3102b53f3_468804009.jpeg" alt="" width="280px"height="195px" />
+
         </div>
         <div className="trainer-info">
           <h3>Mr. Sudhakar Sharma</h3>
@@ -41,7 +43,12 @@ const TrainersProfile = () => {
 
       <div className="trainer-card">
         <div className="trainer-img">
-          <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712142972236.png" alt="" width={270}  height={200}/>
+          
+
+          <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20240923174157.jpg" alt="" width="260px" />
+
+
+
         </div>
         <div className="trainer-info">
           <h3>Mr. Kishan B</h3>
@@ -56,7 +63,8 @@ const TrainersProfile = () => {
      <div className="second-div">
       <div className="trainer-card">
         <div className="trainer-img">
-          <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712142972236.png" alt="" width={270}  height={200}/>
+                    <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20240923174157.jpg" alt="" width="260px" />
+
         </div>
         <div className="trainer-info">
           <h3>Mr. Nataraj</h3>
@@ -66,7 +74,8 @@ const TrainersProfile = () => {
 
       <div className="trainer-card">
         <div className="trainer-img">
-          <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712142972236.png" alt="" width={270}  height={200}/>
+                    <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20240923174157.jpg" alt="" width="260px" />
+
         </div>
         <div className="trainer-info">
           <h3>Mr. K V Rao</h3>
@@ -76,7 +85,7 @@ const TrainersProfile = () => {
 
       <div className="trainer-card">
         <div className="trainer-img">     
-         <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712142972236.png" alt="" width={270}  height={200}/>
+          <img src="https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20240923174157.jpg" alt="" width="260px" />
         </div>
         <div className="trainer-info">
           <h3>Mr. Sudhakar Sharma</h3>

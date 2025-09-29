@@ -26,10 +26,10 @@ const Services1 = () => {
                         <h4>Empowering Learning in a Conducive Environment</h4>
                       </div>
                       <div className="Services1div1b2a2">
-                        <p>Explore the enriching world of classroom training at NareshiT, where we bring education to life in a vibrant and interactive setting. Our classroom training programs are meticulously designed to foster a conducive learning environment, ensuring an immersive and effective educational experience</p>
+                        <p>Explore the enriching world of classroom training at Zint Institute, where we bring education to life in a vibrant and interactive setting. Our classroom training programs are meticulously designed to foster a conducive learning environment, ensuring an immersive and effective educational experience</p>
                       </div>
                       <div className="Services1div1b2a3">
-                        <h4>Why Opt for NareshiT's Classroom Training:</h4>
+                        <h4>Why Opt for Zint Institute Classroom Training:</h4>
                       </div>
 
                     </div>

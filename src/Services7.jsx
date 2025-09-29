@@ -16,7 +16,7 @@ const Services7 = () => {
                 </div>
                 <div className="Services7div1b">
                   <div className="Services7div1b1">
-                    <img src="/image1(nareshit6).jpg" alt="" />
+                    <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
 
                   </div>
                   <div className="Services7div1b2">
@@ -24,18 +24,18 @@ const Services7 = () => {
                     <div className="Services7div1b2a">
                       <div className="Services7div1b2a1">
                         <h4>
-Elevate Your Team with NareshiT's Corporate Training Programs</h4>
+Elevate Your Team with Zint Institute Corporate Training Programs</h4>
                       </div>
                       <div className="Services7div1b2a2">
-                        <p>NareshIT offers tailored corporate training programs to enhance the skills and <br /> efficiency of your workforce. Our specialized courses are designed to meet the <br /> demands of the ever-evolving corporate landscape, ensuring your team stays <br /> ahead in the competitive market.</p>
+                        <p>Zint Institute offers tailored corporate training programs to enhance the skills and <br /> efficiency of your workforce. Our specialized courses are designed to meet the <br /> demands of the ever-evolving corporate landscape, ensuring your team stays <br /> ahead in the competitive market.</p>
                       </div>
                       <div className="Services7div1b2a3">
                       <ul>
-                        <li><p>NareshIT offers tailored corporate training programs to enhance the skills and <br /> efficiency of your workforce. Our specialized courses are designed to meet the  <br />demands of the ever-evolving corporate landscape, ensuring your team stays <br /> ahead in the competitive market.</p></li>
+                        <li><p>Zint Institute offers tailored corporate training programs to enhance the skills and <br /> efficiency of your workforce. Our specialized courses are designed to meet the  <br />demands of the ever-evolving corporate landscape, ensuring your team stays <br /> ahead in the competitive market.</p></li>
                       </ul>
                       </div>
                       <div className="Services7div1b2a4">
-                        <h4>Why Choose NareshIT for Corporate Training:</h4>
+                        <h4>Why Choose Zint Institute for Corporate Training:</h4>
                       </div>
                     </div>
                     <div className="Services7div1b2b">
@@ -45,7 +45,7 @@ Elevate Your Team with NareshiT's Corporate Training Programs</h4>
                       </ul>
                       <br />
                       <ul  className="Services7johri3" type="circle">
-                        <li> <p>NareshIT provides customized corporate training solutions,   addressing the</p> </li>
+                        <li> <p>Zint Institute provides customized corporate training solutions,   addressing the</p> </li>
                       </ul>
                     </div>
 

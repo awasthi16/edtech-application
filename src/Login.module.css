@@ -36,7 +36,7 @@ h2{
     margin-left: 2rem;
 
 }
-.input-div{ 
+.inputdiv{ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,9 +70,9 @@ h2{
         width: 20px;
     }
 }
-.btnn{  
+.bttn{  
     width: 100%;
-    /* height: 40px; */
+    height: 40px;
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
@@ -100,7 +100,7 @@ button:hover {
      color: brown;
     margin-right: 2rem;
 }
-.input-box{
+.inputbox{
     width: 100%;
     height: 100px;
     margin-top: 1rem;
@@ -139,6 +139,7 @@ button:hover {
     width: 340px;
     height: 10px;
     border: none;
+    outline: none;
     text-align: center;
     font-size: 20px;
 }

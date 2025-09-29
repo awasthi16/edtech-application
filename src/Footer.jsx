@@ -10,10 +10,11 @@ const Footer = () => {
           <div className="footerbox1-div">
             <div className="footerbox1-div1">
               <div className="footerbox1-div1a">
-                <img src="/naresh-it-logo.png" alt="" />
+<img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
+                
               </div>
               <div className="footerbox1-div1b">
-                <p>NNV Naresh is an entrepreneur armed with a noble vision to make a difference in the career aspirations of the students. 20+ years of experience in the education sector, Naresh is the founder and the driving force behind the victorious journey of NareshIT.</p>
+                <p>NNV Zint is an entrepreneur armed with a noble vision to make a difference in the career aspirations of the students. 20+ years of experience in the education sector, Zint is the founder and the driving force behind the victorious journey of Zint Institute.</p>
               </div>
               <div className="footerbox1-div1c">
                 <div className="footerbox1-div1c1">
@@ -91,9 +92,9 @@ const Footer = () => {
 
                 <ul>
                   <li><a href="">Become an Instructor</a></li>
-                  <li><a href="">Hire from NareshIT</a></li>
+                  <li><a href="">Hire from Zint Institute</a></li>
                   <li><a href="">New Batches</a></li>
-                  <li><a href="">NareshJobs</a></li>
+                  <li><a href="">ZintJobs</a></li>
                   <li><a href="">SeshaJobs</a></li>
                   <li><a href="">Interview Questions</a></li>
                   <li><a href="">Blogs</a></li>
@@ -115,7 +116,7 @@ const Footer = () => {
               <div className="footerbox1-div4b">
                 <ul>
                   <li><pre><span>Phone:</span> <a href="">040-23746666</a></pre></li>
-                  <li><pre><span>Email:</span> <a href="">info@nareshit.com</a></pre></li>
+                  <li><pre><span>Email:</span> <a href="">info@zintinstitute.com</a></pre></li>
                   <li><pre><span>Call/Whatsapp:</span> <a href="">+91 8179191999</a></pre></li>
                   <li><pre><span>International:</span> <a href="">+1404-232-9879,+1248-522-6925</a></pre></li>
                   <li id="move"><pre><span id="bold">Head Office:</span> <a href="">2nd Floor,Durga Bhavani Plaza,<br />Ameerpet, Hyderabad, 500016.</a></pre></li>

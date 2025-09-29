@@ -321,7 +321,7 @@ const Home = () => {
           <img src="/image_1706336807195.jpeg" alt="Weekend Training" />
           <div className="card-content">
             <h3>Weekend Training</h3>
-            <p>Supercharge Your Weekends with NareshIT's IT Training Programs</p>
+            <p>Supercharge Your Weekends with Zint Institute Training Programs</p>
             <a href="#">View more →</a>
           </div>
         </div>
@@ -338,11 +338,11 @@ const Home = () => {
         <div className="values-header">
           <h4>Our values</h4>
           <h1>
-            Empowering Futures: NareshIT's 22-Year
+            Empowering Futures: Zint Institute 22-Year
             Legacy of Hands-On Excellence
           </h1>
           <p>
-            NareshIT, with over 22 years of training experience, offers hands-on
+            Zint Institute, with over 22 years of training experience, offers hands-on
             training. With expert trainers and a mission to empower, we ensure
             successful placements and career advancement for our students.
           </p>
@@ -470,7 +470,7 @@ const Home = () => {
         <div class="corporate-content">
           <h2><span className="highlight">Corporate</span> Software Training</h2>
           <p>
-            Elevate Your Team with NareshIT's Corporate Training Programs. NareshIT offers tailored corporate training programs to enhance the skills and efficiency of your workforce. Our specialized courses are designed to meet the demands of the ever-evolving corporate landscape, ensuring your team stays ahead in the competitive market. NareshIT offers tailored corporate training programs to enhance the skills and efficiency of your workforce.
+            Elevate Your Team with Zint Institute Corporate Training Programs. Zint Institute offers tailored corporate training programs to enhance the skills and efficiency of your workforce. Our specialized courses are designed to meet the demands of the ever-evolving corporate landscape, ensuring your team stays ahead in the competitive market. Zint Institute offers tailored corporate training programs to enhance the skills and efficiency of your workforce.
           </p>
           <a href="#" className="view-more">View more →</a>
 
@@ -548,7 +548,7 @@ const Home = () => {
           <div className="home-two">
             <p>
               “<br />
-              I completed a data science <br />course at Naresh IT Institute, <br />where Omkar Sir was my <br />trainer. His teaching was <br />excellent, focusing on real- <br />world company problems, and I <br />gained practical experience <br />through internships. I'm <br />thankful to Sir for providing <br />such valuable guidance.
+              I completed a data science <br />course at Zint Institute, <br />where Omkar Sir was my <br />trainer. His teaching was <br />excellent, focusing on real- <br />world company problems, and I <br />gained practical experience <br />through internships. I'm <br />thankful to Sir for providing <br />such valuable guidance.
               <br />
               ”
             </p><br />

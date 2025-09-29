@@ -25,7 +25,7 @@ const OurTheme = () => {
         Our organisation fosters a culture that values teamwork, synergy, and interconnectedness to drive innovation and create impactful technological solutions.
       </p>
       <p>
-        Naresh IT strives to balance technological advancement with environmental responsibility, contributing to a sustainable and responsible digital future.
+        Zint Institute strives to balance technological advancement with environmental responsibility, contributing to a sustainable and responsible digital future.
       </p>
       <p>
         We encourage a culture of continuous learning by embracing diversity and inclusion, thus empowering the future generation.

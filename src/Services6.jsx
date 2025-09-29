@@ -15,7 +15,8 @@ const Services6 = () => {
                 </div>
                 <div className="Services6div1b">
                   <div className="Services6div1b1">
-                    <img src="/image1(nareshit5).jpg" alt="" />
+                    <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
+
 
                   </div>
                   <div className="Services6div1b2">
@@ -90,7 +91,8 @@ const Services6 = () => {
                   </ul>
                 </div>
                 <div className="Services6div2h">
-                   <img src="/image2(nareshit5).jpg" alt="" />
+                  <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
+
                 </div>
 
                 <div className="Services6div2i">

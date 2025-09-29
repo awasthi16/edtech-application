@@ -25,7 +25,7 @@ const  Testimonials = () => {
     </div>
 
     <div className="testprh">
-      <p>“ I had enrolled in the Full Stack Data Science course at Naresh IT. My mentor was Omkar Sir. I would like to sincerely thank him for his dedicated efforts...”</p>
+      <p>“ I had enrolled in the Full Stack Data Science course at Zint Institute. My mentor was Omkar Sir. I would like to sincerely thank him for his dedicated efforts...”</p>
       <div className="imgg">
                 <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1751134933307.jpg" alt=""/>
 
@@ -66,7 +66,7 @@ const  Testimonials = () => {
     </div>
 
     <div className="testprh">
-      <p>“ I had enrolled in the Full Stack Data Science course at Naresh IT. My mentor was Omkar Sir. I would like to sincerely thank him for his dedicated efforts...”</p>
+      <p>“ I had enrolled in the Full Stack Data Science course at Zint Institute. My mentor was Omkar Sir. I would like to sincerely thank him for his dedicated efforts...”</p>
       <div className="imgg">
         <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1751134933307.jpg" alt=""/>
         <h4>Sudarshan Bansode</h4>

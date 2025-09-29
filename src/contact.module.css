@@ -17,7 +17,7 @@
     align-items: center;
 
 }
-.right-divv{
+.rightdiv{
     width: 62%;
     height: 680px;
 
@@ -33,12 +33,14 @@
     padding: 45px 35px 0px 35px;
 }
 
-.contact .input-box{
+.contact .inputb{
     width: 680px;
     height: 75px;
+    display: flex;
+    justify-content: space-between;
     
 }
-.input-box input{
+.inputb input{
     height: 47px;
     outline: none;
     border-radius: 10px;
@@ -50,10 +52,10 @@
 
     
 }
-.input-box input::placeholder{
+.inputb input::placeholder{
     color: #333;
 }
-.contact .input-box1{
+.contact .inputbox1{
     width: 100%;
     height: 75px;
     margin-top: 1.50rem;
@@ -61,7 +63,7 @@
     justify-content: start;
     align-items: center;
 }
-.input-box1 input{
+.inputbox1 input{
      width: 600px;
     height: 47px;
     outline: none;
@@ -76,7 +78,7 @@
 input:focus{
     border: 3px solid#d9fd0d;
 }
-.input-box1 input::placeholder{
+.inputbox1 input::placeholder{
     color: #333;
 }
 /* ........................message.............................. */
