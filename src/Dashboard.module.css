@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     /* height: 1000px; */
+    display: flex;
     justify-content: center;
     background-color: #EEF4FF;
 
@@ -22,13 +23,16 @@
 
 /* ............................................................................................................................................. */
 .dashboardDiv {
-    background-color: rgb(244, 239, 239);
+    background-color: rgba(255, 255, 255, 0.701);
     width: 95%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+
+
 }
 
 .dashboardDiv ul {
-    /* border: 2px solid gray; */
-    height: 40px;
+    height: 30px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -39,14 +43,19 @@
 }
 
 .dashboardDiv li:hover {
-    border: 2px solid white;
-    background-color: whitesmoke;
-    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.74);
+    min-width: 80px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
 
 }
 
 .resultmaindiv {
-
     background-color: #EEF4FF;
     width: 100%;
     display: flex;
@@ -97,8 +106,7 @@
 .overmaindiv {
     height: auto;
     /* background-color: red; */
-    /* height: 400px; */
-    height: auto;
+    height: 300px;
     width: 100%;
 }
 
@@ -129,16 +137,16 @@
     justify-content: center;
 
 }
-
-.inputdiv input {
+.div3filter{padding-left: 1rem;}
+/* .inputdiv input {
     width: 45%;
     height: 40px;
     border: 2px solid gray;
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
-
-}
+  
+} */
 
 .div {
     width: 45%;
@@ -146,8 +154,13 @@
     border: 2px solid gray;
     border-radius: 7px;
     text-align: center;
-    font-size: 25px;
-    background-color: #EEF4FF;
+    font-size: 20px;
+    background-color: #dbe5f5dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+
 }
 
 
@@ -226,18 +239,18 @@
 }
 
 .n {
-
-    font-size: x-large;
+ padding-left: 1rem;
+    font-size: xx-large;
 }
 
-.t {
+.t { padding-left: 1rem;
     margin: 0px 10px;
     margin-top: 10px;
     color: rgb(96, 92, 92);
     font-size: large;
 }
 
-.per {
+.per { padding-left: 1rem;
     margin: 0px 10px;
     color: green;
     font-size: 20px;
@@ -252,12 +265,14 @@
 }
 
 .fill {
+      padding-left: 1.5rem;
     padding-top: 10px;
     margin-left: 10px;
 
 }
 
 .filterdiv input {
+    
     width: 70%;
     height: 35px;
     border: 1px solid gray;
@@ -287,6 +302,7 @@
     list-style: none;
     margin: 0px 15px;
     margin-top: 10px;
+    padding-left: 1rem;
 }
 
 .filediv {
@@ -294,6 +310,7 @@
 }
 
 .dd {
+      padding-left: 1rem;
     margin: 0px 15px;
     list-style: none;
     color: rgb(90, 87, 87);
@@ -301,6 +318,7 @@
 }
 
 .ff {
+      padding-left: 2rem;
     display: flex;
 }
 
@@ -333,6 +351,7 @@
 }
 
 .ss {
+    padding-left: 1rem;
     margin-left: 15px;
     list-style: none;
     font-size: 28px;
@@ -340,6 +359,7 @@
 }
 
 .grade {
+     padding-left: 1rem;
     color: rgb(81, 78, 78);
     margin-left: 15px;
     list-style: none;
@@ -430,7 +450,6 @@
 }
 
 .num {
-
     margin: 0px 10px;
     list-style: none;
     display: flex;
@@ -438,11 +457,17 @@
 }
 
 .n1 {
-    font-weight: 900;
+    padding-left: 1rem;
+    font-weight: 600;
     font-size: xx-large;
 }
 
+.imgpro {
+    padding-right: 1rem;
+}
+
 .t1 {
+    padding-left: 1rem;
     margin: 0px 10px;
     margin-top: 10px;
     color: white;
@@ -450,6 +475,7 @@
 }
 
 .per1 {
+    padding-left: 1rem;
     margin: 0px 10px;
     color: white;
     font-size: 16px;
@@ -478,11 +504,13 @@
 }
 
 .n2 {
-    font-weight: 900;
+    padding-left: 1rem;
+    font-weight: 600;
     font-size: xx-large;
 }
 
 .t2 {
+    padding-left: 1rem;
     margin: 0px 10px;
     margin-top: 10px;
     color: white;
@@ -490,6 +518,7 @@
 }
 
 .per2 {
+    padding-left: 1rem;
     margin: 0px 10px;
     color: white;
     font-size: 16px;
@@ -518,11 +547,13 @@
 }
 
 .n3 {
-    font-weight: 900;
+    padding-left: 1rem;
+    font-weight: 600;
     font-size: xx-large;
 }
 
 .t3 {
+    padding-left: 1rem;
     margin: 0px 10px;
     margin-top: 10px;
     color: white;
@@ -530,6 +561,7 @@
 }
 
 .per3 {
+    padding-left: 1rem;
     margin: 0px 10px;
     color: white;
     font-size: 16px;
@@ -558,11 +590,13 @@
 }
 
 .n4 {
-    font-weight: 900;
+    padding-left: 1rem;
+    font-weight: 600;
     font-size: xx-large;
 }
 
 .t4 {
+    padding-left: 1rem;
     margin: 0px 10px;
     margin-top: 10px;
     color: white;
@@ -570,6 +604,7 @@
 }
 
 .per4 {
+    padding-left: 1rem;
     margin: 0px 10px;
     color: white;
     font-size: 16px;
@@ -587,7 +622,6 @@
 }
 
 .chatdiv {
-    margin-top: 1rem;
     width: 95%;
     /* height: 100px; */
     height: auto;
@@ -711,6 +745,7 @@
 }
 
 .rec {
+    padding-left: 1rem;
     font-size: 28px;
     margin-left: 1rem;
     list-style: none;
@@ -718,6 +753,7 @@
 }
 
 .lat {
+      padding-left: 1rem;
     margin-left: 1rem;
     list-style: none;
     font-size: 17px;
@@ -732,11 +768,13 @@
 }
 
 .newen {
+      padding-left: 1rem;
     font-size: 17px;
     font-weight: 700;
 }
 
 .en {
+    margin-right: 1rem;
     width: 100px;
     /* border: 1px solid black; */
     display: flex;
@@ -747,28 +785,42 @@
 }
 
 .john {
+      padding-left: 1rem;
     list-style: none;
     margin-left: 1.2rem;
     color: rgb(69, 66, 66);
 }
 
 .ass {
+      padding-left: 1rem;
     list-style: none;
     margin-left: 1.2rem;
     color: rgb(69, 66, 66);
 }
 
 .en1 {
-    width: 70px;
+    margin-right: 1rem;
+    min-width: 70px;
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 70px;
     background-color: #EEF4FF;
-    background-color: #3fa062;
+    background-color: #82d5a0;
 }
 
+.en11 {
+    margin-right: 1rem;
+    min-width: 70px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    background-color: #EEF4FF;
+    background-color: rgb(209, 169, 176);
+}
 /* .......................................................................................................................... */
 
 .userdiv {
@@ -852,13 +904,51 @@
     list-style: none;
 }
 
+
 .u3 {
     margin-right: 2.4rem;
     list-style: none;
-    width: 60px;
+     min-width: 70px; 
+    max-width: auto;
     height: 25px;
     border-radius: 30px;
-    background-color: #1cb454;
+    background-color: #8bdda9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u31 {
+    margin-right: 2.4rem;
+    list-style: none;
+     min-width: 70px; 
+    max-width: auto;
+    height: 25px;
+    border-radius: 30px;
+    background-color: rgba(255, 192, 203, 0.797);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u32 {
+    margin-right: 2.4rem;
+    list-style: none;
+    min-width: 70px; 
+    max-width: auto;
+    height: 25px;
+    border-radius: 30px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.u33 {
+    margin-right: 2.4rem;
+    list-style: none;
+    min-width: 70px; 
+    max-width: auto;
+    height: 25px;
+    border-radius: 30px;
+    background-color: rgb(226, 160, 226);
     display: flex;
     justify-content: center;
     align-items: center;

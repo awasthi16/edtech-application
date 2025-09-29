@@ -37,10 +37,10 @@ import "./Internships.css"
               </div>
               <div className="Internshipsdivbox2">
                 <div className="Internshipsdivbox2a" >
-                  <button onClick={aa} >Courses</button>
+                  <button className='ranu1' onClick={aa} >Courses</button>
                 </div>
                 <div className="Internshipsdivbox2b">
-                  <button  onClick={bb}>Training Features</button>
+                  <button className='ranu1' onClick={bb}>Training Features</button>
                 </div>
            </div>
            {/* ############# */}
