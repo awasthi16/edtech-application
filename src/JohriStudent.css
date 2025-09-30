@@ -1,0 +1,483 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+.studentdiv1
+{ 
+  width: 100%;
+  height:630px;
+  background-color: rgb(250,251,255);
+  border-radius: 5px;
+}
+.studentdiv1a
+{
+  display: flex;
+  width: 98%;
+  height: 80px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.studentdiv1a1
+{
+ 
+  width: 50%;
+  height: 80px;
+
+}
+.studentdiv1a1 h2{
+  display: flex;
+  position: relative;
+  top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+
+}
+.studentdiv1a1 p{
+   position: relative;
+  top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+.studentdiv1a2
+{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 50%;
+  height: 80px;
+ 
+}
+.studentdiv1a2-box
+{
+  gap: 20px;
+  width:280px;
+  height: 50px;
+  border: 1px solid rgb(168, 165, 165);
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.studentdiv1a2-box  svg{
+  position: relative;
+  top: 3px;
+  left: 10px;
+  margin-left: 8px;
+}
+.studentdiv1a2-box input{
+
+ width: 200px;
+ height: 50px;
+ border: none;
+ outline: none;
+ position: relative;
+ left: 20px;
+ background-color: rgb(250,251,255);
+ font-size:17px;
+ color: gray;
+}
+
+.studentdiv1b
+{
+  display:flex;
+  align-items: center;
+  width: 98%;
+  height: 100px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgb(252,253,255);
+}
+.studentdiv1b1
+{
+  display: flex;
+  width:50%;
+  height: 100px;
+
+}
+.studentdiv1b1a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:10%;
+  height: 100px;
+ 
+}
+.studentdiv1b1abox
+{
+display: flex;
+align-items: center;
+justify-content: center;
+width:40px;
+height:40px;
+background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
+border-radius: 50%;
+  
+}
+.studentdiv1b1b
+{
+  width:90%;
+  height: 100px;
+  
+}
+.studentdiv1b1b ul{
+  position: relative;
+  top: 20px;
+  list-style-type: none;
+  line-height: 23px;
+}
+.studentdiv1b1b ul li{
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.studentdiv1b1b ul li p{
+  color: gray;
+}
+.studentdiv1b2
+{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width:50%;
+  height: 100px;
+  
+}
+.studentdiv1b2box
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:220px;
+  height:60px;
+ 
+}
+#studentwithoutborder1
+{
+  width: 60px;
+  border-radius: 10px;
+  background-color:rgb(254,245,195);
+  height: 20px;
+  border: none;
+  outline: none;
+  font-weight: 550;
+  color: rgb(133,77,14);
+}
+#studentwithoutborder1:hover{
+  background-color: rgb(63,69,85);
+}
+#studentwidthborder1
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgb(168, 168, 168);
+  background-color: white;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight: 550;
+}
+#studentwidthborder1:hover{
+  background-color: rgb(241,245,249);
+}
+.studentdiv1c
+{
+  display: flex;
+  width: 98%;
+  height: 100px;
+    margin: 20px;
+     border-radius: 10px;
+     background-color: rgb(252,253,255);
+}
+.studentdiv1c1
+{
+  display: flex;
+  width:50%;
+  height: 100px;
+ 
+}
+.studentdiv1c1a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:10%;
+  height: 100px;
+
+}
+.studentdiv1c1abox
+{
+display: flex;
+align-items: center;
+justify-content: center;
+  width:40px;
+  height:40px;
+  background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
+  border-radius: 50%;
+  
+}
+.studentdiv1c1b
+{
+  width:90%;
+  height: 100px;
+ 
+}
+.studentdiv1c1b ul{
+  position: relative;
+  top: 20px;
+  list-style-type: none;
+  line-height: 23px;
+}
+.studentdiv1c1b ul li{
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.studentdiv1c1b ul li p{
+  color: gray;
+}
+.studentdiv1c2
+{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width:50%;
+  height: 100px;
+
+}
+.studentdiv1c2box
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:220px;
+  height:60px;
+ 
+}
+#studentwithoutborder2
+{
+  width: 50px;
+  border-radius: 10px;
+  background-color:rgb(241,253,246);
+  height: 20px;
+  border: none;
+  outline: none;
+  font-weight: 550;
+  color: rgb(22,101,52);
+}
+#studentwithoutborder2:hover{
+  background-color: rgb(63,69,85);
+}
+#studentwidthborder2
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgb(168, 168, 168);
+  background-color: white;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight: 550;
+}
+#studentwidthborder2:hover{
+  background-color: rgb(241,245,249);
+}
+
+
+
+
+
+.studentdiv1d
+{
+  display: flex;
+  width: 98%;
+  height: 100px;
+
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgb(252,253,255);
+}
+.studentdiv1d1
+{
+  display: flex;
+  width:50%;
+  height: 100px;
+
+}
+.studentdiv1d1a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:10%;
+  height: 100px;
+
+}
+.studentdiv1d1abox
+{
+display: flex;
+align-items: center;
+justify-content: center;
+  width:40px;
+  height:40px;
+background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
+  border-radius: 50%;
+  
+}
+.studentdiv1d1b
+{
+  width:90%;
+  height: 100px;
+
+}
+.studentdiv1d1b ul{
+  position: relative;
+  top: 20px;
+  list-style-type: none;
+  line-height: 23px;
+}
+.studentdiv1d1b ul li{
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.studentdiv1d1b ul li p{
+  color: gray;
+}
+.studentdiv1d2
+{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width:50%;
+  height: 100px;
+ 
+}
+.studentdiv1d2box
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:240px;
+  height:60px;
+  
+}
+#studentwithoutborder3
+{
+  width: 80px;
+  border-radius: 10px;
+  background-color:rgb(254,226,226);
+  height: 20px;
+  border: none;
+  outline: none;
+  font-weight: 550;
+  color: rgb(132,37,41);
+}
+#studentwithoutborder3:hover{
+  background-color: rgb(63,69,85);
+}
+#studentwidthborder3
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgb(168, 168, 168);
+  background-color: white;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight: 550;
+}
+#studentwidthborder3:hover{
+  background-color: rgb(241,245,249);
+}
+.studentdiv1e
+{
+  display: flex;
+  width: 98%;
+  height: 100px;
+ 
+    margin: 20px;
+     border-radius: 10px;
+     background-color: rgb(252,253,255);
+}
+
+.studentdiv1e1
+{
+  display: flex;
+  width:50%;
+  height: 100px;
+
+}
+.studentdiv1e1a
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:10%;
+  height: 100px;
+
+}
+.studentdiv1e1abox
+{
+display: flex;
+align-items: center;
+justify-content: center;
+  width:40px;
+  height:40px;
+background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
+  border-radius: 50%;
+  
+}
+.studentdiv1e1b
+{
+  width:90%;
+  height: 100px;
+ 
+}
+.studentdiv1e1b ul{
+  position: relative;
+  top: 20px;
+  list-style-type: none;
+  line-height: 23px;
+}
+.studentdiv1e1b ul li{
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.studentdiv1e1b ul li p{
+  color: gray;
+}
+.studentdiv1e2
+{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width:50%;
+  height: 100px;
+
+}
+.studentdiv1e2box
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:240px;
+  height:60px;
+
+}
+#studentwithoutborder4
+{
+  width: 80px;
+  border-radius: 10px;
+  background-color:rgb(254,226,226);
+  height: 20px;
+  border: none;
+  outline: none;
+  font-weight: 550;
+  color: rgb(132,37,41);
+}
+#studentwithoutborder4:hover{
+  background-color: rgb(63,69,85);
+}
+#studentwidthborder4
+{
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgb(168, 168, 168);
+  background-color: white;
+  border-radius: 5px;
+  font-size:16px;
+  font-weight: 550;
+}
+#studentwidthborder4:hover{
+  background-color: rgb(241,245,249);
+}

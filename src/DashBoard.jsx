@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import style from "./Dashboard.module.css"
+import Student from './Student'
+import Faculty from './Faculty'
 // import Chart from './Chart'
 
 
@@ -51,8 +53,8 @@ const DashBoard = () => {
 
 
           {/* ..................................................................................... */}
-          {Students && <div className={style.student}>  student</div>}
-          {facultys && <div className={style.faculty}> faculty </div>}
+          {Students && <div className={style.student}><Student/></div>}
+          {facultys && <div className={style.faculty}><Faculty/></div>}
 
           {/* ........................... .......................................................*/}
           {Analytics && <div className={style.analytics}>

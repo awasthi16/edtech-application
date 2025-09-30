@@ -1,0 +1,422 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.reminderbox
+{
+  width: 100%;
+  height: 750px;
+  background-color: rgb(250,251,255);
+  border-radius: 10px;
+}
+.reminderbox1
+{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 98%;
+  height: 80px;
+ 
+  border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.reminderbox1 ul{
+  list-style-type: none;
+   
+}
+.reminderbox1 h2{
+   color: rgb(2,8,23);
+   font-size: 28px;
+   display: flex;
+}
+.reminderbox1 p{
+   color: rgb(100,116,139);
+   font-size:16px;
+}
+.reminderbox2
+{
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+  width: 98%;
+  height: 130px;
+
+  border-radius: 10px;
+  background-color: rgb(239,68,68);
+}
+.reminderbox2a
+{
+  display: flex;
+  width: 99.6%;
+  height: 130px;
+ 
+  border-radius: 10px;
+  background-color: rgb(254,242,242);
+}
+.reminderbox2a1
+{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 130px;
+  
+
+}
+.reminderbox2a1a
+{
+  display: flex;
+  justify-content: end;
+  width: 5%;
+  height: 100px;
+
+}
+.reminderbox2a1a svg{
+  position: relative;
+  top: 5px;
+}
+.reminderbox2a1b
+{
+  width: 95%;
+  height: 100px;
+
+}
+.reminderbox2a1b ul{
+  line-height: 33px;
+  list-style-type: none;
+
+  height: 100px;
+ 
+}
+.reminderbox2a1b ul li
+{
+  width: 90%;
+  position: relative;
+  left:5px
+}
+.reminderbox2a1b ul li h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+.reminderbox2a1b ul li p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97,104,116);
+}
+.reminderbox2a2
+{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  height: 130px;
+
+}
+.reminderbox2a2a
+{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+  width: 160px;
+  height: 65px;
+
+}
+
+#reminderEdit
+{
+  width: 60px;
+  height: 38px;
+  border: 1px solid rgb(168, 168, 168);
+  background-color: white;
+  border-radius: 5px;
+  font-size:15px;
+  font-weight: 550;
+}
+#reminderEdit:hover
+{
+  background-color: rgb(241,245,249);
+}
+#reminderSend
+{
+  width: 60px;
+  height: 40px;
+  border: none;
+  background:linear-gradient(270deg,rgb(203,79,199),rgb(134, 43, 192));
+  border-radius: 5px;
+  font-size:16px;
+  font-weight: 550;
+  color: white;
+ 
+}
+.reminderbox3
+{
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+  width: 98%;
+  height: 130px;
+  border-radius: 10px;
+  background-color: rgb(234,179,8);
+}
+
+.reminderbox3a
+{
+  display: flex;
+  width: 99.6%;
+  height: 130px;
+
+  border-radius: 10px;
+  background-color: rgb(254,252,232);
+}
+.reminderbox3a1
+{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 130px;
+ 
+}
+.reminderbox3a1a
+{
+  display: flex;
+  justify-content: end;
+  width: 5%;
+  height: 100px;
+
+}
+.reminderbox3a1a svg{
+  position: relative;
+  top: 5px;
+}
+.reminderbox3a1b
+{
+  width: 95%;
+  height: 100px;
+ 
+}
+.reminderbox3a1b ul{
+  line-height: 33px;
+  list-style-type: none;
+
+  height: 100px;
+ 
+}
+.reminderbox3a1b ul li
+{
+  width: 90%;
+  position: relative;
+  left:5px
+}
+.reminderbox3a1b ul li h2{
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   display: flex;
+}
+.reminderbox3a1b ul li p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97,104,116);
+  
+}
+.reminderbox3a2
+{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  height: 130px;
+
+}
+.reminderbox3a2a
+{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+  width: 160px;
+  height: 65px;
+ 
+}
+
+
+.reminderbox4
+{
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+  width: 98%;
+  height:130px;
+
+  background-color: rgb(59,130,246);
+  border-radius: 10px;
+}
+
+
+
+
+.reminderbox4a
+{
+  display: flex;
+  width: 99.6%;
+  height: 130px;
+
+  border-radius: 10px;
+  background-color: rgb(239,246,255);
+}
+.reminderbox4a1
+{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 130px;
+
+}
+.reminderbox4a1a
+{
+  display: flex;
+  justify-content: end;
+  width: 5%;
+  height: 100px;
+
+}
+.reminderbox4a1a svg{
+  position: relative;
+  top: 5px;
+}
+.reminderbox4a1b
+{
+  width: 95%;
+  height: 100px;
+
+}
+.reminderbox4a1b ul{
+  line-height: 33px;
+  list-style-type: none;
+
+  height: 100px;
+ 
+}
+.reminderbox4a1b ul li
+{
+  width: 90%;
+  position: relative;
+  left:5px
+}
+.reminderbox4a1b ul li h2{
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   display: flex;
+}
+.reminderbox4a1b ul li p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97,104,116);
+  
+}
+.reminderbox4a2
+{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  height: 130px;
+ 
+}
+.reminderbox4a2a
+{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+  width: 160px;
+  height: 65px;
+  
+}
+
+
+.reminderbox5
+{
+  display: flex;
+  justify-content: end;
+  margin: 20px;
+  width: 98%;
+  height: 130px;
+ 
+  background-color: rgb(234,179,8);
+  border-radius: 10px;
+}
+
+
+.reminderbox5a
+{
+  display: flex;
+  width: 99.6%;
+  height: 130px;
+
+  border-radius: 10px;
+  background-color: rgb(254,252,232);
+}
+.reminderbox5a1
+{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 130px;
+
+}
+.reminderbox5a1a
+{
+  display: flex;
+  justify-content: end;
+  width: 5%;
+  height: 100px;
+
+}
+.reminderbox5a1a svg{
+  position: relative;
+  top: 5px;
+}
+.reminderbox5a1b
+{
+  width: 95%;
+  height: 100px;
+
+}
+.reminderbox5a1b ul{
+  line-height: 33px;
+  list-style-type: none;
+
+  height: 100px;
+ 
+}
+.reminderbox5a1b ul li
+{
+  width: 90%;
+  position: relative;
+  left:5px
+}
+.reminderbox5a1b ul li h2{
+  font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+
+   display: flex;
+}
+.reminderbox5a1b ul li p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97,104,116);
+  
+}
+.reminderbox5a2
+{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  height: 130px;
+
+}
+.reminderbox5a2a
+{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+  width: 160px;
+  height: 65px;
+
+}
+
