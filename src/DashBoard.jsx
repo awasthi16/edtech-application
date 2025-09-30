@@ -330,9 +330,6 @@ const DashBoard = () => {
                   <button className={style.emailsettingss}> Email settings</button> <button className={style.emailsettingss}>schedule config</button> <button className={style.emailsettingss}>Securtiy Settings</button>
                   <br /><br />
 
-
-
-
                 </div>
               </div>
             }

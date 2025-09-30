@@ -1257,14 +1257,13 @@ height: 1360px;
 .fullstackdiv7b1
 {
   display: flex;
-   
   font-size: 20px;
   width: 200px;
   height: 70px;
 
 }
 .fullstackdiv7b1 p{
-    position: relative;
+ position: relative;
   left: 25px;
   top: 5px;
 }

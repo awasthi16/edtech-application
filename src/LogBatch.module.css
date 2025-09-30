@@ -1,0 +1,28 @@
+.fromdiv {
+    margin-left: 5rem;
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px 10px gray, 5px 5px 10px 10px rgb(234, 0, 255);
+}
+
+.co {
+    margin-top: 1rem;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.da {
+    margin-top: 1rem;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.da1 {
+    margin-top: 1rem;
+    width: 280px;
+    border-radius: 10px;
+    margin-left: 2rem;
+}

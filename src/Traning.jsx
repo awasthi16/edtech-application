@@ -5,6 +5,7 @@ import Job from './Job'
 import Blog from './Blog'
 import InterviewQuestion from './InterviewQuestion'
 import DashBoard from './DashBoard'
+import LogBatch from './LogBatch'
 // import Admine from './Admine'
 // import DashBoard from './DashBoard'
 
@@ -313,7 +314,6 @@ const Traning = ({ todo }) => {
       <PlaceMent />
       <Job />
 
-     
     
     </>
 
