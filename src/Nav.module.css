@@ -247,10 +247,10 @@ border-radius: 7px;
 li a:hover{
   color: #0D6EFD;
 }
-li:hover{
+/* li:hover{
 color: #0D6EFD;
 
-}
+} */
 li a{
   text-decoration: none;
 }
