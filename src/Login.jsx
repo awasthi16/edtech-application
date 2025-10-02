@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import "./Login.css"
+import style from "./Login.module.css"
 const Login = () => {
   const [FullName, setFullName] = useState("")
   const [MobileNumber, setMobileNumber] = useState("")
   const [Emailaddress, setEmailaddress] = useState("")
-  
+  const [password, setpassword] = useState("")
 
   const [msg, setmsg] = useState("")
   const [check, setcheck] = useState("")
@@ -13,12 +13,13 @@ const Login = () => {
 
 
 
+
   const collect =async()=>{
     
     console.warn(FullName,MobileNumber,Emailaddress)
     let result=await fetch("http://localhost:5600/signup",{
       method:"post",
-      body:JSON.stringify({FullName:FullName,Email:Emailaddress,Mobile:MobileNumber}),
+      body:JSON.stringify({username:FullName,Email:Emailaddress,Mobile:MobileNumber,password}),
       headers:{"content-type":"application/json"}
     })
     result=await result.json()
@@ -49,27 +50,27 @@ const Login = () => {
 
 
   const Add =async()=>{
-    
     console.warn(MobileNumber)
     let result=await fetch("http://localhost:5600/login",{
       method:"post",
-      body:JSON.stringify({Mobile:MobileNumber}),
+      body:JSON.stringify({username:FullName,password}),
       headers:{"content-type":"application/json"}
     })
     result=await result.json()
     console.log(result);
-    localStorage.setItem("user1",JSON.stringify(result))
+    localStorage.setItem("user2",JSON.stringify(result))
     
   }
+
 
 
   return (
 
     <div>
 
-      <div className="logsign">
-        <div className="login">
-          <div className="sl">
+      <div className={style.logsign}>
+        <div className={style.login}>
+          <div className={style.sl}>
             <ul>
               <li onClick={() => { setop(true), setop1(false) }}>Signup</li>
               <li onClick={() => { setop(false), setop1(true) }}  >Login</li>
@@ -78,52 +79,54 @@ const Login = () => {
           <hr />
 
           {/* ------------------- */}
-          {op && <div className="sp">
+          {op && <div className={style.sp}>
             <h2>Signup</h2>
-            <h2>  Zint account</h2>
-            <div className="input-div">
-              <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
+            <h2> Zint account</h2>
+            <div className={style.inputdiv}>
+             <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
 
               <input type="tel" placeholder='Mobile Number' onChange={(e) => setMobileNumber(e.target.value)} />
               <input type="email" placeholder='Email address' onChange={(e) => setEmailaddress(e.target.value)} />
+              <input type="password" placeholder='password' onChange={(e) => setpassword(e.target.value)} />
             </div>
-            <div className="checkbox">
+            <div className={style.checkbox}>
               <input type="checkbox" placeholder='' onChange={(e) => setcheck(e.target.value)} />I accept Zint Institute Terms of Use and Privacy Notice.
 
             </div>
-            <div className="para">
+            <div className={style.para}>
               <p>{msg}</p>
 
             </div>
 
-            <div className="btnn">
+            <div className="bttn">
               <button onClick={collect}>  Submit</button>
             </div>
           </div>
           }
           {/* -----------login ----------------- */}
           {
-            op1 && <div className="lp">
+            op1 && <div className={style.lp}>
               <h2>Login</h2>
               <h2>  Zint account</h2>
 
 
-              <div className="input-box">
+              <div className={style.inputbox}>
 
-                <div className="box1">
+                <div className={style.box1}>
                   +91
                 </div>
-                <div className="box22">
-                  <input id="ranu" type="tel" placeholder=' Mobile Number' onChange={(e) => setMobileNumber(e.target.value)} />
+                <div className={style.box22}>
+              <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
+              <input type="password" placeholder='password' onChange={(e) => setpassword(e.target.value)} />
                 </div>
 
               </div>
 
 
-              <div className="para"><p>{msg}</p></div>
+              <div className={style.para}><p>{msg}</p></div>
 
               <div className="btnn">
-                <button onClick={Add}>Submit</button>
+                <button  onClick={Add}>  Submit</button>
               </div>
             </div>
           }

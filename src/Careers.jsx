@@ -8,6 +8,7 @@ const Careers = () => {
     <h1>Careers</h1>
     <div className="firsttt">
       <img className='first_img' src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712580881781.jpg" alt="" width={650} height={450}/>
+    {/* <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712580881781.jpg" alt="" width="550px"  /> */}
 
       <div className="msg1">
         <p>

@@ -297,7 +297,7 @@ const Footer = () => {
             <p>Copyright © 2025. Naresh i Technologies</p>
           </div>
           <div className="footerbox2-div8">
-            <p>Developed By: <span><img src="/tvisha_logo.svg" alt="" /></span></p>
+            <p>Developed By: Durgesh Awasthi</p>
           </div>
 
         </div>

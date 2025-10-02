@@ -36,15 +36,13 @@
   width: 100%;
   height: 100px;
   cursor: pointer;
-  background-color: whitesmoke;
+  background-color: #F9FCFB;
   display: flex;
   justify-content: start;
   align-items: center;
   
 }
-/* .left{
-  margin-left: 2.55rem;
-} */
+
 /* ............center........... */
 .center{
   width: 340px;
@@ -64,7 +62,7 @@ input{
   color: rgba(0, 0, 0, 0.624);
   /* remove input border */
   margin-left: 2rem;
-  background-color: whitesmoke;
+  background-color: #F9FCFB;
 
 }
 
