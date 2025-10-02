@@ -11,12 +11,14 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 22px;
 }
 
 .bnav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     gap: 40px;
     list-style: none;
     flex-wrap: wrap; /* Wraps on smaller screens */
@@ -42,24 +44,25 @@
 }
 
 /* Card styles */
-.c1 {
+.c11 {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     width: 260px;
     border: 1px solid grey;
-    transition: transform 0.3s, box-shadow 0.3s;
     background: white;
+    transition: all 0.5s ease-in 0s;
+
 }
 
-.c1:hover {
+.c11:hover {
     box-shadow: 0 0 25px 0 grey;
-    transform: translateY(-10px);
+    transform: translateY(-20px);
 }
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
-    .c1 {
+    .c11 {
         width: 220px;
     }
 }
@@ -68,7 +71,7 @@
     .bnav ul {
         gap: 20px;
     }
-    .c1 {
+    .c11 {
         width: 180px;
     }
     .t1, .t2, .t3, .t4, .t5, .t6 {
@@ -86,8 +89,14 @@
         flex-direction: column;
         gap: 10px;
     }
-    .c1 {
+    .c11 {
         width: 100%;   /* cards full width on small screens */
         max-width: 350px;
+
     }
+}
+.ca img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }

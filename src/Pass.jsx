@@ -23,6 +23,8 @@ const Pass = () => {
             <li onClick={() => { sett6(true), sett1(false), sett2(false), sett3(false), sett4(false), sett5(false); }}>Certification courses</li>
           </ul>
         </div>
+        <hr/>
+        <br/>
 
         {t1 &&
           <div className="t1">

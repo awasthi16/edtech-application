@@ -7,8 +7,8 @@ const OurTheme = () => {
  <div class="pra-div">
     
     <div class="content">
-      <h2>Our Theme</h2>
-      <h3>"Innovating Tomorrow :Empowering Through Technology"</h3>
+      <a>Our Theme</a>
+      <h6>"Innovating Tomorrow :Empowering Through Technology"</h6>
       <p>
         Welcome to the heart of our organisation's theme, "Innovating Tomorrow: Empowering Through Technology." It encapsulates our commitment to pushing the boundaries of what's possible in the dynamic landscape of the IT industry.
       </p>
@@ -37,7 +37,7 @@ const OurTheme = () => {
 
    
     <div class="enquiry">
-      <h3>Enquiry</h3>
+      <h5>Enquiry</h5>
       <form >
         <input type="text" placeholder="Full Name"/>
         <input type="email" placeholder="Email address"/>

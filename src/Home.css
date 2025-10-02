@@ -66,26 +66,39 @@
   flex-direction: column;
   border-radius: 10px;
   width: 260px;
-  border: 1px solid grey;
+  border: 1.5px solid rgb(230, 225, 225);
+  font-family: Arial, Helvetica, sans-serif;
+
+  transition: all .5s ease-in 0s;
+}
+.c1:hover{
+  transform: rotateY(-20px);
 }
 
 .c1a {
   margin-left: 10px;
+
 }
 
 .c1 img {
   border-radius: 10px 10px 0 0;
+
 }
 
 .cc {
   margin-top: 8px;
+
 }
+
 
 .cd p {
   display: flex;
   align-items: center;
-  color: grey;
-  gap: 5px;
+  color: rgb(75, 74, 74);
+  gap: 15px;
+  font-size: 14px;
+  /* border: 1px solid black; */
+  padding: 5px;
 }
 
 .ce {
@@ -97,12 +110,13 @@
 .l {
   width: 50%;
   height: 35px;
-  background-color: blue;
+  background-color: rgb(12, 94, 218);
   color: white;
   border: 1px solid grey;
   border-radius: 0 0 0 10px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .l:hover {
@@ -118,15 +132,16 @@
   width: 50%;
   height: 35px;
   border-radius: 0 0 10px 0;
-  border: 1px solid grey;
+  border: 1px solid rgb(220, 218, 218);
   cursor: pointer;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  font-size: 15px;
-  gap: 5px;
+  font-size: 13px;
+  gap: 10px;
+  font-weight: 500;
 }
 
 .c1:hover {
@@ -136,6 +151,7 @@
 
 .o {
   color: rgb(255, 135, 155);
+  font-size: 40px;
 }
 
 .an {
@@ -145,17 +161,24 @@
 .an h1 {
   display: flex;
   gap: 5px;
-
+  color: black;
+  font-size: 40px;
 }
 
 .k {
   color: rgb(37, 37, 37);
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .explore {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+   margin-top: 50px;
+   background-color: white;
 }
 
 .but {
@@ -164,10 +187,12 @@
   align-items: center;
   background: linear-gradient(90deg, rgb(102, 0, 102), rgb(96, 96, 255));
   color: white;
-  width: 250px;
-  height: 35px;
+  width: 270px;
+  height: 45px;
   border-radius: 10px;
   gap: 5px;
+  font-weight: 600;
+
 }
 
 .but:hover {
@@ -176,6 +201,7 @@
 
 .back {
   box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .tra {
@@ -183,6 +209,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .tr {
@@ -191,11 +218,15 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-size: 27px;
+  font-size: 40px;
 }
 
 .oo {
-  font-size: 30px;
+  font-size: 40px;
+}
+
+.oo p{
+  color: rgb(144, 143, 143);
 }
 
 .cards-section {
@@ -229,25 +260,40 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-content h3 {
   margin: 0 0 8px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .card-content p {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0 0 12px;
-  color: #444;
+  color: rgb(69, 68, 68);
+  font-weight: 600;
+  padding: 0px;
+  /* border: 1px solid black; */
+  margin: 3px;
+}
+
+.car p{
+  font-size: 23px;
+  color: #252525;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 4px;
 }
 
 .card-content a {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 15px;
+  /* font-weight: bold; */
   color: #0073e6;
   text-decoration: none;
+  padding-top: 15px;
 }
 
 .card-content a:hover {
@@ -255,13 +301,13 @@
 }
 
 .values-section {
-  background: linear-gradient(135deg, #0a0f2d, #001f3f);
+  background: linear-gradient(135deg, #040717, #001f3f);
   color: #fff;
-  padding: 50px 10%;
-  font-family: Arial, sans-serif;
+  padding: 50px 10%; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.values-header h4 {
+.values-header a {
   color: #a68efc;
   font-size: 30px;
   margin-bottom: 10px;
@@ -271,9 +317,12 @@
 }
 
 .values-header h1 {
-  font-size: 32px;
+  font-size: 33px;
   margin: 15px 0;
   line-height: 1.4;
+  font-weight: 200;
+  /* border: 1px solid rgb(236, 233, 233); */
+  width: 800px;
 }
 
 .values-header h1 {
@@ -290,6 +339,8 @@
   max-width: 800px;
   line-height: 1.6;
   color: #d6d6d6;
+  font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid white; */
 }
 
 .values-content {
@@ -326,10 +377,20 @@
 }
 
 .belief-box h2 {
-  font-size: 22px;
+  font-size: 27px;
   margin-bottom: 15px;
   color: #e1e1e1;
   margin-left: 0px;
+   background: linear-gradient(90deg, blue, rgb(0, 225, 255), yellow, pink, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  /* border: 1px solid white; */
+  justify-content: flex-start;
+  font-weight: 200;
+  display: flex;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .belief-box p {
@@ -341,7 +402,7 @@
 
 
 .beliefs-section {
-  background: linear-gradient(135deg, #0a0f2d, #001f3f);
+  background: linear-gradient(135deg, #05091e, #0b2542);
   color: #fff;
   padding: 50px 10%;
   font-family: Arial, sans-serif;
@@ -396,15 +457,24 @@
 }
 
 .belief-text h3 {
-  font-size: 22px;
+  font-size: 27px;
   margin-bottom: 10px;
   color: #e1e1e1;
+   font-family: Arial, Helvetica, sans-serif;
+   background: linear-gradient(90deg, blue, rgb(0, 225, 255), yellow, pink, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: 200;
 }
 
 .belief-text p {
   font-size: 15px;
   line-height: 1.6;
   color: #cfcfcf;
+  /* border: 1px solid white; */
+  width: 600px;
 }
 
 .domain {
@@ -412,17 +482,32 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .domain p {
   display: flex;
   gap: 5px;
 }
-
-.do h1 {
-  color: cyan;
+.domain h1{
+  color: black;
 }
 
+.do h1 {
+  /* color: cyan; */
+   background: linear-gradient(90deg, rgb(69, 131, 245), rgb(110, 242, 238));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.ex{
+  font-size: 16px;
+  /* border: 1px solid black; */
+  padding-top: 7px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 20px;
+}
 
 .courses-section {
   display: grid;
@@ -433,7 +518,8 @@
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 55px;
   padding: 30px 10%;
-
+  /* border: 1px solid black; */
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .course-card {
@@ -471,17 +557,18 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  
 }
 
 
 .corporate-section {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center;
+  justify-content: center; */
   padding: 50px 10%;
   background: #1e1e1e;
   color: #fff;
-  gap: 40px;
+  /* gap: 50px; */
   flex-wrap: wrap;
   font-family: Arial, sans-serif;
 }
@@ -489,24 +576,36 @@
 .corporate-content {
   flex: 1;
   min-width: 300px;
+  /* border: 1px solid white; */
+  margin-right: 50px;
 }
 
 .corporate-content h2 {
   font-size: 28px;
   margin-bottom: 15px;
   margin-left: -2px;
+  color: white;
+  font-weight: 200;
+  margin-right: 60px;
 }
 
 .corporate-content .highlight {
   color: #4a90e2;
   font-size: 30px;
+   background: linear-gradient(90deg, rgb(69, 131, 245), rgb(110, 242, 238));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .corporate-content p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
   margin-bottom: 20px;
   color: #d6d6d6;
+  padding: 10px;
+ /* border: 1px solid white; */
 }
 
 .view-more {
@@ -528,13 +627,15 @@
 
 .btn {
   display: inline-block;
-  background: linear-gradient(to right, #4a90e2, #0099ff);
+  background: linear-gradient(90deg, rgb(102, 0, 102), rgb(96, 96, 255));
   color: #fff;
   padding: 12px 28px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
+  width: 120px;
+  height: 20px;
 }
 
 .btn:hover {
@@ -545,11 +646,13 @@
   flex: 1;
   min-width: 300px;
   text-align: right;
+  /* border: 1px solid white; */
 }
 
 .corporate-image img {
   max-width: 100%;
   border-radius: 10px;
+  border: 1px solid white;
 }
 
 
@@ -604,12 +707,16 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+  font-family: Arial, sans-serif ;
+  font-weight: 100;
+ 
 }
 
 .home-review1 span {
   position: relative;
   left: 60px;
   font-size: 18px;
+   font-family: Arial, sans-serif ;
 }
 
 .home-review1 h1 {
@@ -619,6 +726,8 @@
   align-items: start;
   position: relative;
   left: 60px;
+  color:black;
+
 }
 
 .home-review2 {
@@ -684,14 +793,22 @@
 .blog-section {
   text-align: center;
   padding: 40px 20px;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(247, 247, 247);
+  font-family: Arial, sans-serif;
 }
 
 .blog-section h2 {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 550;
   margin-bottom: 10px;
 }
+.blog-section span {
+  font-size: 34px;
+  font-weight: 550;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
 
 .blog-section .highlight {
   color: #00c3a5; /* teal like in your screenshot */
@@ -950,29 +1067,41 @@
 }
 
 .contact-info h2 {
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 10px;
   position: relative;
   left: -30px;
+  justify-content: flex-start;
+  font-family:Arial, sans-serif;
+  display: flex;
+  margin-left: 30px;
+  font-size: 33px;
 }
 
 .contact-info .highlight {
-  color: purple;
-  font-size: 28px;
+  color: rgb(179, 7, 179);
+  font-size: 33px;
 }
 
 .contact-info p {
   margin-bottom: 20px;
   color: #555;
+  font-size: 18px;
 }
 
 .info-item {
   margin: 15px 0;
+  font-size: 30px;
 }
 
 .info-item strong {
   display: inline-block;
   width: 90px;
+  font-size: 20px;
+}
+.info-item span{
+    font-size: 18px;
+    font-weight: 200;
 }
 
 .contact-map {
