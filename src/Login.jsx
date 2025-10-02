@@ -4,7 +4,8 @@ const Login = () => {
   const [FullName, setFullName] = useState("")
   const [MobileNumber, setMobileNumber] = useState("")
   const [Emailaddress, setEmailaddress] = useState("")
-  const [todo, settodo] = useState([])
+  const [password, setpassword] = useState("")
+
   const [msg, setmsg] = useState("")
   const [check, setcheck] = useState("")
   const [op, setop] = useState(true)
@@ -12,7 +13,20 @@ const Login = () => {
 
 
 
-  function Add() {
+
+  const collect =async()=>{
+    
+    console.warn(FullName,MobileNumber,Emailaddress)
+    let result=await fetch("http://localhost:5600/signup",{
+      method:"post",
+      body:JSON.stringify({username:FullName,Email:Emailaddress,Mobile:MobileNumber,password}),
+      headers:{"content-type":"application/json"}
+    })
+    result=await result.json()
+    console.log(result);
+    localStorage.setItem("user1",JSON.stringify(result))
+    
+
     const q = "@"
     if (check.length == 0) {
       setmsg("Please accept terms and condition")
@@ -29,13 +43,25 @@ const Login = () => {
     else if (Emailaddress == q) {
       setmsg("email is not applicable")
     }
-
-    else {
-      const as = [...todo, { FullName, MobileNumber, Emailaddress, check }]
-      settodo(as)
+   else {
       setmsg("Submitted")
     }
   }
+
+
+  const Add =async()=>{
+    console.warn(MobileNumber)
+    let result=await fetch("http://localhost:5600/login",{
+      method:"post",
+      body:JSON.stringify({username:FullName,password}),
+      headers:{"content-type":"application/json"}
+    })
+    result=await result.json()
+    console.log(result);
+    localStorage.setItem("user2",JSON.stringify(result))
+    
+  }
+
 
 
   return (
@@ -57,10 +83,11 @@ const Login = () => {
             <h2>Signup</h2>
             <h2> Zint account</h2>
             <div className={style.inputdiv}>
-              <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
+             <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
 
               <input type="tel" placeholder='Mobile Number' onChange={(e) => setMobileNumber(e.target.value)} />
               <input type="email" placeholder='Email address' onChange={(e) => setEmailaddress(e.target.value)} />
+              <input type="password" placeholder='password' onChange={(e) => setpassword(e.target.value)} />
             </div>
             <div className={style.checkbox}>
               <input type="checkbox" placeholder='' onChange={(e) => setcheck(e.target.value)} />I accept Zint Institute Terms of Use and Privacy Notice.
@@ -72,7 +99,7 @@ const Login = () => {
             </div>
 
             <div className="bttn">
-              <button onClick={Add}>  Submit</button>
+              <button onClick={collect}>  Submit</button>
             </div>
           </div>
           }
@@ -89,7 +116,8 @@ const Login = () => {
                   +91
                 </div>
                 <div className={style.box22}>
-                  <input id="ranu" type="tel" placeholder=' Mobile Number' onChange={(e) => setMobileNumber(e.target.value)} />
+              <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
+              <input type="password" placeholder='password' onChange={(e) => setpassword(e.target.value)} />
                 </div>
 
               </div>

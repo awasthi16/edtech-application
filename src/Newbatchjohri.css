@@ -1,0 +1,372 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.newbatchtrainingdiv1
+{
+  width: 100%;
+  height: 170px;
+
+}
+.newbatchtrainingdiv1a
+{
+  width: 100%;
+  height: 100px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  display: flex;
+  align-items: end;
+}
+.newbatchtrainingdiv1a h1{
+  width: 95%;
+  position: relative;
+  left: 40px;
+  color: black;
+  
+}
+.newbatchtrainingdiv1b
+{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newbatchtrainingdiv1b p{
+   width: 95%;
+  position: relative;
+  left: 40px;
+  top: 10px;
+  letter-spacing:.3px;
+  font-size: 17px;
+}
+.newbatchtrainingdiv2
+{
+  width: 100%;
+  height: auto;
+
+
+}
+.newbatchtrainingdiv2box
+{
+  margin-left:30px;
+  width: 97%;
+  height: auto;
+  border: 1px solid rgb(222,226,230);
+  border-radius: 10px;
+ 
+
+
+}
+.newbatchtrainingdiv2boxdiv1
+{
+  display: flex;
+  align-items: end;
+  width: 100%;
+  height: 70px;
+  border: 1px solid  rgb(222,226,230);
+  background-color: rgb(245,245,245);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.newbatchtrainingdiv2boxdiv1 ul{
+  position: relative;
+  left: 15px;
+  width: 90%;
+  height:50px;
+  list-style-type: none;
+  display: flex;
+  align-items: end;
+  
+}
+.newbatchtrainingdiv2boxdiv1 ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  width: 170px;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+ 
+  color:rgb(17,17,17);
+}
+#newbatchtrainingsmall{
+   width: 100px;
+
+}
+.newbatchtrainingdiv2boxdiv1 ul li button
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  width: 170px;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight:550;
+  color:rgb(17,17,17);
+  border: none;
+  outline: none;
+}
+.newbatchtrainingdiv2boxdiv2
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  border: 1px solid  rgb(222,226,230);
+  background-color: white;
+  
+}
+.newbatchtrainingdiv2boxdiv2a
+{
+  
+  position: relative;
+  top: 6px;
+  display: flex;
+  width: 200px;
+  height: 50px;
+
+}
+.newbatchtrainingdiv2boxdiv2a1
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 50px;
+}
+.newbatchtrainingdiv2boxdiv2a2
+{
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 50px;
+
+}
+.newbatchtrainingdiv2boxdiv2a2 select
+{
+  width: 50px;
+  height: 30px;
+   font-size: 17px;
+}
+.newbatchtrainingdiv2boxdiv2a2 select option{
+  width: 50px;
+  height: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.newbatchtrainingdiv2boxdiv2b
+{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: 6px;
+
+}
+.newbatchtrainingdiv2boxdiv2b input{
+  width: 200px;
+  height: 40px;
+  font-size: larger;
+
+  position: relative;
+  right: 32px;
+}
+.newbatchtrainingdiv2boxdiv3
+{
+  background-color:rgb(208,215,225);
+  width: 100%;
+  height: 50px;
+   border-bottom: 1px solid black;
+}
+.newbatchtrainingdiv2boxdiv3 table
+{
+  width: 100%;
+  height: 50px;
+
+}
+#newbatchtraininggaplarge
+{
+  
+  width: 200px;
+  
+}
+.newbatchtrainingdiv2boxdiv3 table tr th{
+ 
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+}
+.newbatchtrainingdiv2boxdiv3 table tr th p{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 15px;
+
+}
+.newbatchtrainingdiv2boxdiv4
+{
+
+  width: 100%;
+  height:auto;
+
+
+}
+.newbatchtrainingdiv2boxdiv4a
+{
+    height:auto;
+
+}
+.newbatchtrainingdiv2boxdiv4a  table{
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+    
+}
+.newbatchtrainingdiv2boxdiv4a  table tr{
+    
+}
+
+#index
+{
+    width: 210px;
+    height: 45px;
+    padding-left: 15px;
+}
+#coursedata
+{
+    width: 317px;
+    height: 45px;
+}
+#facultydata
+{
+    width: 200px;
+    height: 45px;
+}
+#datedata
+{
+    width: 200px;
+    height: 45px;
+}
+#timedata
+{
+    width: 200px;
+    height: 45px;
+}
+.newbatchtrainingdiv2boxdiv4b
+{
+    height:auto;
+  background-color:  blue;
+}
+.newbatchtrainingdiv2boxdiv4c
+{
+    height:auto;
+  background-color: pink;
+}
+.newbatchtrainingdiv2boxdiv4d
+{
+  height:auto;
+  background-color: yellowgreen;
+}
+.newbatchtrainingdiv2boxdiv4e
+{  height:auto;
+  background-color:  black;
+}
+.newbatchtrainingdiv2boxdiv4f
+{
+    height:auto;
+  background-color: orange;
+}
+.newbatchtrainingdiv2boxdiv4g
+{
+    height:auto;
+  background-color: gray;
+}
+.newbatchtrainingdiv2boxdiv5
+{
+    
+  display: flex;
+  width: 100%;
+  height: 70px;
+  border-top: 1px solid black ;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.newbatchtrainingdiv2boxdiv5a
+{
+  width: 50%;
+  height: 70px;
+
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom-left-radius: 10px;
+
+}
+.newbatchtrainingdiv2boxdiv5a p
+{
+  position: relative;
+  top: 15px;
+}
+
+.newbatchtrainingdiv2boxdiv5b 
+{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  height: 70px;
+
+    border-bottom-right-radius: 10px;
+}
+.newbatchtrainingdiv2boxdiv5b1
+{
+width: 100px;
+height: 50px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+display: flex;
+align-items: center;
+}
+
+.newbatchtrainingdiv2boxdiv5b2
+{
+  position: relative;
+  top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+width: 50px;
+height: 50px;
+border: 1px solid rgb(151,151,151);
+background: linear-gradient(360deg,rgb(214, 213, 213),rgb(249,249,249));
+font-weight: 800;
+
+}
+.newbatchtrainingdiv2boxdiv5b2:active{
+  box-shadow: 2px 2px 2px 2px gray inset;
+}
+
+.newbatchtrainingdiv2boxdiv5b3
+{
+
+width: 80px;
+height: 50px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+}

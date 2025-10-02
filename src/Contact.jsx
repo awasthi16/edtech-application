@@ -2,28 +2,24 @@ import React, { useState } from 'react'
 import style from "./Contact.module.css"
 
   const Contact = () => {
-  const [task,settask] = useState ([])
-  const [name,setname] = useState("tiger")
+  const [name,setname] = useState("")
   const [email,setemail] = useState("")
   const [number,setnumber] = useState("")
   const [college,setcollege] = useState("")
   const [msg,setmsg] = useState("")
 
 
-
-
-  function ad(){
-
-    if(number>10){
-      setmsg("no. is not val")
-    }
-    else{
-      ("no. is valid")
-    }
-    const as = [...task,{name,email,number,college,msg}]
-    settask(as)
-    console.log(name)
-    confirm(as)
+   const collectData = async()=>{
+    console.warn(name,email,number,college,msg)
+    let result=await fetch("http://localhost:5600/contact",{
+      method:"post",
+      body:JSON.stringify({FullName:name,Email:email,Mobile:number,Company:college,Message:msg}),
+      headers:{"content-type":"application/json"}
+    })
+    result=await result.json()
+    console.log(result);
+    localStorage.setItem("contact",JSON.stringify(result))
+    
   }
 
   return (
@@ -60,7 +56,7 @@ import style from "./Contact.module.css"
                   </div>
                   
                   <div className={style.subbmit}>
-                                 <button onClick={ad} type='submit'>Submit</button>
+                                 <button onClick={collectData} type='submit'>Submit</button>
                       
                   </div>
                 
