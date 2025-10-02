@@ -7,7 +7,7 @@ const Careers = () => {
   <div className="career-main">
     <h1>Careers</h1>
     <div className="firsttt">
-      <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
+    <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1712580881781.jpg" alt="" width="550px"  />
 
       <div className="msg1">
         <p>

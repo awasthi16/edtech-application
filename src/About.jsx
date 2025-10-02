@@ -8,7 +8,7 @@ const About = () => {
     <div>
       <div className={style.Zint0}>
 <div className={style.image}>
-           <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" width={300} />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5xEbMAcczZCLCt3nsv0t00YlokUP0080jA&s" alt="" />
         </div>
     <div className={style.Zint1}>
       <h2>The New Way to <span className="span">success</span></h2>

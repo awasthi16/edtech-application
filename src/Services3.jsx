@@ -15,8 +15,7 @@ const Services3 = () => {
                 </div>
                 <div className="Services3div1b">
                   <div className="Services3div1b1">
-                    <img src="https://zintinstitute.com/wp-content/uploads/2022/08/logo-zint-png-format-2022.png" alt="" />
-
+                    <img src="https://s3.ap-south-1.amazonaws.com/nareshit.images/images/image_1706336807195.jpeg" alt="" />
 
                   </div>
                   <div className="Services3div1b2">
