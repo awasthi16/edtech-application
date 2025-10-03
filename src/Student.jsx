@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Student.css"
-import Fees from './fees'
+import Fees from './Fees'
 import Course from './Course'
 import Reminder from './Reminder'
 import JohriStudent from './JohriStudent'
