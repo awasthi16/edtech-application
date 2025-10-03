@@ -128,7 +128,7 @@ const Home = () => {
           </div>
           <div className="ce">
             <button className='l'>ENROLL</button>
-            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
             </svg> SHARE</button>
           </div>
@@ -171,7 +171,7 @@ const Home = () => {
           </div>
           <div className="ce">
             <button className='l'>ENROLL</button>
-            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
             </svg> SHARE</button>
           </div>
@@ -214,7 +214,7 @@ const Home = () => {
           </div>
           <div className="ce">
             <button className='l'>ENROLL</button>
-            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
             </svg> SHARE</button>
           </div>
@@ -257,7 +257,7 @@ const Home = () => {
           </div>
           <div className="ce">
             <button className='l'>ENROLL</button>
-            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+            <button className='p'><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
             </svg> SHARE</button>
           </div>
@@ -294,7 +294,7 @@ const Home = () => {
           <img src="/image.png" alt="Real-Time Projects" />
           <div className="card-content">
             <h3>Real-Time Projects</h3>
-            <p>Learn by Doing: Real-World Projects for Practical Mastery</p>
+            <p>Learn by Doing: Real-</p> <p> World Projects for</p> <p>Practical Mastery</p>
             <a href="#">View more →</a>
           </div>
         </div>
@@ -303,7 +303,7 @@ const Home = () => {
           <img src="image_1706335329390.jpg" alt="Internships" />
           <div className="card-content">
             <h3>Internships</h3>
-            <p>Training & Project Based Internship</p>
+           <div className="car"> <p>Training &</p> <p>Project Based </p> <p>Internship</p></div>
             <a href="#">View more →</a>
           </div>
         </div>
@@ -312,7 +312,7 @@ const Home = () => {
           <img src="/image_1706335756779.jpg" alt="Workshops" />
           <div className="card-content">
             <h3>Workshops</h3>
-            <p>Unlocking IT Excellence: Join Our Transformative Workshops</p>
+            <p>Unlocking IT Excellence: </p> <p>Join Our Transformative</p><p> Workshops</p>
             <a href="#">View more →</a>
           </div>
         </div>
@@ -321,7 +321,7 @@ const Home = () => {
           <img src="/image_1706336807195.jpeg" alt="Weekend Training" />
           <div className="card-content">
             <h3>Weekend Training</h3>
-            <p>Supercharge Your Weekends with Zint Institute Training Programs</p>
+            <p>Supercharge Your </p><p>Weekends with Zint Institute</p><p> Training Programs</p>
             <a href="#">View more →</a>
           </div>
         </div>
@@ -336,7 +336,7 @@ const Home = () => {
 
       <section className="values-section" >
         <div className="values-header">
-          <h4>Our values</h4>
+          <a>Our values</a>
           <h1>
             Empowering Futures: Zint Institute 22-Year
             Legacy of Hands-On Excellence
@@ -397,13 +397,14 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <br /><br /><br />
+      <br /><br />
 
 
       <div className="domain" >
         <p><h1>Browse by </h1><span className='do'><h1>Domains</h1></span></p>
         <p className='ex'>Explore new and trending free online courses.</p>
       </div>
+      <br/>
 
 
       <section className="courses-section" >
@@ -461,7 +462,7 @@ const Home = () => {
       <br /><br />
       <div className="explore" >
         <a href="#"><div className="but" >
-          EXPLORE CateGories
+          EXPLORE CATEGORIES
         </div></a>
       </div><br /><br />
 
@@ -511,7 +512,7 @@ const Home = () => {
 
       <div className="home-review" >
         <div className="home-review1" >
-          <h1><p style={{ color: "cyan" }}>2801+</p> Our </h1><h1>students placed in</h1> <h1 >the recent Years</h1>
+          <h1><p style={{ color: "cyan" }}>2801+</p> Our </h1><h1>students</h1><h1> placed in the</h1> <h1 > recent Years</h1> <br/> <br/>
           <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-patch-check" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0" />
             <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z" />
@@ -656,7 +657,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="explore"  style={{backgroundColor: "rgb(214, 214, 214)"}}>
+      <div className="explore"  style={{backgroundColor: "rgba(255, 255, 255, 1)"}}>
         <a href="#"><div className="but" >
           VIEW MORE BLOGS 
         </div><br /><br /></a>
@@ -705,7 +706,7 @@ const Home = () => {
     <div className="contact-section">
       <div className="contact-info">
         <h2>
-          We <span className="highlight">love</span> to help you
+        <pre>We <span className="highlight"> love </span> to help you</pre>  
         </h2>
         <p>Explore new and trending free online courses.</p>
 
