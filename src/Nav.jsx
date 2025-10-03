@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import style from "./Nav.module.css"
 const Nav = () => {
+  const auth=localStorage.getItem("userName")
   const [s, sets] = useState(false)
   // const [ss,setss]=useState(false)
 
@@ -88,9 +89,17 @@ const Nav = () => {
             </ul>
           </div>
 
-          <div className="logg">
+        {
+          auth?<div className='auth_box'>{auth}  <h1 onClick={()=>{localStorage.clear("userName")}}>Logout</h1>    </div>:  <div className="logg">
             <Link to="Login" className={style.loginbtn}>Login</Link>
           </div>
+        }
+
+
+
+
+
+
 
           {/* -----------------------nav1 , , ,main--------------------- */}
           {

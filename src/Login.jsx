@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import style from "./Login.module.css"
 const Login = () => {
   const [FullName, setFullName] = useState("")
@@ -59,9 +59,14 @@ const Login = () => {
     result=await result.json()
     console.log(result);
     localStorage.setItem("user2",JSON.stringify(result))
+    localStorage.setItem("userName",FullName)
     
   }
 
+  // useEffect(()=>{
+  //  const a=JSON.parse( localStorage.getItem("user2"))
+  //  console.log(`this is login page: ${a.token.username}`)
+  // },[])
 
 
   return (

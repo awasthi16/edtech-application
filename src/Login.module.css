@@ -13,7 +13,7 @@
 }
 .login{
     width:500px;
-    height: 600px;
+    height: auto;
     border-radius: 7px;
     border: 1px solid rgb(210, 208, 208);
     background-color: white;
