@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import "./Contact.css"
+// import style1 from "./Contact1.module.css"
 
-  const Contact = () => {
+  const Contact1 = () => {
   const [name,setname] = useState("")
   const [email,setemail] = useState("")
   const [number,setnumber] = useState("")
@@ -24,38 +24,38 @@ import "./Contact.css"
 
   return (
     <>
-    <div className="page1">
-      <div className="left">
+    <div className={style1.page1}>
+      <div className={style1.left}>
         <img src="https://nareshit.com/images/contact-image-01.png" alt="" width="470px" height="470px" />
 
       </div>
-      <div className="rightdiv">
+      <div className={style1.rightdiv}>
 
-      <div className="contact">
+      <div className={style1.contact}>
        
         <form>
-                  <h1>Contact Us</h1>
+                  <h1>Contact1 Us</h1>
 
-                  <div className="inputb">
+                  <div className={style1.inputb}>
                     <input type="text"placeholder='Full Name' required onChange={(e)=>setname(e.target.value)} />
                     <input type="email" placeholder='Email address' onChange={(e)=>setemail(e.target.value)} />
                   </div>
-                  <div className="inputbox1">
+                  <div className={style1.inputbox1}>
                     <input type="tel" placeholder='Mobile Number' onChange={(e)=>setnumber(e.target.value)} />
                   </div>
 
-                   <div className="inputbox1">
+                   <div className={style1.inputbox1}>
                     <input type="text" placeholder='Company Name / College Name' onChange={(e)=>setcollege(e.target.value)} />
                   </div>
                  
 
                    
-                   <div className="message">
+                   <div className={style1.message}>
                     <input type="text" placeholder="Describe message here" onChange={(e)=>setmsg(e.target.value)} />
                     
                   </div>
                   
-                  <div className="subbmit">
+                  <div className={style1.subbmit}>
                                  <button onClick={collectData} type='submit'>Submit</button>
                       
                   </div>
@@ -89,4 +89,4 @@ import "./Contact.css"
   )
 }
 
-export default Contact
+export default Contact1
