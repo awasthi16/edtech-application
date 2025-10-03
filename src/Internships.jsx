@@ -79,15 +79,15 @@ import "./Internships.css"
 
                           </div>
                         </div>
-                        <div className="Internshipsdiv4a1c">
+                        <div className="Internshipsdiv4a2c">
 
-                          <div className="Internshipsdiv4a1c1">
+                          <div className="Internshipsdiv4a2c1">
                             <p>ENROLL</p>
                           </div>
-                          <div className="Internshipsdiv4a1c2">
-                            <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                          <div className="Internshipsdiv4a2c2">
+                            <p><svg  xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-                            </svg>    <p> SHARE</p>
+                            </svg>     SHARE</p>
 
                           </div>
 
@@ -128,10 +128,10 @@ import "./Internships.css"
                             <p>ENROLL</p>
                           </div>
                           <div className="Internshipsdiv4a2c2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                            <p><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
                             </svg> 
-                            <p>SHARE</p>
+                            SHARE</p>
 
                           </div>
 
@@ -167,15 +167,15 @@ import "./Internships.css"
                           </div>
 
                         </div>
-                        <div className="Internshipsdiv4a3c">
+                        <div className="Internshipsdiv4a2c">
 
-                          <div className="Internshipsdiv4a3c1">
+                          <div className="Internshipsdiv4a2c1">
                             <p>ENROLL</p>
                           </div>
-                          <div className="Internshipsdiv4a3c2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                          <div className="Internshipsdiv4a2c2">
+                           <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-                            </svg> <p>SHARE</p>
+                            </svg>SHARE</p>
                             </div></div>
                        </div>
 
@@ -207,14 +207,12 @@ import "./Internships.css"
                           </div>
 
                           <div className="Internshipsdiv5b1b">
-                            <p>Industry-Aligned Skill
- </p>
-                            <p> Development</p>
+                            <p>Industry-Aligned Skill Development</p>
                           </div>
                           <br />
 
                           <div className="Internshipsdiv5b1c">
-                            <p>Explore diverse internship <br /> opportunities in collaboration <br />with leading industry partners. </p>
+                            <p>Explore diverse internship opportunities in collaboration with leading industry partners. </p>
                           </div>
                           <div className="Internshipsdiv5b1d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -236,10 +234,10 @@ import "./Internships.css"
 
                           </div>
                           <br />
-                          <br />
+                      
 
                           <div className="Internshipsdiv5b2c">
-                            <p>Apply skills to real-world <br /> projects for practical <br /> experience and enhanced <br />learning.</p>
+                            <p>Apply skills to real-world projects for practical experience and enhanced learning.</p>
                           </div>
                           <div className="Internshipsdiv5b2d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -256,15 +254,14 @@ import "./Internships.css"
                           </div>
 
                           <div className="Internshipsdiv5b3b">
-                            <p>Flexible Internship </p>
-                            <p>Duration</p>
+                            <p>Flexible Internship 
+                            Duration</p>
 
                           </div>
-                          <br />
-                          <br />
+                        
 
                           <div className="Internshipsdiv5b3c">
-                            <p>Learn from industry experts <br /> for insights and guidance in <br />full-stack development.</p>
+                            <p>Learn from industry experts for insights and guidance in full-stack development.</p>
                           </div>
                           <div className="Internshipsdiv5b3d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -281,13 +278,14 @@ import "./Internships.css"
                           </div>
 
                           <div className="Internshipsdiv5b4b">
-                            <p>Internship Certification
-</p>
+                            <p>Internship Certification </p>
+
                           </div>
                           <br />
+                          <br/>
 
                           <div className="Internshipsdiv5b4c">
-                            <p>Access job placement <br /> assistance for career <br /> support and employer <br /> connections.</p>
+                            <p>Access job placement assistance for career support and employer connections.</p>
                           </div>
                           <div className="Internshipsdiv5b4d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -307,11 +305,10 @@ import "./Internships.css"
                           <div className="Internshipsdiv5b5b">
                             <p>24/7 Intern Support</p>
                           </div>
-                          <br />
+                          
 
                           <div className="Internshipsdiv5b5c">
-                            <p>Receive a recognized <br /> certification validating your <br />
-                              full-stack development <br /> skills.</p>
+                            <p>Receive a recognized certification validating your full-stack development skills.</p>
                           </div>
                           <div className="Internshipsdiv5b5d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -327,15 +324,15 @@ import "./Internships.css"
                           </div>
 
                           <div className="Internshipsdiv5b6b">
-                            <p>Remote Internship </p>
-                            <p>Options</p>
+                            <p>Remote Internship Options</p>
+                          
 
                           </div>
-                          <br />
-                          <br />
+                          <br/>
+                    
 
                           <div className="Internshipsdiv5b6c">
-                            <p>Access round-the-clock <br /> support for immediate <br /> assistance, ensuring a  <br />seamless learning journey.</p>
+                            <p>Access round-the-clock  support for immediate assistance, ensuring a seamless learning journey.</p>
                           </div>
                           <div className="Internshipsdiv5b6d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -345,10 +342,15 @@ import "./Internships.css"
                      </div>
                      <br />
                      <br />
-                       <div className="Internshipsdiv4b1">
-                        <a href="">ENROLL NOW</a>
-                      </div>
-                   </div>
+                     
+                     </div>
+                     
+                      <div className="Internshipsdiv5b7">
+                       <div className="Internshipsdiv5b7a">
+                        <a href="#">ENROLL NOW</a></div>
+                        </div>
+                      
+                   
               </div> 
          </div>
                
@@ -367,11 +369,71 @@ import "./Internships.css"
                </div>
             </div>
          </div>
-      </div>
+      
+
+
+       <div className="Internshipsdiv2a2">
+
+              <div className="Internshipsdiv2a2a">
+
+              </div>
+              <div className="Internshipsdiv2a2b">
+                <p id="Internshipssmall">Top 5 Technologies to learn</p>
+                <p id="Internshipslarge"> Register for the Course !</p>
+                <img src="/women-with-laptop.png" alt="" />
+
+              </div>
+              <div className="Internshipsdiv2a2c">
+                <ul>
+                  <li><input type="text" placeholder='Full Name' /></li>
+                  <li> <input type="email" placeholder='Email address' /></li>
+                  <li><input type="phone" placeholder='Mobile Number' /></li>
+                  <li>
+                    <select name="" id="">
+                      <option value="">Select Course</option>
+                      <option value="">Full Stack Software Test</option>
+                      <option value="">Full Stack Python</option>
+                      <option value="">UI Full Stack Web Development With React</option>
+                      <option value="">Full Stack Data Science & AI</option>
+                      <option value="">Full Stack.NET Core</option>
+                      <option value="">Full Stack Java</option>
+                    </select>
+                  </li>
+                  <li>
+                    <select name="" id="">
+                      <option value="">Mode Of Training</option>
+                      <option value="">Online</option>
+                      <option value="">Offline</option>
+                      <option value="">Live</option>
+                    </select>
+                  </li>
+                </ul>
+              </div>
+              <div className="Internshipsdiv2a2d">
+                <div className="Internshipsdiv2a2dbox">
+
+
+
+                  <div className="Internshipsdiv2a2d1">
+                    <input type="checkbox" name="" id="" />
+                  </div>
+                  <div className="Internshipsdiv2a2d2">
+                    <p>
+                    <span> By Providing your contact details, you agree to our <a href="#"> Terms of use&nbsp; </a> &&nbsp;<a href='#'>Privacy Policy</a> </span> </p>
+                  </div>
+                </div>
+              </div>
+              <div className="Internshipsdiv2a2e">
+                   <button>Submit</button>
+              </div>
+
+
+            </div>
+          </div>
  </div>
 
      
-      </main>
+      {/* </main> */}
 
 
 
@@ -383,7 +445,7 @@ import "./Internships.css"
    
    
    
-   
+   </main>
    </>
   )
 }

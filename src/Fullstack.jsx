@@ -37,8 +37,8 @@ const Fullstack = () => {
               <div className="fullstackdivbox1">
                 <p>Full Stack Courses</p>
               </div>
-              <div className="fullstackdivbox2">
-                <div className="fullstackdivbox2a" >
+              <div className="fullstackdivboxx2">
+                <div className="fullstackdivboxx2a" >
                   <button onClick={aa}>Courses</button>
                 </div>
                 <div className="fullstackdivbox2b">
@@ -84,16 +84,16 @@ const Fullstack = () => {
 
                           </div>
                         </div>
-                        <div className="fullstackdiv4a1c">
+                        <div className="fullstackdiv4a2c">
 
-                          <div className="fullstackdiv4a1c1">
+                          <div className="fullstackdiv4a2c1">
                             <p>ENROLL</p>
                           </div>
-                          <div className="fullstackdiv4a1c2">
-                            <center><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                          <div className="fullstackdiv4a2c2">
+                           <p> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-                            </svg></center>
-                            <center><p>SHARE</p></center>
+                            </svg>
+                            SHARE </p>
 
                           </div>
 
@@ -111,10 +111,10 @@ const Fullstack = () => {
                         </div>
                         <div className="fullstackdiv4a2b">
                           <div className="fullstackdiv4a2b1">
-                            <p>UI Full Stack <br />Web</p>
+                            <p>UI Full Stack Web <br /></p>
                           </div>
                           <div className="fullstackdiv4a2b2">
-                            <p>Development <br />With React</p>
+                            <p> Development With <br /> React</p>
                           </div>
                           <div className="fullstackdiv4a2b3">
                             <pre><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="yellow" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -134,10 +134,10 @@ const Fullstack = () => {
                             <p>ENROLL</p>
                           </div>
                           <div className="fullstackdiv4a2c2">
-                            <center><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                            <p><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-                            </svg></center>
-                            <center><p>SHARE</p></center>
+                            </svg>
+                            SHARE  </p>
 
                           </div>
 
@@ -172,16 +172,16 @@ const Fullstack = () => {
                           </div>
 
                         </div>
-                        <div className="fullstackdiv4a3c">
+                        <div className="fullstackdiv4a2c">
 
-                          <div className="fullstackdiv4a3c1">
+                          <div className="fullstackdiv4a2c1">
                             <p>ENROLL</p>
                           </div>
-                          <div className="fullstackdiv4a3c2">
-                            <center><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                          <div className="fullstackdiv4a2c2">
+                           <p> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-                            </svg></center>
-                            <center><p>SHARE</p></center>
+                            </svg>
+                            SHARE   </p>
 
                           </div>
 
@@ -221,16 +221,16 @@ const Fullstack = () => {
 
 
 
-                        <div className="fullstackdiv4a4c">
+                        <div className="fullstackdiv4a2c">
 
-                          <div className="fullstackdiv4a4c1">
+                          <div className="fullstackdiv4a2c1">
                             <p>ENROLL</p>
                           </div>
-                          <div className="fullstackdiv4a4c2">
-                            <center><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                          <div className="fullstackdiv4a2c2">
+                           <p> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
                               <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3" />
-                            </svg></center>
-                            <center><p>SHARE</p></center>
+                            </svg>
+                            SHARE </p>
 
                           </div>
 
@@ -264,12 +264,12 @@ const Fullstack = () => {
                           </div>
 
                           <div className="fullstackdiv5b1b">
-                            <p>Comprehensive</p>
-                            <p>Curriculum</p>
+                            <p>Comprehensive
+                            Curriculum</p>
                           </div>
 
                           <div className="fullstackdiv5b1c">
-                            <p>Master web development <br /> with a full-stack curriculum  <br />covering front-end, back- <br />end, databases, and more.</p>
+                            <p>Master web development with a full-stack curriculum covering front-end, back-end, databases, and more.</p>
                           </div>
                           <div className="fullstackdiv5b1d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -283,7 +283,7 @@ const Fullstack = () => {
 
 
                           <div className="fullstackdiv5b2a">
-                            <img src="/src/assets/fullstack-6.png" alt="" />
+                            <img src="/fullstack-6.png" alt="" />
                           </div>
 
                           <div className="fullstackdiv5b2b">
@@ -292,7 +292,7 @@ const Fullstack = () => {
                           </div>
 
                           <div className="fullstackdiv5b2c">
-                            <p>Apply skills to real-world <br /> projects for practical <br /> experience and enhanced <br />learning.</p>
+                            <p>Apply skills to real-world  projects for practical experience and enhanced learning.</p>
                           </div>
                           <div className="fullstackdiv5b2d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -305,7 +305,7 @@ const Fullstack = () => {
 
 
                           <div className="fullstackdiv5b3a">
-                            <img src="/src/assets/fullstack-7.png" alt="" />
+                            <img src="/fullstack-7.png" alt="" />
                           </div>
 
                           <div className="fullstackdiv5b3b">
@@ -314,7 +314,7 @@ const Fullstack = () => {
                           </div>
 
                           <div className="fullstackdiv5b3c">
-                            <p>Learn from industry experts <br /> for insights and guidance in <br />full-stack development.</p>
+                            <p>Learn from industry experts for insights and guidance in full-stack development.</p>
                           </div>
                           <div className="fullstackdiv5b3d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -330,12 +330,11 @@ const Fullstack = () => {
                           </div>
 
                           <div className="fullstackdiv5b4b">
-                            <p>Job Placement</p>
-                            <p>Assistance</p>
+                            <p>Job Placement Assistance</p>
                           </div>
 
                           <div className="fullstackdiv5b4c">
-                            <p>Access job placement <br /> assistance for career <br /> support and employer <br /> connections.</p>
+                            <p>Access job placement assistance for career support and employer connections.</p>
                           </div>
                           <div className="fullstackdiv5b4d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -352,13 +351,12 @@ const Fullstack = () => {
                           </div>
 
                           <div className="fullstackdiv5b5b">
-                            <p>Certification upon</p>
-                            <p>Completion</p>
+                            <p>Certification upon Completion</p>
                           </div>
 
                           <div className="fullstackdiv5b5c">
-                            <p>Receive a recognized <br /> certification validating your <br />
-                              full-stack development <br /> skills.</p>
+                            <p>Receive a recognized certification validating your 
+                              full-stack development skills.</p>
                           </div>
                           <div className="fullstackdiv5b5d">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
@@ -379,7 +377,7 @@ const Fullstack = () => {
                           </div>
 
                           <div className="fullstackdiv5b6c">
-                            <p>Access round-the-clock <br /> support for immediate <br /> assistance, ensuring a  <br />seamless learning journey.</p>
+                            <p>Access round-the-clock support for immediate assistance, ensuring a seamless learning journey.</p>
                           </div>
                           
                           <div className="fullstackdiv5b6d">
@@ -411,7 +409,7 @@ const Fullstack = () => {
                         <div className="fullstackdiv5d1">
                           <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
                             <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-                          </svg>TALK TO:<span> +91 8179191999</span></p>
+                          </svg> TALK TO ADVISOR &nbsp;&nbsp; <b> +91 8179191999 </b> </p>
                         </div>
                       </div>
                     </div>
@@ -441,7 +439,7 @@ const Fullstack = () => {
                                 <p>Time</p>
                               </div>
                               <div id="fullstackdiv7a5" className="fullstackdiv7a5">
-                                <p>Mode of <br />trainging</p>
+                                <p>Mode of <br />training</p>
                               </div>
                               <div className="fullstackdiv7a6">
                                 <p>Batch type</p>
@@ -474,7 +472,7 @@ const Fullstack = () => {
                               </div>
                               <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -499,7 +497,7 @@ const Fullstack = () => {
                                 <p>Online <br /> Training</p>
                               </div>
                               <div className="fullstackdiv7b7">
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
 
@@ -523,9 +521,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Classroom Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -549,9 +547,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br /> Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
                             <div className="fullstackdiv7f">
@@ -573,9 +571,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br /> Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
 
@@ -598,9 +596,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Classroom Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
 
@@ -624,9 +622,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br /> Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -651,9 +649,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>KPHB</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
 
@@ -676,9 +674,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br /> Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
 
@@ -701,9 +699,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>JNTU-H</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -726,9 +724,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br /> Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -752,9 +750,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Classroom Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
 
@@ -777,9 +775,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br /> Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -803,9 +801,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>JNTU-H</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -829,9 +827,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br />Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
                             </div>
                             <div id="fullstackdark" className="fullstackdiv7q">
@@ -853,9 +851,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Classroom Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -878,9 +876,9 @@ const Fullstack = () => {
                               <div className="fullstackdiv7d6">
                                 <p>Online <br /> Training</p>
                               </div>
-                              <div className="fullstackdiv7d7">
+                              <div className="fullstackdiv7b7">
 
-                                <button>Click <br /> here</button>
+                                <button>Click here</button>
                               </div>
 
                             </div>
@@ -953,7 +951,7 @@ const Fullstack = () => {
                   </div>
                   <div className="fullstackdiv2a2d2">
                     <p>
-                      By Providing your contact <br />details, you agree to our <br /> <span> Terms of use</span>&<span>Privacy Policy</span></p>
+                    <span> By Providing your contact details, you agree to our <a href="#"> Terms of use&nbsp; </a> &&nbsp;<a href='#'>Privacy Policy</a> </span> </p>
                   </div>
                 </div>
               </div>
