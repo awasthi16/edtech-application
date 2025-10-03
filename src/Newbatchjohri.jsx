@@ -8,7 +8,7 @@ const Newbatchjohri = () => {
     const [batch1,setbatch1]=useState([])
     
 
- const add112= async()=>{
+const add112= async()=>{
 
     let result=await fetch("http://localhost:5600/batch1")
     result=await result.json()
@@ -40,11 +40,11 @@ const Newbatchjohri = () => {
                         <ul>
                             <li> <button onClick={() => { setname("online") }} style={{ background: name == "online" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "online" ? "white" : "black" }} >Online Training</button></li>
                             <li> <button onClick={() => { setname("class") }} style={{ background: name == "class" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "class" ? "white" : "black" }}>Classroom Training</button></li>
-                            <li id="small"> <button onClick={() => { setname("KPHB") }} style={{ background: name == "KPHB" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "KPHB" ? "white" : "black" }}>KPHB</button></li>
+                            <li id="newbatchtrainingsmall"> <button onClick={() => { setname("KPHB") }} style={{ background: name == "KPHB" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "KPHB" ? "white" : "black" }}>KPHB</button></li>
                             <li> <button onClick={() => { setname("worhshops") }} style={{ background: name == "worhshops" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "worhshops" ? "white" : "black" }}>Workshops</button></li>
                             <li> <button onClick={() => { setname("internship") }} style={{ background: name == "internship" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "internship" ? "white" : "black" }}>Internships</button></li>
                             <li> <button onClick={() => { setname("weekend") }} style={{ background: name == "weekend" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "weekend" ? "white" : "black" }}>Weekend Training</button></li>
-                            <li id="small" > <button onClick={() => { setname("JNTU-H") }} style={{ background: name == "JNTU-H" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "JNTU-H" ? "white" : "black" }}>JNTU-H</button></li>
+                            <li id="newbatchtrainingsmall" > <button onClick={() => { setname("JNTU-H") }} style={{ background: name == "JNTU-H" ? "linear-gradient(270deg,rgb(0,90,255),rgb(0,142,255))" : "none", color: name == "JNTU-H" ? "white" : "black" }}>JNTU-H</button></li>
                         </ul>
 
                     </div>
@@ -55,7 +55,7 @@ const Newbatchjohri = () => {
                                 <p>Show entries:</p>
                             </div>
                             <div className="newbatchtrainingdiv2boxdiv2a2">
-                                <select name="" id="">
+                                <select name="" id="">–
                                     <option value="">30</option>
                                     <option value="">40</option>
                                     <option value="">50</option>
@@ -98,32 +98,56 @@ const Newbatchjohri = () => {
                             }
                             {
                                 name == "class" && <div className="newbatchtrainingdiv2boxdiv4b">
-
+                                   <table border={0} cellSpacing={0}>
+                                  {
+                                   batch1.map((item,index)=><><tr style={{backgroundColor: (index%2)==1?"lightGray":"none"}}> <td id="index">{index+1}</td><td id="coursedata">{item.CourseName}</td>  <td id="facultydata">{item.Faculty}</td>  <td id="datedata">{item.Date}</td> <td id="timedata">{item.Time}</td> <td id="meetingdata">{item.Meeting}</td></tr></>)
+                                  } 
+                                </table>
                                 </div>
                             }
                             {
                                 name == "KPHB" && <div className="newbatchtrainingdiv2boxdiv4c">
-
+                                       <table border={0} cellSpacing={0}>
+                                  {
+                                   batch1.map((item,index)=><><tr style={{backgroundColor: (index%2)==1?"lightGray":"none"}}> <td id="index">{index+1}</td><td id="coursedata">{item.CourseName}</td>  <td id="facultydata">{item.Faculty}</td>  <td id="datedata">{item.Date}</td> <td id="timedata">{item.Time}</td> <td id="meetingdata">{item.Meeting}</td></tr></>)
+                                  } 
+                                </table>
                                 </div>
                             }
                             {
                                 name == "worhshops" && <div className="newbatchtrainingdiv2boxdiv4d">
-
+                                    <table border={0} cellSpacing={0}>
+                                  {
+                                   batch1.map((item,index)=><><tr style={{backgroundColor: (index%2)==1?"lightGray":"none"}}> <td id="index">{index+1}</td><td id="coursedata">{item.CourseName}</td>  <td id="facultydata">{item.Faculty}</td>  <td id="datedata">{item.Date}</td> <td id="timedata">{item.Time}</td> <td id="meetingdata">{item.Meeting}</td></tr></>)
+                                  } 
+                                </table>
                                 </div>
                             }
                             {
                                 name == "internship" && <div className="newbatchtrainingdiv2boxdiv4e">
-
+                                       <table border={0} cellSpacing={0}>
+                                  {
+                                   batch1.map((item,index)=><><tr style={{backgroundColor: (index%2)==1?"lightGray":"none"}}> <td id="index">{index+1}</td><td id="coursedata">{item.CourseName}</td>  <td id="facultydata">{item.Faculty}</td>  <td id="datedata">{item.Date}</td> <td id="timedata">{item.Time}</td> <td id="meetingdata">{item.Meeting}</td></tr></>)
+                                  } 
+                                </table>
                                 </div>
                             }
                             {
                                 name == "weekend" && <div className="newbatchtrainingdiv2boxdiv4f">
-
+                                       <table border={0} cellSpacing={0}>
+                                  {
+                                   batch1.map((item,index)=><><tr style={{backgroundColor: (index%2)==1?"lightGray":"none"}}> <td id="index">{index+1}</td><td id="coursedata">{item.CourseName}</td>  <td id="facultydata">{item.Faculty}</td>  <td id="datedata">{item.Date}</td> <td id="timedata">{item.Time}</td> <td id="meetingdata">{item.Meeting}</td></tr></>)
+                                  } 
+                                </table>
                                 </div>
                             }
                             {
                                 name == "JNTU-H" && <div className="newbatchtrainingdiv2boxdiv4g">
-
+                                       <table border={0} cellSpacing={0}>
+                                  {
+                                   batch1.map((item,index)=><><tr style={{backgroundColor: (index%2)==1?"lightGray":"none"}}> <td id="index">{index+1}</td><td id="coursedata">{item.CourseName}</td>  <td id="facultydata">{item.Faculty}</td>  <td id="datedata">{item.Date}</td> <td id="timedata">{item.Time}</td> <td id="meetingdata">{item.Meeting}</td></tr></>)
+                                  } 
+                                </table>
                                 </div>
                             }
 

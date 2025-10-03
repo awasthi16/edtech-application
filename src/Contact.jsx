@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import style from "./Contact.module.css"
+import style1 from "./Contact1.module.css"
 
   const Contact = () => {
   const [name,setname] = useState("")
@@ -24,38 +24,38 @@ import style from "./Contact.module.css"
 
   return (
     <>
-    <div className={style.page1}>
-      <div className={style.left}>
+    <div className={style1.page1}>
+      <div className={style1.left}>
         <img src="https://nareshit.com/images/contact-image-01.png" alt="" width="470px" height="470px" />
 
       </div>
-      <div className={style.rightdiv}>
+      <div className={style1.rightdiv}>
 
-      <div className={style.contact}>
+      <div className={style1.contact}>
        
         <form>
                   <h1>Contact Us</h1>
 
-                  <div className={style.inputb}>
+                  <div className={style1.inputb}>
                     <input type="text"placeholder='Full Name' required onChange={(e)=>setname(e.target.value)} />
                     <input type="email" placeholder='Email address' onChange={(e)=>setemail(e.target.value)} />
                   </div>
-                  <div className={style.inputbox1}>
+                  <div className={style1.inputbox1}>
                     <input type="tel" placeholder='Mobile Number' onChange={(e)=>setnumber(e.target.value)} />
                   </div>
 
-                   <div className={style.inputbox1}>
+                   <div className={style1.inputbox1}>
                     <input type="text" placeholder='Company Name / College Name' onChange={(e)=>setcollege(e.target.value)} />
                   </div>
                  
 
                    
-                   <div className={style.message}>
+                   <div className={style1.message}>
                     <input type="text" placeholder="Describe message here" onChange={(e)=>setmsg(e.target.value)} />
                     
                   </div>
                   
-                  <div className={style.subbmit}>
+                  <div className={style1.subbmit}>
                                  <button onClick={collectData} type='submit'>Submit</button>
                       
                   </div>

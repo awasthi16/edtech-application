@@ -28,6 +28,8 @@
   display: flex;
   position: relative;
   top: 10px;
+  right: 30px;
+ 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 
@@ -172,6 +174,7 @@ border-radius: 50%;
   border-radius: 5px;
   font-size:16px;
   font-weight: 550;
+  color: black;
 }
 #studentwidthborder1:hover{
   background-color: rgb(241,245,249);
@@ -271,6 +274,7 @@ justify-content: center;
   border-radius: 5px;
   font-size:16px;
   font-weight: 550;
+  color: black;
 }
 #studentwidthborder2:hover{
   background-color: rgb(241,245,249);
@@ -376,6 +380,7 @@ background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
   border-radius: 5px;
   font-size:16px;
   font-weight: 550;
+  color: black;
 }
 #studentwidthborder3:hover{
   background-color: rgb(241,245,249);
@@ -477,6 +482,7 @@ background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
   border-radius: 5px;
   font-size:16px;
   font-weight: 550;
+  color: black;
 }
 #studentwidthborder4:hover{
   background-color: rgb(241,245,249);

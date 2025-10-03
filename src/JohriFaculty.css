@@ -27,6 +27,7 @@
 .facultydiv1a1 h2 {
   position: relative;
   top: 10px;
+  right: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   display: flex;
@@ -140,6 +141,8 @@ justify-content: center;
 .facultydiv1b1b ul li h2{
   font-size:21px;
   display: flex;
+  position: relative;
+  right: 30px;
 }
 .facultydiv1b1b ul li p{
   color: gray;
@@ -152,6 +155,8 @@ justify-content: center;
   color: rgb(53,84,185);
   background-color: rgb(219,234,254);
   border-radius: 5px;
+  font-size: medium;
+ 
 }
 #facultySecondbutton
 {
@@ -161,6 +166,7 @@ justify-content: center;
   color: rgb(116,46,174);
   background-color: rgb(243,232,255);
   border-radius: 5px;
+  font-size: medium;
 }
 .facultydiv1b2
 {
@@ -229,6 +235,7 @@ justify-content: center;
   border: none;
   outline: none;
   font-weight: 550;
+  font-size: 16px;
  
 }
 #facultywithoutborder1:hover{
@@ -243,13 +250,11 @@ justify-content: center;
   border-radius: 5px;
   font-size:16px;
   font-weight: 550;
+  color: black;
 }
 #facultywidthborder1:hover{
   background-color: rgb(241,245,249);
 }
-
-
-
 
 
 
@@ -314,6 +319,8 @@ border-radius: 50%;
 .facultydiv1c1b ul li h2{
   font-size:21px;
   display: flex;
+  position: relative;
+  right:30px;
 }
 .facultydiv1c1b ul li p{
   color: gray;
@@ -417,6 +424,7 @@ border-radius: 50%;
   border-radius: 5px;
   font-size:16px;
   font-weight: 550;
+  
 }
 #facultywidthborder1:hover{
   background-color: rgb(241,245,249);
@@ -486,6 +494,8 @@ justify-content: center;
 .facultydiv1d1b ul li h2{
   font-size:21px;
   display: flex;
+   position: relative;
+  right:30px;
 }
 .facultydiv1d1b ul li p{
   color: gray;
@@ -659,6 +669,8 @@ justify-content: center;
 .facultydiv1e1b ul li h2{
   font-size:21px;
   display: flex;
+   position: relative;
+  right:30px;
 }
 .facultydiv1e1b ul li p{
   color: gray;
@@ -743,11 +755,12 @@ justify-content: center;
   width: 70px;
   border-radius: 15px;
   color: rgb(133,77,14);
-  background-color:rgb(254,245,195);
+  background-color:rgb(184, 182, 171);
   height: 25px;
   border: none;
   outline: none;
   font-weight: 550;
+  font-size: 15px;
  
 }
 #facultywithoutborder2:hover{
@@ -762,6 +775,7 @@ justify-content: center;
   border-radius: 5px;
   font-size:16px;
   font-weight: 550;
+  color: black;
 }
 #facultywidthborder2:hover{
   background-color: rgb(241,245,249);

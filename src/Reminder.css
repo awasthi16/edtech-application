@@ -28,10 +28,13 @@
    color: rgb(2,8,23);
    font-size: 28px;
    display: flex;
-}
+   position: relative;
+   right: 30px;
+    }
 .reminderbox1 p{
    color: rgb(100,116,139);
    font-size:16px;
+   
 }
 .reminderbox2
 {
@@ -97,6 +100,8 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   display: flex;
+  position: relative;
+  right: 30px;
 }
 .reminderbox2a1b ul li p{
   font-family: Arial, Helvetica, sans-serif;
@@ -130,6 +135,7 @@
   border-radius: 5px;
   font-size:15px;
   font-weight: 550;
+  color: black;
 }
 #reminderEdit:hover
 {
@@ -210,6 +216,8 @@
   font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
    display: flex;
+    position: relative;
+  right: 30px;
 }
 .reminderbox3a1b ul li p{
   font-family: Arial, Helvetica, sans-serif;
@@ -303,6 +311,8 @@
   font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
    display: flex;
+    position: relative;
+  right: 30px;
 }
 .reminderbox4a1b ul li p{
   font-family: Arial, Helvetica, sans-serif;
@@ -393,7 +403,8 @@
 .reminderbox5a1b ul li h2{
   font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
-
+ position: relative;
+  right: 30px;
    display: flex;
 }
 .reminderbox5a1b ul li p{
@@ -407,6 +418,7 @@
   justify-content: end;
   width: 50%;
   height: 130px;
+  
 
 }
 .reminderbox5a2a
@@ -417,6 +429,6 @@
   gap: 10px;
   width: 160px;
   height: 65px;
-
+   
 }
 

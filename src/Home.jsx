@@ -285,8 +285,8 @@ const Home = () => {
 
       <div className="tra" >
         <p className='oo'>Our <span className='tr'>Training</span> Services</p><br />
-        <p>From Basic to Advanced...</p>
-        <p>We Offer Classroom, Online, Weekend, and Corporate Training on a Wide Range of Software Courses.</p>
+        <p  className='change' >From Basic to Advanced...</p>
+        <p   className='change'>We Offer Classroom, Online, Weekend, and Corporate Training on a Wide Range of Software Courses.</p>
       </div><br />
 
       <div className="cards-section" >

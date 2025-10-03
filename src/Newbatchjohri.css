@@ -54,7 +54,7 @@
   border: 1px solid rgb(222,226,230);
   border-radius: 10px;
  
-
+ 
 
 }
 .newbatchtrainingdiv2boxdiv1
@@ -67,6 +67,7 @@
   background-color: rgb(245,245,245);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+
 }
 
 .newbatchtrainingdiv2boxdiv1 ul{
@@ -77,6 +78,7 @@
   list-style-type: none;
   display: flex;
   align-items: end;
+
   
 }
 .newbatchtrainingdiv2boxdiv1 ul li{
@@ -93,10 +95,13 @@
  
   color:rgb(17,17,17);
 }
+
+
 #newbatchtrainingsmall{
    width: 100px;
 
 }
+
 .newbatchtrainingdiv2boxdiv1 ul li button
 {
   display: flex;
@@ -106,12 +111,12 @@
   font-size: 17px;
   width: 170px;
   height: 50px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+
   font-weight:550;
   color:rgb(17,17,17);
   border: none;
   outline: none;
+
 }
 .newbatchtrainingdiv2boxdiv2
 {
@@ -186,7 +191,7 @@
   background-color:rgb(208,215,225);
   width: 100%;
   height: 50px;
-   border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 .newbatchtrainingdiv2boxdiv3 table
 {
@@ -231,12 +236,9 @@
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    border: none;
-    
+    border: none;  
 }
-.newbatchtrainingdiv2boxdiv4a  table tr{
-    
-}
+
 
 #index
 {
@@ -267,31 +269,73 @@
 .newbatchtrainingdiv2boxdiv4b
 {
     height:auto;
-  background-color:  blue;
+  
+}
+
+.newbatchtrainingdiv2boxdiv4b  table{
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;  
 }
 .newbatchtrainingdiv2boxdiv4c
 {
     height:auto;
-  background-color: pink;
+ 
+}
+.newbatchtrainingdiv2boxdiv4c  table{
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;  
 }
 .newbatchtrainingdiv2boxdiv4d
 {
   height:auto;
-  background-color: yellowgreen;
+  
+}
+.newbatchtrainingdiv2boxdiv4d  table{
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;  
 }
 .newbatchtrainingdiv2boxdiv4e
 {  height:auto;
-  background-color:  black;
+  
+}
+.newbatchtrainingdiv2boxdiv4e  table{
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;  
 }
 .newbatchtrainingdiv2boxdiv4f
 {
     height:auto;
-  background-color: orange;
+ 
+}
+.newbatchtrainingdiv2boxdiv4f  table{
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;  
 }
 .newbatchtrainingdiv2boxdiv4g
 {
-    height:auto;
-  background-color: gray;
+    height:auto;  
+}
+.newbatchtrainingdiv2boxdiv4g  table{
+
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;  
 }
 .newbatchtrainingdiv2boxdiv5
 {
