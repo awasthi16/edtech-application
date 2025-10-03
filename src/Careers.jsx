@@ -37,7 +37,7 @@ const Careers = () => {
     </div>
     
     <div className="msg2">
-      
+
 
 <ol>
       <li><h4> 6. Digital Marketing Executives: </h4> </li>
@@ -161,7 +161,7 @@ const Careers = () => {
 
           </div>          
          
-          <h3> Indrani Malladi  </h3>
+          <h3> Indrani Malladin  </h3>
 
           <p>QA Engineer</p>
            <strong> <p> <img src="https://nareshit.com/images/office.svg" alt="" height={20} width={20} />  Celium Pvt Ltd   </p> </strong>
