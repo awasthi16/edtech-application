@@ -23,12 +23,12 @@ const DashBoard = () => {
       <div className={style.navbardashboard}>
         <div className={style.dashboardDiv}>
           <ul>
-            <li onClick={() => { setoverview(true), setstudents(false), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(false) }}>Overview</li>
-            <li onClick={() => { setoverview(false), setstudents(true), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(false) }}>Students</li>
-            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(true), setAnalytics(false), setrports(false), setmanagement(false) }}>Facultys</li>
-            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(true), setrports(false), setmanagement(false) }}>Analytics</li>
-            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(false), setrports(true), setmanagement(false) }}>Reports</li>
-            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(true) }}>Management</li>
+            <li onClick={() => { setoverview(true), setstudents(false), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(false) }} style={{background:Overview?"white":"none"}}>Overview</li>
+            <li onClick={() => { setoverview(false), setstudents(true), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(false) }}  style={{background:Students?"white":"none"}}>Students</li>
+            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(true), setAnalytics(false), setrports(false), setmanagement(false) }} style={{background:facultys?"white":"none"}}>Facultys</li>
+            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(true), setrports(false), setmanagement(false) }} style={{background:Analytics?"white":"none"}}>Analytics</li>
+            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(false), setrports(true), setmanagement(false) }} style={{background:Reports?"white":"none"}}>Reports</li>
+            <li onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(true) }} style={{background:Management?"white":"none"}}>Management</li>
 
           </ul> </div></div>
       <div className={style.resultmaindiv}>
@@ -42,12 +42,12 @@ const DashBoard = () => {
                 <li className={style.level}>Your Ascess Level</li>
                 <div className={style.inputdiv}>
                   <div className={style.inputdiv1}>
-                    <div className={style.div}>Overview</div>
-                    <div className={style.div}>Students</div>
-                    <div className={style.div}>Faculty</div>
-                    <div className={style.div}>Analytics</div>
-                    <div className={style.div}>Reports</div>
-                    <div className={style.div}>Management</div>
+                    <div className={style.div} onClick={() => { setoverview(true), setstudents(false), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(false) }}>Overview</div>
+                    <div className={style.div} onClick={() => { setoverview(false), setstudents(true), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(false) }}>Students</div>
+                    <div className={style.div}  onClick={() => { setoverview(false), setstudents(false), setfacultys(true), setAnalytics(false), setrports(false), setmanagement(false) }}>Faculty</div>
+                    <div className={style.div}  onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(true), setrports(false), setmanagement(false) }}>Analytics</div>
+                    <div className={style.div}  onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(false), setrports(true), setmanagement(false) }}>Reports</div>
+                    <div className={style.div}  onClick={() => { setoverview(false), setstudents(false), setfacultys(false), setAnalytics(false), setrports(false), setmanagement(true) }}>Management</div>
                   </div> </div>  </div>  </div>
           </div>}
 

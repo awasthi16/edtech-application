@@ -11,12 +11,15 @@ background-color: rgb(238,243,255);
     width: 50%;
     height: 130px;
 }
-#faclargesize
+#faclargesize 
 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 34px;
-   position: relative;
-     left: 10px;
+    position: relative;
+    left: 10px;
+      background: linear-gradient(270deg,rgb(57,138,229),rgb(39,183,125));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
 }
  
 #facsmallsize
@@ -35,6 +38,8 @@ background-color: rgb(238,243,255);
     display: flex;
     align-items: center;
     justify-content: end;
+    position: relative;
+    right:5px;
    
     
 }

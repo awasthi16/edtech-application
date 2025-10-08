@@ -77,19 +77,22 @@ const Login = () => {
         <div className={style.login}>
           <div className={style.sl}>
             <ul>
-              <li onClick={() => { setop(true), setop1(false) }}>Signup</li>
-              <li onClick={() => { setop(false), setop1(true) }}  >Login</li>
+              <li onClick={() => { setop(true), setop1(false)}}   style={{borderBottom:setop?"none":"2px solid blue"}}>Signup</li>
+              <li onClick={() => { setop(false), setop1(true) }}  style={{borderBottom:setop?"2px solid blue":"none"}}>Login</li>
             </ul>
           </div>
           <hr />
 
           {/* ------------------- */}
           {op && <div className={style.sp}>
-            <h2>Signup</h2>
-            <h2> Zint account</h2>
+
+            <div className={style.divlogin}>
+            <p>Signup</p>
+            <p >Zint institute Account</p>
+            </div>
+            
             <div className={style.inputdiv}>
              <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
-
               <input type="tel" placeholder='Mobile Number' onChange={(e) => setMobileNumber(e.target.value)} />
               <input type="email" placeholder='Email address' onChange={(e) => setEmailaddress(e.target.value)} />
               <input type="password" placeholder='password' onChange={(e) => setpassword(e.target.value)} />
@@ -103,16 +106,16 @@ const Login = () => {
 
             </div>
 
-            <div className="bttn">
-              <button onClick={collect}>  Submit</button>
+            <div className={style.johri}>
+                <button onClick={collect}>Submit</button>
             </div>
           </div>
           }
           {/* -----------login ----------------- */}
           {
-            op1 && <div className={style.lp}>
-              <h2>Login</h2>
-              <h2>  Zint account</h2>
+            op1 && <div className={style.divlogin1}>
+              <p>Login</p>
+              <p> Zint  institute account</p>
 
 
               <div className={style.inputbox}>
@@ -121,16 +124,26 @@ const Login = () => {
                   +91
                 </div>
                 <div className={style.box22}>
-              <input type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
-              <input type="password" placeholder='password' onChange={(e) => setpassword(e.target.value)} />
-                </div>
+            <input type="tel" name="" id="" placeholder='Mobile Number' onChange={(e)=>setMobileNumber(e.target.value)}/>
 
+                </div>
+                  
               </div>
+             
+                  <div className={style.box23}>
+                            <input id="ranu" type="text" placeholder='Full Name' onChange={(e) => setFullName(e.target.value)} />
+                </div>
+                 <div className={style.box24}>
+              
+             <input type="password" placeholder='Password' onChange={(e) => setpassword(e.target.value)} />
+
+                </div>
+                 
 
 
               <div className={style.para}><p>{msg}</p></div>
 
-              <div className="btnn">
+              <div className={style.johri}>
                 <button  onClick={Add}>  Submit</button>
               </div>
             </div>
@@ -144,10 +157,6 @@ const Login = () => {
 
         </div>
       </div>
-
-
-
-
 
 
 

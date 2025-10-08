@@ -3,6 +3,8 @@ import { Link } from "react-router-dom"
 import style from "./Nav.module.css"
 const Nav = () => {
   const auth=localStorage.getItem("userName")
+
+
   const [s, sets] = useState(false)
   // const [ss,setss]=useState(false)
 
@@ -90,11 +92,18 @@ const Nav = () => {
           </div>
 
         {
-          auth?<div className='auth_box'>{auth}  <h1 onClick={()=>{localStorage.clear("userName")}}>Logout</h1>    </div>:  <div className="logg">
+            auth?<div className='auth_box'>{
+  {auth}&&<div className={style.divranu}>
+     <div className={style.divranu1}>
+     
+       <p>{auth}</p>
+      <p><button className={style.Log_out}>Log out</button></p>
+     </div>
+  </div>
+}</div>:  <div className="logg">
             <Link to="Login" className={style.loginbtn}>Login</Link>
           </div>
         }
-
 
 
 
@@ -108,9 +117,6 @@ const Nav = () => {
 
                 <li><Link to="Fullstack">Full Stack Courses</Link></li>
                 <li><Link to="Intern">Internships</Link></li>
-
-               
-
               </ul>
             </div>
           }

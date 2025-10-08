@@ -28,15 +28,16 @@
   display: flex;
   position: relative;
   top: 10px;
-  right: 30px;
  
+
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
 
 }
 .studentdiv1a1 p{
-   position: relative;
-  top: 10px;
+ position: relative;
+ bottom: 33px;
+ 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: gray;
@@ -161,6 +162,7 @@ border-radius: 50%;
   outline: none;
   font-weight: 550;
   color: rgb(133,77,14);
+  font-size: small;
 }
 #studentwithoutborder1:hover{
   background-color: rgb(63,69,85);
@@ -261,6 +263,7 @@ justify-content: center;
   outline: none;
   font-weight: 550;
   color: rgb(22,101,52);
+  font-size: small;
 }
 #studentwithoutborder2:hover{
   background-color: rgb(63,69,85);
@@ -367,6 +370,7 @@ background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
   outline: none;
   font-weight: 550;
   color: rgb(132,37,41);
+  font-size: small;
 }
 #studentwithoutborder3:hover{
   background-color: rgb(63,69,85);
@@ -469,6 +473,7 @@ background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
   outline: none;
   font-weight: 550;
   color: rgb(132,37,41);
+  font-size: small;
 }
 #studentwithoutborder4:hover{
   background-color: rgb(63,69,85);

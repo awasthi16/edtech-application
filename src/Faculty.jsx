@@ -6,7 +6,7 @@ import Timetacking from './Timetacking'
 import JohriFaculty from './JohriFaculty'
 
 const Faculty = () => {
-  const[name,setname]=useState(false)
+  const[name,setname]=useState("fac")
   return (
   <>
   
@@ -23,10 +23,10 @@ const Faculty = () => {
 
       <div className="facbox2">
         <ul>
-          <li onClick={() => { setname("fac") }}>Faculty</li>
-          <li onClick={() => { setname("sal") }}>Salary</li>
-          <li onClick={() => { setname("sch") }}>Schedule</li>
-          <li onClick={() => { setname("tt") }}>Time Tacking</li>
+          <li onClick={() => { setname("fac") }}  style={{background:name=="fac"?"white":"none"}}>Faculty</li>
+          <li onClick={() => { setname("sal") }}  style={{background:name=="sal"?"white":"none"}}>Salary</li>
+          <li onClick={() => { setname("sch") }}  style={{background:name=="sch"?"white":"none"}}>Schedule</li>
+          <li onClick={() => { setname("tt") }}  style={{background:name=="tt"?"white":"none"}}>Time Tacking</li>
         </ul>
           </div>
         <div className="facbox3">

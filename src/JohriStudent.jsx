@@ -160,7 +160,7 @@ const JohriStudent = () => {
           <div className="studentdiv1e2">
 
             <div className="studentdiv1e2box">
-              <button id="studentwithoutborder1">pending</button>
+              <button id="studentwithoutborder1">partial</button>
               <button id="studentwidthborder4">View Details</button>
             </div>
 
