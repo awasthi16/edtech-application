@@ -34,7 +34,7 @@ const Course = () => {
                 </div>
                 <div className="coursebox2adiv1a2">
                   <ul>
-                    <li><h3>Advanced Mathematics</h3></li>
+                    <li><h4 id="courseh4">Advanced Mathematics</h4></li>
                     <li><p>Dr. Smith</p></li>
                   </ul>
                 </div>
@@ -77,7 +77,7 @@ const Course = () => {
                 </div>
                 <div className="coursebox2bdiv1a2">
                   <ul>
-                    <li><h3>Computer Programming</h3></li>
+                    <li><h4 id="courseh4">Computer Programming</h4></li>
                     <li><p>Prof. Johnson</p></li>
                   </ul>
                 </div>
@@ -123,7 +123,7 @@ const Course = () => {
                 </div>
                 <div className="coursebox2cdiv1a2">
                   <ul>
-                    <li><h3>Physics Laboratory</h3></li>
+                    <li><h4 id="courseh4">Physics Laboratory</h4></li>
                     <li><p>Dr. Wilson</p></li>
                   </ul>
                 </div>
@@ -171,7 +171,7 @@ const Course = () => {
                 </div>
                 <div className="coursebox2ddiv1a2">
                   <ul>
-                    <li><h3>Chemistry Basics</h3></li>
+                    <li><h4 id="courseh4">Chemistry Basics</h4></li>
                     <li><p>Prof. Davis</p></li>
                   </ul>
                 </div>

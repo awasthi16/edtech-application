@@ -8,6 +8,8 @@
   height: 830px;
   background-color: rgb(250, 251, 255);
   border-radius: 5px;
+
+
 }
 
 .facultydiv1a {
@@ -16,6 +18,7 @@
   height: 80px;
   margin: 20px;
   border-radius: 10px;
+
 }
 
 .facultydiv1a1 {
@@ -51,6 +54,7 @@
   justify-content: end;
   width: 50%;
   height: 80px;
+ 
 
 }
 
@@ -91,6 +95,7 @@
   margin: 20px;
   border-radius: 10px;
   background-color: rgb(252,253,255);
+ 
 
 }
 .facultydiv1b1
@@ -98,6 +103,7 @@
   display: flex;
   width:50%;
   height: 150px;
+
 
 
 }
@@ -108,7 +114,7 @@
   align-items: center;
   width:10%;
   height: 150px;
- 
+
  
 }
 .facultydiv1b1abox
@@ -126,38 +132,33 @@ justify-content: center;
 {
   width:90%;
   height: 150px;
-  /* border: 4px solid green; */
+ 
   
 }
 .facultydiv1b1b ul{
   position: relative;
-  /* top: 20px; */
+  top: 20px;
   list-style-type: none;
-  /* line-height: 23px; */
-
+  line-height: 23px;
   height: 100px;
 }
 .facultydiv1b1b ul li{
   font-family: Arial, Helvetica, sans-serif;
-  height: 25px; 
+  height: 26px; 
 
 }
 .facultydiv1b1b ul li h2{
   font-size:21px;
-  display: flex;
-  position: relative;
-  right: 20px;
-   /* border: 4px solid rgb(128, 49, 0); */
-   padding: 20px;
-   height: 2px ;
-   align-items: center;
+   display: flex;
+   position: relative;
+   bottom: 30px;
+
 }
+
 
 .facultydiv1b1b ul li p{
   color: gray;
-   /* border: 4px solid rgb(73, 0, 128); */
-   margin-top: 20px;
-   margin-bottom: 10px;
+ 
 }
 #facultyFirstbutton
 {
@@ -286,6 +287,7 @@ justify-content: center;
   display: flex;
   width:50%;
   height: 150px;
+
 }
 .facultydiv1c1a
 {
@@ -313,15 +315,15 @@ border-radius: 50%;
   width:90%;
   height: 150px;
   /* border: 4px solid green; */
-
+  
 }
 .facultydiv1c1b ul{
   position: relative;
-  /* top: 20px; */
+   top: 20px;
   list-style-type: none;
   line-height: 23px;
-
-  height: 100px;
+ 
+  height: 120px;
 }
 .facultydiv1c1b ul li{
   font-family: Arial, Helvetica, sans-serif;
@@ -332,12 +334,10 @@ border-radius: 50%;
   font-size:21px;
   display: flex;
   position: relative;
-  right:30px;
-  align-items: center;
-   /* border: 4px solid rgb(128, 0, 13); */
-   height: 2px;
-   padding: 20px;
+    bottom: 32px;
+ 
    
+
 }
 .facultydiv1c1b ul li p{
   color: gray;
@@ -386,7 +386,7 @@ border-radius: 50%;
   list-style-type: none;
   position: relative;
   top: 4px;
-
+  
   height: 40px;
   width:120px;
  
@@ -514,8 +514,9 @@ justify-content: center;
 .facultydiv1d1b ul li h2{
   font-size:21px;
   display: flex;
-   position: relative;
-  right:30px;
+  position: relative;
+  bottom: 32px;
+ 
 }
 .facultydiv1d1b ul li p{
   color: gray;
@@ -690,7 +691,7 @@ justify-content: center;
   font-size:21px;
   display: flex;
    position: relative;
-  right:30px;
+ bottom: 32px;
 }
 .facultydiv1e1b ul li p{
   color: gray;

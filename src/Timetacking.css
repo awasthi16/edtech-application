@@ -5,35 +5,34 @@
 
 .timetakingbox {
   width: 100%;
-  height: 1600px;
-  background-color: rgb(238,243,255);
+  height: 1100px;
   
+ 
 }
 
 .timetakingbox1 {
+
   margin-left: 20px;
   width: 98%;
-  height: 120px;
- 
+  height: 80px;
+
 
 }
 
 .timetakingbox1 h2 {
   position: relative;
-  top: 10px;
-  right: 20px;
+  bottom: 30px;
+  display: flex;
+  justify-content: start;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  display: flex;
-  padding: 20px;
-  height: 2px;
-  align-items: center;
+
 
 }
 
 .timetakingbox1 p {
   position: relative;
-  top: 10px;
+  bottom: 75px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   word-spacing: 3px;
@@ -42,18 +41,20 @@
 
 .timetakingbox2 {
   width: 98%;
-  height: 300px;
+  height: 230px;
   border-radius: 10px;
   margin-left: 20px;
   background-color: rgb(252, 253, 255);
-   /* border: 4px solid green; */
+
+
 }
 
 .timetakingbox2div1 {
   display: flex;
   width: 100%;
-  height: 70px;
+  height: 80px;
   border-radius: 10px;
+
 }
 
 .timetakingbox2div1a {
@@ -70,6 +71,7 @@
   width: 10%;
   height: 80px;
 
+
 }
 
 .timetakingmainbox {
@@ -85,32 +87,39 @@
 .timetakingbox2div1a2 {
   width: 90%;
   height: 80px;
- /* border: 4px solid green; */
-}
+
+} 
 
 .timetakingbox2div1a2 ul {
-  position: relative;
-  top: 15px;
+
   list-style-type: none;
 
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .timetakingbox2div1a2 ul li {
+  display: flex;
+  justify-content: start;
+  align-items: start;
   width: 100%;
 
 }
 
 .timetakingbox2div1a2 ul li h2 {
   font-size: 20px;
-  display: flex;
-    position: relative;
-    right: 30px;
+ display: flex;
+ position: relative;
+ bottom: 25px;
+  height: 5px;
+  width: 100%;
+
 }
 
 .timetakingbox2div1a2 ul li p {
   font-size: 16px;
   color: rgb(75, 85, 99);
+  position: relative;
+  bottom: 44px;
 }
 
 .timetakingbox2div1b {
@@ -136,11 +145,16 @@
 
 .timetakingbox2div1b ul li h1 {
   font-size: 23px;
+  position: relative;
+  bottom: 24px;
+  left: 20px;
 }
 
 .timetakingbox2div1b ul li p {
   font-size: 16px;
   color: rgb(75, 85, 99);
+   position: relative;
+   bottom: 80px;
 }
 
 .timetakingbox2div2 {
@@ -243,6 +257,7 @@
   border: 1px solid gray;
   font-weight: 550;
   color: black;
+
 }
 
 #timetakingviewdetails:hover {
@@ -260,15 +275,8 @@
   color: white;
 
   font-weight: 550;
+
 }
-
-
-
-
-
-
-
-
 .timetakingbox3 {
   margin-top: 20px;
   width: 98%;
@@ -276,6 +284,7 @@
   border-radius: 10px;
   margin-left: 20px;
   background-color: rgb(252, 253, 255);
+ 
 }
 
 .timetakingbox3div1 {
@@ -283,12 +292,14 @@
   width: 100%;
   height: 70px;
   border-radius: 10px;
+  
 }
 
 .timetakingbox3div1a {
   display: flex;
   width: 50%;
   height: 80px;
+
 
 }
 
@@ -298,6 +309,7 @@
   justify-content: center;
   width: 10%;
   height: 80px;
+
 
 }
 
@@ -309,11 +321,13 @@
   height: 40px;
   border-radius: 50%;
   background: linear-gradient(180deg, rgb(8, 179, 213), rgb(46, 144, 238));
+
 }
 
 .timetakingbox3div1a2 {
   width: 90%;
   height: 80px;
+
 
 }
 
@@ -323,24 +337,28 @@
   list-style-type: none;
 
   font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
 }
 
 .timetakingbox3div1a2 ul li {
   width: 100%;
-
+ 
+  line-height: 10px;
 }
 
 .timetakingbox3div1a2 ul li h2 {
   font-size: 20px;
   display: flex;
-   position: relative;
-  right: 30px;
+  position: relative;
+  bottom: 24px;
 
 }
 
 .timetakingbox3div1a2 ul li p {
   font-size: 16px;
   color: rgb(75, 85, 99);
+  position: relative;
+  bottom:50px;
 }
 
 .timetakingbox3div1b {
@@ -362,21 +380,28 @@
   width: 96%;
   display: flex;
   justify-content: end;
+
 }
 
 .timetakingbox3div1b ul li h1 {
   font-size: 23px;
- 
+   position: relative;
+   bottom: 24px;
+    left: 20px;
 }
 
 .timetakingbox3div1b ul li p {
   font-size: 16px;
   color: rgb(75, 85, 99);
+  position: relative;
+  bottom: 84px;
+ 
 }
 
 .timetakingbox3div2 {
   width: 100%;
   height: 50px;
+
 }
 
 .timetakingbox3div2a {
@@ -417,7 +442,7 @@
 .timetakingbox3div3 {
   width: 100%;
   height: 40px;
-  
+
 
 }
 
@@ -455,6 +480,7 @@
 
 #timetakingfill {
   width: 100%;
+ 
 }
 
 .timetakingbox3div4 {
@@ -465,5 +491,7 @@
   width: 98%;
   height: 60px;
 
+
+   
 }
 

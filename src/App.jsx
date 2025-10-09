@@ -31,6 +31,7 @@ import Testimonials from "./Testimonials"
 import Newseventss from "./Newseventss"
 import Internships from "./Internships"
 import LogBatch from "./LogBatch"
+import Studentform from "./Studentform"
 
 
 
@@ -78,6 +79,7 @@ return(<>
 
 <Route path="/Dashboard" element={<DashBoard/>}></Route>
 <Route path="/LogBatch" element={<LogBatch/>}></Route>
+<Route path="/StudentForm" element={<Studentform/>}> </Route>
 {/* *************** Traning ***************** */}
 <Route path="/Traning" element={<Traning/>}></Route>
 <Route path="/InterviewQuestion" element={<InterviewQuestion/>}></Route>

@@ -6,7 +6,6 @@ const Newbatchjohri = () => {
 
     const [name, setname] = useState("online")
     const [batch1,setbatch1]=useState([])
-    
 
 const add112= async()=>{
 
@@ -16,7 +15,7 @@ const add112= async()=>{
     setbatch1(result)
     }
     useEffect(()=>{add112()},[])
-
+    
     return (
         <>
 

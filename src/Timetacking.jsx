@@ -4,7 +4,7 @@ import "./Timetacking.css"
 const Timetacking = () => {
   return (
  <>
- <div className="timetakingbox">
+  <div className="timetakingbox">
 
 
         <div className="timetakingbox1">
@@ -322,14 +322,6 @@ const Timetacking = () => {
 
 
         </div>
-
-
-
-
-
-
-
-
 
       </div>
  

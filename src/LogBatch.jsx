@@ -8,8 +8,7 @@ const LogBatch = () => {
     const [date, setdate] = useState("")
     const [time, settime] = useState("")
     const [link, setlink] = useState("")
-
-
+    
 const  add11= async()=>{
     console.warn(cousre,faculty,date,time,link)
     let result=await fetch("http://localhost:5600/batch",{
@@ -25,7 +24,7 @@ const  add11= async()=>{
         <>
 
             <div className={style.fromdiv}>
-
+                
             
                     <input className={style.co} type="text" placeholder='Enter your courses Name' onChange={(e) => setcourse(e.target.value)} />
                     <input className={style.co} type="text" placeholder='Enter Your faculty Name' onChange={(e) => setfaculty(e.target.value)} />

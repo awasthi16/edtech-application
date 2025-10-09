@@ -189,7 +189,7 @@ const JohriFaculty = () => {
             <div className="facultydiv1e1b">
               <ul>
                 <li><h2>Prof. Emily Davis</h2></li>
-                <li><p>emily.davis@university.edu</p></li>
+                <li><p id="facultysizebig">emily.davis@university.edu</p></li>
                 <li><p>Chemistry • Professor</p></li>
                 <li><button id="facultyFirstbutton">2 Cousres</button> <button id="facultySecondbutton">67 Students</button></li>
               </ul>
