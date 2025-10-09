@@ -6,12 +6,13 @@ const Job = () => {
     return (
         <>
             <br /><br />
-            <div className="jobmaindiv">  <br />
-                {/* <h1 className='jj'>Job Assistance</h1> */}
+            <div className="jobmaindiv">  
+                        
                 <div className="div1">
-                    <img src="/job.png" alt="" width={675} />
+                    {/* <div className="dd"> JOB ASSISTANCE</div> */}
+                    <img src="/job.png" alt="" width="600px" />
                 </div>
-                <div className="div2"><br /><br />
+                <div className="div2">
                     <p> Here at Zint Institute, our commitment to the success of your career begins beyond your training. Our active Placement Assistance Cell is committed to your job search and connects you with the potential employer.</p>
                     <p>Here's how our Placement Assistance program benefits you:</p>
                     <li>Comprehensive Screening Tests: We provide a detailed screening test that detects your talent and prepares you well enough for the job market.</li>

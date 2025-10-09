@@ -201,11 +201,11 @@
 
 .back {
   box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.4);
-<<<<<<< HEAD
+
  
-=======
+
   font-family: Arial, Helvetica, sans-serif;
->>>>>>> c3e6efb700bf62aa923815b48e05c5db8054aff3
+
 }
 
 .tra {
@@ -222,7 +222,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-<<<<<<< HEAD
+
   font-family: Arial, sans-serif;
   font-weight:550;
   font-size: 35px;
@@ -232,26 +232,26 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: rgb(63,67,70);
-=======
+
   font-size: 40px;
->>>>>>> c3e6efb700bf62aa923815b48e05c5db8054aff3
+
 }
 
 .oo {
   font-size: 40px;
-<<<<<<< HEAD
+
   border: 2px solid red;
   font-family: Helvetica, sans-serif;
   font-weight:550;
   width: 400px;
   height: 60px;
   color: rgb(0,0,0);
-=======
+
 }
 
 .oo p{
   color: rgb(144, 143, 143);
->>>>>>> c3e6efb700bf62aa923815b48e05c5db8054aff3
+
 }
 
 .cards-section {
@@ -298,13 +298,13 @@
 }
 
 .card-content p {
-<<<<<<< HEAD
+
   font-size: 20px;
   margin: 0 0 12px;
   font-family:Arial, Helvetica, sans-serif;
   color: #444;
   color: black;
-=======
+
   font-size: 15px;
   margin: 0 0 12px;
   color: rgb(69, 68, 68);
@@ -321,7 +321,7 @@
   justify-content: center;
   display: flex;
   padding: 4px;
->>>>>>> c3e6efb700bf62aa923815b48e05c5db8054aff3
+
 }
 
 .card-content a {
@@ -1074,16 +1074,6 @@
   font-weight: bold;
   line-height: 1.5;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .contact-section {

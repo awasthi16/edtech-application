@@ -426,7 +426,7 @@ const DashBoard = () => {
                   <li>Size: 2.4 MB • Generated: 2024-07-01</li>
                 </div>
                 <div className={style.btn3}>
-                  <button>enrollment</button> <button>Monthly</button> <button className={style.down}>Download</button>
+                  <button className={style.btn4}>enrollment</button> <button className={style.btn5}>Monthly</button> <button className={style.down}>Download</button>
                 </div></div></div> <br /> <br />
 
             <div className={style.filediv}>
@@ -439,7 +439,7 @@ const DashBoard = () => {
                   <li>Size: 1.8 MB • Generated: 2024-06-30</li>
                 </div>
                 <div className={style.btn3}>
-                  <button>Performance</button> <button>quarterly</button> <button className={style.down}>Download</button>
+                  <button className={style.btn6}>Performance</button> <button className={style.btn5}>quarterly</button> <button className={style.down}>Download</button>
                 </div></div></div> <br /><br />
 
             <div className={style.filediv}>
@@ -452,7 +452,7 @@ const DashBoard = () => {
                   <li>Size: 3.2 MB • Generated: 2024-07-01</li>
                 </div>
                 <div className={style.btn3}>
-                  <button>financial</button> <button>Weekly</button> <button className={style.down}>Download</button>
+                  <button className={style.btn4}>financial</button> <button className={style.btn5}>Weekly</button> <button className={style.down}>Download</button>
                 </div></div></div> <br /><br />
 
             <div className={style.filediv}>
@@ -465,7 +465,7 @@ const DashBoard = () => {
                   <li>Size: 1.5 MB • Generated: 2024-06-15</li>
                 </div>
                 <div className={style.btn3}>
-                  <button>academic</button> <button>semester</button> <button className={style.down}>Download</button>
+                  <button className={style.btn7}>academic</button> <button className={style.btn5}>semester</button> <button className={style.down}>Download</button>
                 </div></div></div> <br /><br />
 
             <div className={style.filediv}>
@@ -478,7 +478,7 @@ const DashBoard = () => {
                   <li>Size: 0.9 MB • Generated: 2024-07-01</li>
                 </div>
                 <div className={style.btn3}>
-                  <button>financial</button> <button>Weekly</button> <button className={style.down}>Download</button>
+                  <button className={style.btn4}>financial</button> <button className={style.btn5}>Weekly</button> <button className={style.down}>Download</button>
                 </div></div></div> <br /><br /></div><br />
 
 

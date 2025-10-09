@@ -131,6 +131,9 @@ border-radius: 50%;
 .studentdiv1b1b ul li{
   font-family: Arial, Helvetica, sans-serif; 
 }
+.studentdiv1b1b ul h3{
+  font-weight: bold; 
+}
 .studentdiv1b1b ul li p{
   color: gray;
 }
@@ -231,6 +234,10 @@ justify-content: center;
 }
 .studentdiv1c1b ul li{
   font-family: Arial, Helvetica, sans-serif; 
+}
+.studentdiv1c1b ul h3{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-weight: bold;
 }
 .studentdiv1c1b ul li p{
   color: gray;
@@ -339,6 +346,10 @@ background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
 .studentdiv1d1b ul li{
   font-family: Arial, Helvetica, sans-serif; 
 }
+.studentdiv1d1b ul li h3{
+  /* font-family: Arial, Helvetica, sans-serif;  */
+  font-weight: bold;
+}
 .studentdiv1d1b ul li p{
   color: gray;
 }
@@ -441,6 +452,10 @@ background: linear-gradient(270deg,rgb(162, 125, 222),rgb(88,119,247));
 }
 .studentdiv1e1b ul li{
   font-family: Arial, Helvetica, sans-serif; 
+}
+.studentdiv1e1b ul li h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; 
 }
 .studentdiv1e1b ul li p{
   color: gray;

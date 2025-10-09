@@ -1,25 +1,45 @@
-.jj {
+/* .jj {
     color: lightgreen;
     padding-left: 5rem;
-}
+} */
 
 .jobmaindiv {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
-
+     border: 4px solid rgb(164, 32, 32);
+     height: 700px;
+     align-items: center;
+     /* flex-wrap: wrap; */
 }
 
 .div1 {
-    width: 45%;
+    /* width: 50%; */
+    border: 2px solid rgb(32, 164, 111);
+    height: 900px;
+    /* width: 400px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    padding: 80px;
+}
 
-
-
+.dd{
+  width: 200px ;
+  height: 50px;
+  border: 2px solid yellowgreen;
 }
 
 .div2 {
-    width: 45%;
+    /* width: 50%; */
     font-size: 18px;
+    height: 700px;
+    border: 3px solid rgb(16, 50, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 /* .bttt{
   text-align: center;

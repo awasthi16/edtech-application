@@ -180,6 +180,7 @@
     background-color: #EEF4FF;
     display: flex;
     justify-content: center;
+     /* border: 4px solid green; */
 }
 
 .reportdiv {
@@ -191,7 +192,7 @@
 .gen {
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 .gen button {
@@ -208,16 +209,19 @@
 .rr {
     list-style: none;
     font-size: xx-large;
-    width: 300px;
+    width: 400px;
     height: 40px;
     color: #ef09e0;
     font-weight: 600;
+     /* border: 4px solid green; */
+     padding-bottom: 10px;
 }
 
 .cc {
     list-style: none;
     font-size: 17px;
     color: rgb(90, 86, 86);
+    padding-bottom: 20px;
 }
 
 .div4item {
@@ -232,7 +236,7 @@
 .total {
     list-style: none;
     width: 340px;
-    height: 100px;
+    height: 130px;
     background-color: white;
     border-radius: 10px;
 }
@@ -256,6 +260,7 @@
     margin-top: 10px;
     color: rgb(96, 92, 92);
     font-size: large;
+     /* border: 4px solid green; */
 }
 
 .per { padding-left: 1rem;
@@ -267,9 +272,10 @@
 /* ................................................................ */
 .filterdiv {
     width: 100%;
-    height: 120px;
+    height: 160px;
     background-color: white;
     border-radius: 5px;
+    /* border: 4px solid red; */
 }
 
 .fill {
@@ -336,19 +342,75 @@
 
 .btn3 {
     margin-left: 1rem;
-    width: 78%;
-    height: 30px;
-
+    width: 75%;
+    height: 50px;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: end;
+    align-items: center;
     gap: 10px;
+   margin-right: 20px;
 }
 
-.btn3 button {
+/* .btn3 button {
     border-radius: 150px;
     width: 90px;
     height: 25px;
+    border: 2px solid red;
+} */
+.btn4{
+   border-radius: 150px;
+    width: 100px;
+    height: 30px;
+    /* border: 2px solid red; */
+    font-size: 13px;
+    background-color: #f6ddff;
+    color: #ae19f3;
+    font-weight: bold;
 }
+.btn5{
+   border-radius: 150px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid rgb(232, 231, 231);
+    font-size: 13px;
+    background-color: white;
+    color: rgb(41, 41, 41);
+    font-weight: bold;
+}
+
+.down{
+   border-radius: 10px;
+    width: 170px;
+    height: 45px;
+    border: 1px solid rgb(180, 179, 179);
+    font-size: 17px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.btn6{
+   border-radius: 150px;
+    width: 120px;
+    height: 30px;
+    /* border: 2px solid red; */
+    font-size: 13px;
+    background-color: #c9fff9;
+    color: #037953;
+    font-weight: bold;
+}
+.btn7{
+   border-radius: 150px;
+    width: 110px;
+    height: 30px;
+    /* border: 2px solid red; */
+    font-size: 13px;
+    background-color: rgb(252, 226, 208);
+    color: rgb(97, 42, 3);
+    font-weight: bold;
+}
+
+
 
 /* ..................................................... */
 
@@ -429,10 +491,12 @@
     margin-top: 10px;
     flex-wrap: wrap;
     gap: 1rem;
-
-    height: 100px;
+      /* border: 4px solid green; */
+    height: 250px;
     position: relative;
     left: 40px;
+    align-items: center;
+    
 }
 
 .total1 {
@@ -448,13 +512,14 @@
 .total11 {
     list-style: none;
     width: 24%;
-    height: 100px;
+    height: 120px;
     /* background-color: white; */
     position: relative;
     left: 1.3rem;
     color: white;
     background-color: #2e70fe;
     border-radius: 10px;
+     
 }
 
 .num {
@@ -502,7 +567,7 @@
 .total21 {
     list-style: none;
     width: 24%;
-    height: 100px;
+    height: 120px;
     /* background-color: white; */
     position: relative;
     left: 1.3rem;
@@ -545,7 +610,7 @@
 .total31 {
     list-style: none;
     width: 24%;
-    height: 100px;
+    height: 120px;
     /* background-color: white; */
     position: relative;
     left: 1.3rem;
@@ -589,7 +654,7 @@
 .total41 {
     list-style: none;
     width: 24%;
-    height: 100px;
+    height: 120px;
     position: relative;
     left: 1.3rem;
     color: white;
@@ -626,7 +691,9 @@
 .chatmaindiv {
     width: 100%;
     display: flex;
-
+     /* border: 4px solid green; */
+     height: 500px;
+     align-items: center;
 }
 
 .chatdiv {
